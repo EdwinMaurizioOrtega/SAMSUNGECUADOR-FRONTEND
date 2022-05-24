@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { connect } from 'react-redux';
-import Collapse from 'react-bootstrap/collapse';
+import Collapse from 'react-bootstrap/Collapse';
 
 import ALink from '~/components/features/custom-link';
 import Countdown from '~/components/features/countdown';
