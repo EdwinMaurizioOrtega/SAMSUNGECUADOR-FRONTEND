@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Helmet from 'react-helmet';
-import Collapse from 'react-bootstrap/collapse';
+import Collapse from 'react-bootstrap/Collapse';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import ALink from '~/components/features/custom-link';
