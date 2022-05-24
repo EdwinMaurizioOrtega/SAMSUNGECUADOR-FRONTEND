@@ -28,7 +28,7 @@
     "node-fetch": "^3.0.0",
     "react": "^16.8.0",
     "react-awesome-reveal": "^3.8.1",
-    "react-bootstrap": "1.6.5",
+    "react-bootstrap": "2.4.0",
     "react-countdown": "^2.3.2",
     "react-countup": "^6.0.0",
     "react-dom": "^16.8.0",
