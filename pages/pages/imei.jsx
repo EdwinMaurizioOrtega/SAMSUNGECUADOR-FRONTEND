@@ -10,14 +10,14 @@ import {GET_GARANTIA_IMEI_DATA} from "~/server/queries";
 import {useQuery} from "@apollo/react-hooks";
 
 
-
-const SearchQuery = gql`
-query FindTeam($query: String!) {
-  search(query: $query, type: TEAM) {
-    name
-  }
-}
-`;
+//
+// const SearchQuery = gql`
+// query FindTeam($query: String!) {
+//   search(query: $query, type: TEAM) {
+//     name
+//   }
+// }
+// `;
 
 function SearchIMEI () {
     useEffect( () => {
@@ -32,7 +32,7 @@ function SearchIMEI () {
 
 
 
-    const { search } = this.state;
+    //const { search } = this.state;
     return (
         <main className="main">
             <Helmet>
@@ -47,21 +47,7 @@ function SearchIMEI () {
                     <h1 className="mb-2 ls-m">Validar Garantia</h1>
                     <div className="App">
 
-                        <form onSubmit={ this.submitSearch }>
-                            <input
-                                type='text'
-                                onChange={ this.updateSearch }
-                                value={ search }
-                                placeholder='Search'
-                            />
-                            <Query query={SearchQuery} skip={!search} variables={{query: search}}>
-                                {({loading, error, data}) => {
-                                    if (loading) return null;
-                                    if (error) throw err;
-                                    return <h1>{data.search.namej}</h1>
-                                }}
-                            </Query>
-                        </form>
+
 
                     </div>
 
