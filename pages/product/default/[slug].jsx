@@ -62,10 +62,10 @@ function ProductRightSidebar () {
                                 <ProductNav product={ data && data.product } adClass="mb-0" />
                             </nav>
 
-                            <div className="row gutter-lg">
-                                <ProductSidebar />
+                            <div className="page-content mb-10 pb-6">
+                                {/*<ProductSidebar />*/}
 
-                                <div className="col-xl-9 col-lg-8">
+                                <div className="container skeleton-body">
                                     <div className="product product-single row mb-8">
                                         <div className="col-md-6">
                                             <MediaFive product={ product } />

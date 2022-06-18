@@ -1,7 +1,7 @@
 import Countdown, { zeroPad } from 'react-countdown';
 
 export default function ProductCountDown ( props ) {
-    const { date = "2021-08-20", type = 1, adClass = '' } = props;
+    const { date = "2022-08-20", type = 1, adClass = '' } = props;
 
     const renderer = ( { days, hours, minutes, seconds, completed } ) => {
         if ( completed ) {
@@ -56,9 +56,9 @@ export default function ProductCountDown ( props ) {
                         </div>
                         :
                         <div className={ `countdown-container ${ adClass }` }>
-                            <label className="text-white text-capitalize mr-1">Off Ends In:</label>
+                            <label className="text-white text-capitalize mr-1">Termina en:</label>
                             <div className="product-countdown countdown-compact">
-                                <span className="countdown-row countdown-amount">{ days } days, { zeroPad( hours ) } : { zeroPad( minutes ) } : { zeroPad( seconds ) }</span>
+                                <span className="countdown-row countdown-amount">{ days } dias, { zeroPad( hours ) } : { zeroPad( minutes ) } : { zeroPad( seconds ) }</span>
                             </div>
                         </div>
             );

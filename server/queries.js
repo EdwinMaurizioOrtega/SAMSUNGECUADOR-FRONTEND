@@ -11,6 +11,7 @@ const PRODUCT_SIMPLE = gql`
         reviews
         stock
         short_description
+        long_description
         is_featured
         is_new
         until
@@ -366,81 +367,35 @@ export const GET_VENDOR_SIDEBAR_DATA = gql`
 `
 
 export const GET_HOME_DATA = gql`
-    query indexData($productsCount: Int, $postsCount: Int) {
+    query indexData($productsCount: Int) {
         specialProducts(demo: ${currentDemo }, bestSelling: true, onSale: true, latest: true, count: $productsCount) {
             bestSelling {
                 ...ProductSimple
             }
-            latest {
-                ...ProductSimple
-            }
             onSale {
                 ...ProductSimple
-                variants {
-                    price
-                    sale_price
-                    color {
-                        name
-                        color
-                        thumb {
-                            url
-                            width
-                            height
-                        }
-                    }
-                    size {
-                        name
-                        size
-                        thumb {
-                            url
-                            width
-                            height
-                        }
-                    }
-                }
+                
             }
         }
-        electronics: products(demo: ${ currentDemo }, category: "electronics", to: 8) {
-            data {
-                ...ProductSimple
-            }
-        }
-        clothings: products(demo: ${ currentDemo }, category: "clothing-apparel", to: 8) {
-            data {
-                ...ProductSimple
-            }
-        }
-        foods: products(demo: ${ currentDemo }, category: "groceries", to: 8) {
-            data {
-                ...ProductSimple
-            }
-        }
-        posts(demo: ${currentDemo }, to: $postsCount) {
-            data {
-                title
-                slug
-                date
-                type
-                author
-                comments
-                content
-                picture {
-                    url
-                    width
-                    height
-                }
-                video {
-                    url
-                    width
-                    height
-                }
-                large_picture {
-                    url
-                    width
-                    height
-                }
-            }
-        }
+        
     }
     ${ PRODUCT_SIMPLE }
-`
+  `
+    
+   
+   
+// export const GET_GARANTIA_IMEI_DATA = gql`
+//     query indexData($productsCount: Int) {
+//         specialProducts(demo: ${currentDemo }, bestSelling: true, onSale: true, latest: true, count: $productsCount) {
+//             bestSelling {
+//                 ...ProductSimple
+//             }
+//             onSale {
+//                 ...ProductSimple
+//
+//             }
+//         }
+//
+//     }
+//     ${ PRODUCT_SIMPLE }
+// `

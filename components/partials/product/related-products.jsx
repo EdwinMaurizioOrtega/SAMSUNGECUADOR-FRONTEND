@@ -10,7 +10,7 @@ export default function RelatedProducts( props ) {
     return (
         products.length > 0 ?
             <section className={ `${ adClass }` }>
-                <h2 className="title justify-content-center">Related Products</h2>
+                <h2 className="title justify-content-center">Productos relacionados</h2>
 
                 <OwlCarousel adClass="owl-carousel owl-theme owl-nav-full" options={ mainSlider17 }>
                     {

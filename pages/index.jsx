@@ -28,13 +28,18 @@ import RecentCollection from '~/components/partials/home/recent-collection';
 
 function HomePage () {
     const { data, loading, error } = useQuery( GET_HOME_DATA, { variables: { productsCount: 9 } } );
+    //console.log( data && data.specialProducts.onSale);
+    //Ofertas del dia
     const onSale = data && data.specialProducts.onSale;
+
+    //Más Vendido
     const bestSelling = data && data.specialProducts.bestSelling;
-    const latest = data && data.specialProducts.latest;
-    const electronics = data && data.electronics.data;
-    const clothings = data && data.clothings.data;
-    const foods = data && data.foods.data;
-    const posts = data && data.posts.data;
+
+    // const latest = data && data.specialProducts.latest;
+    // const electronics = data && data.electronics.data;
+    // const clothings = data && data.clothings.data;
+    // const foods = data && data.foods.data;
+    // const posts = data && data.posts.data;
 
     return (
         <div className="main home">
