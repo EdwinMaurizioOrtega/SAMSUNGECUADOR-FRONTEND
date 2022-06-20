@@ -1,38 +1,23 @@
-import React, { useEffect } from 'react';
-import Helmet from 'react-helmet';
+import React, {useState} from 'react';
+import {Helmet} from 'react-helmet';
 
-import { useState } from "react";
+import {useLazyQuery} from "@apollo/react-hooks";
 
-import ALink from '~/components/features/custom-link';
+import {GET_GARANTIA_IMEI_DATA} from "/server/queries";
+import withApollo from "server/apollo";
 
-import { parallaxHandler } from '~/utils';
-import {GET_GARANTIA_IMEI_DATA} from "~/server/queries";
-import {useQuery} from "@apollo/react-hooks";
-
-
-//
-// const SearchQuery = gql`
-// query FindTeam($query: String!) {
-//   search(query: $query, type: TEAM) {
-//     name
-//   }
-// }
-// `;
-
-function SearchIMEI () {
-    useEffect( () => {
-        window.addEventListener( 'scroll', parallaxHandler, true );
-
-        return () => {
-            window.removeEventListener( 'scroll', parallaxHandler, true );
-        }
-    }, [] )
-
-    //const { data, loading, error } = useQuery( GET_GARANTIA_IMEI_DATA, { variables: { imei: 9 } } );
+function SearchIMEI() {
 
 
+    const [enteredName, setEnteredName] = useState(''); //INIT TO EMPTY
 
-    //const { search } = this.state;
+    const [getPosts, {data, loading, error}] = useLazyQuery(GET_GARANTIA_IMEI_DATA);
+    console.log(data && data.imeiCons.nombre);
+
+    const showImei = enteredName => {
+        getPosts({variables: {gooo: enteredName}})
+    }
+
     return (
         <main className="main">
             <Helmet>
@@ -44,18 +29,30 @@ function SearchIMEI () {
             <div className="page-content">
                 <section
                     className="error-section d-flex flex-column justify-content-center align-items-center text-center pl-3 pr-3">
-                    <h1 className="mb-2 ls-m">Validar Garantia</h1>
+                    <h1 className="mb-2 ls-m">Validar Garantia PAC</h1>
                     <div className="App">
 
+                        <div className="input-wrapper input-wrapper-inline input-wrapper-round">
+                            <input type="text" className="form-control email" name="email" id="email2" placeholder="IMEI here..." required
+                                   value={enteredName}
+                                   onChange={e => { setEnteredName(e.currentTarget.value); }}
+                            />
+                            <button className="btn btn-dark"
 
+                                    onClick={() => {
+                                        showImei(enteredName)
+                                    }}
+                            >BUSCAR</button>
+                        </div>
+                        <h1>{data && data.imeiCons.producto.tieneGarantia}</h1>
 
                     </div>
 
 
                 </section>
             </div>
-        </main >
+        </main>
     )
 }
 
-export default React.memo( SearchIMEI );
+export default withApollo({ssr: typeof window === 'undefined'})(SearchIMEI);
