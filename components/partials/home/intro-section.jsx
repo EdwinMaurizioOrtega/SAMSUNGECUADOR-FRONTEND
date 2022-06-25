@@ -96,7 +96,7 @@ function IntroSection ( props ) {
                                 <h3 className="banner-title font-weight-bold text-white ls-m">Productos</h3>
                                 <div className="product-count text-uppercase text-white font-weight-semi-bold">HT</div>
                                 <span className="divider bg-white"></span>
-                                <ALink href={ { pathname: "/shop", query: { category: "electronics" } } } className="btn btn-white btn-link btn-underline ls-m">
+                                <ALink href={ { pathname: "/shop" } } className="btn btn-white btn-link btn-underline ls-m">
                                     Ver Catálogo<i className="d-icon-arrow-right"></i></ALink>
                             </div>
                         </div>

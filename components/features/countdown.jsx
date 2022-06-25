@@ -33,12 +33,12 @@ export default function ProductCountDown ( props ) {
                     </div>
                     : type === 2 ?
                         <div className="product-countdown-container font-weight-semi-bold">
-                            <span className="product-countdown-title">Offer Ends In:&nbsp;</span>
+                            <span className="product-countdown-title">Oferta Termina En:&nbsp;</span>
 
                             <div className="product-countdown countdown-compact">
                                 <span className="countdown-section days">
                                     <span className="countdown-amount">{ zeroPad( days ) } </span>
-                                    <span className="countdown-period">days,&nbsp;</span>
+                                    <span className="countdown-period">días,&nbsp;</span>
                                 </span>
 
                                 <span className="countdown-section hours">

@@ -57,7 +57,7 @@ function ShopHorizontalFilter () {
                 <div className="container">
                     <ul className="breadcrumb">
                         <li><ALink href="/"><i className="d-icon-home"></i></ALink></li>
-                        <li>Riode Shop</li>
+                        <li>Hipertronics Shop</li>
                     </ul>
                 </div>
             </nav>
@@ -128,104 +128,104 @@ function ShopHorizontalFilter () {
                         </OwlCarousel>
                     </div>
 
-                    <div className="row cols-xl-8 cols-lg-6 cols-md-4 cols-sm-3 cols-2">
-                        <div className="category-wrap mb-4">
-                            <div className={ `category category-icon ${ query.category === "fashion" ? "active" : "" }` }>
-                                <ALink href={ { pathname: '/shop', query: { category: "fashion" } } } scroll={ false }>
-                                    <figure className="categroy-media">
-                                        <i className="d-icon-t-shirt1"></i>
-                                    </figure>
-                                    <div className="category-content">
-                                        <h4 className="category-name">Fashion</h4>
-                                    </div>
-                                </ALink>
-                            </div>
-                        </div>
-                        <div className="category-wrap mb-4">
-                            <div className={ `category category-icon ${ query.category === "furniture" ? "active" : "" }` }>
-                                <ALink href={ { pathname: '/shop', query: { category: "furniture" } } } scroll={ false }>
-                                    <figure className="categroy-media">
-                                        <i className="d-icon-sofa"></i>
-                                    </figure>
-                                    <div className="category-content">
-                                        <h4 className="category-name">Furniture</h4>
-                                    </div>
-                                </ALink>
-                            </div>
-                        </div>
-                        <div className="category-wrap mb-4">
-                            <div className={ `category category-icon ${ query.category === "sports" ? "active" : "" }` }>
-                                <ALink href={ { pathname: '/shop', query: { category: "sports" } } } scroll={ false }>
-                                    <figure className="categroy-media">
-                                        <i className="d-icon-basketball1"></i>
-                                    </figure>
-                                    <div className="category-content">
-                                        <h4 className="category-name">Sports</h4>
-                                    </div>
-                                </ALink>
-                            </div>
-                        </div>
-                        <div className="category-wrap mb-4">
-                            <div className={ `category category-icon ${ query.category === "toys" ? "active" : "" }` }>
-                                <ALink href={ { pathname: '/shop', query: { category: "toys" } } } scroll={ false }>
-                                    <figure className="categroy-media">
-                                        <i className="d-icon-babycare"></i>
-                                    </figure>
-                                    <div className="category-babycare">
-                                        <h4 className="category-name">Toys</h4>
-                                    </div>
-                                </ALink>
-                            </div>
-                        </div>
-                        <div className="category-wrap mb-4">
-                            <div className={ `category category-icon ${ query.category === "cameras" ? "active" : "" }` }>
-                                <ALink href={ { pathname: '/shop', query: { category: "cameras" } } } scroll={ false }>
-                                    <figure className="categroy-media">
-                                        <i className="d-icon-camera1"></i>
-                                    </figure>
-                                    <div className="category-content">
-                                        <h4 className="category-name">Cameras</h4>
-                                    </div>
-                                </ALink>
-                            </div>
-                        </div>
-                        <div className="category-wrap mb-4">
-                            <div className={ `category category-icon ${ query.category === "gaming" ? "active" : "" }` }>
-                                <ALink href={ { pathname: '/shop', query: { category: "gaming" } } } scroll={ false }>
-                                    <figure className="categroy-media">
-                                        <i className="d-icon-gamepad1"></i>
-                                    </figure>
-                                    <div className="category-babycare">
-                                        <h4 className="category-name">Gaming</h4>
-                                    </div>
-                                </ALink>
-                            </div>
-                        </div>
-                        <div className="category-wrap mb-4">
-                            <div className={ `category category-icon ${ query.category === "headphones" ? "active" : "" }` }>
-                                <ALink href={ { pathname: '/shop', query: { category: "headphones" } } } scroll={ false }>
-                                    <figure className="categroy-media">
-                                        <i className="d-icon-headphone"></i>
-                                    </figure>
-                                    <div className="category-content">
-                                        <h4 className="category-name">Headphones</h4>
-                                    </div>
-                                </ALink>
-                            </div>
-                        </div>
-                        <div className="category-wrap mb-4">
-                            <div className={ `category category-icon ${ query.category === "smartphone" ? "active" : "" }` }>
-                                <ALink href={ { pathname: '/shop', query: { category: "smartphone" } } } scroll={ false }>
-                                    <figure className="categroy-media">
-                                        <i className="d-icon-mobile"></i>
-                                    </figure>
-                                    <div className="category-content">
-                                        <h4 className="category-name">SmartPhone</h4>
-                                    </div>
-                                </ALink>
-                            </div>
-                        </div>
-                    </div>
+                    {/*<div className="row cols-xl-8 cols-lg-6 cols-md-4 cols-sm-3 cols-2">*/}
+                    {/*    <div className="category-wrap mb-4">*/}
+                    {/*        <div className={ `category category-icon ${ query.category === "fashion" ? "active" : "" }` }>*/}
+                    {/*            <ALink href={ { pathname: '/shop', query: { category: "fashion" } } } scroll={ false }>*/}
+                    {/*                <figure className="categroy-media">*/}
+                    {/*                    <i className="d-icon-t-shirt1"></i>*/}
+                    {/*                </figure>*/}
+                    {/*                <div className="category-content">*/}
+                    {/*                    <h4 className="category-name">Fashion</h4>*/}
+                    {/*                </div>*/}
+                    {/*            </ALink>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+                    {/*    <div className="category-wrap mb-4">*/}
+                    {/*        <div className={ `category category-icon ${ query.category === "furniture" ? "active" : "" }` }>*/}
+                    {/*            <ALink href={ { pathname: '/shop', query: { category: "furniture" } } } scroll={ false }>*/}
+                    {/*                <figure className="categroy-media">*/}
+                    {/*                    <i className="d-icon-sofa"></i>*/}
+                    {/*                </figure>*/}
+                    {/*                <div className="category-content">*/}
+                    {/*                    <h4 className="category-name">Furniture</h4>*/}
+                    {/*                </div>*/}
+                    {/*            </ALink>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+                    {/*    <div className="category-wrap mb-4">*/}
+                    {/*        <div className={ `category category-icon ${ query.category === "sports" ? "active" : "" }` }>*/}
+                    {/*            <ALink href={ { pathname: '/shop', query: { category: "sports" } } } scroll={ false }>*/}
+                    {/*                <figure className="categroy-media">*/}
+                    {/*                    <i className="d-icon-basketball1"></i>*/}
+                    {/*                </figure>*/}
+                    {/*                <div className="category-content">*/}
+                    {/*                    <h4 className="category-name">Sports</h4>*/}
+                    {/*                </div>*/}
+                    {/*            </ALink>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+                    {/*    <div className="category-wrap mb-4">*/}
+                    {/*        <div className={ `category category-icon ${ query.category === "toys" ? "active" : "" }` }>*/}
+                    {/*            <ALink href={ { pathname: '/shop', query: { category: "toys" } } } scroll={ false }>*/}
+                    {/*                <figure className="categroy-media">*/}
+                    {/*                    <i className="d-icon-babycare"></i>*/}
+                    {/*                </figure>*/}
+                    {/*                <div className="category-babycare">*/}
+                    {/*                    <h4 className="category-name">Toys</h4>*/}
+                    {/*                </div>*/}
+                    {/*            </ALink>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+                    {/*    <div className="category-wrap mb-4">*/}
+                    {/*        <div className={ `category category-icon ${ query.category === "cameras" ? "active" : "" }` }>*/}
+                    {/*            <ALink href={ { pathname: '/shop', query: { category: "cameras" } } } scroll={ false }>*/}
+                    {/*                <figure className="categroy-media">*/}
+                    {/*                    <i className="d-icon-camera1"></i>*/}
+                    {/*                </figure>*/}
+                    {/*                <div className="category-content">*/}
+                    {/*                    <h4 className="category-name">Cameras</h4>*/}
+                    {/*                </div>*/}
+                    {/*            </ALink>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+                    {/*    <div className="category-wrap mb-4">*/}
+                    {/*        <div className={ `category category-icon ${ query.category === "gaming" ? "active" : "" }` }>*/}
+                    {/*            <ALink href={ { pathname: '/shop', query: { category: "gaming" } } } scroll={ false }>*/}
+                    {/*                <figure className="categroy-media">*/}
+                    {/*                    <i className="d-icon-gamepad1"></i>*/}
+                    {/*                </figure>*/}
+                    {/*                <div className="category-babycare">*/}
+                    {/*                    <h4 className="category-name">Gaming</h4>*/}
+                    {/*                </div>*/}
+                    {/*            </ALink>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+                    {/*    <div className="category-wrap mb-4">*/}
+                    {/*        <div className={ `category category-icon ${ query.category === "headphones" ? "active" : "" }` }>*/}
+                    {/*            <ALink href={ { pathname: '/shop', query: { category: "headphones" } } } scroll={ false }>*/}
+                    {/*                <figure className="categroy-media">*/}
+                    {/*                    <i className="d-icon-headphone"></i>*/}
+                    {/*                </figure>*/}
+                    {/*                <div className="category-content">*/}
+                    {/*                    <h4 className="category-name">Headphones</h4>*/}
+                    {/*                </div>*/}
+                    {/*            </ALink>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+                    {/*    <div className="category-wrap mb-4">*/}
+                    {/*        <div className={ `category category-icon ${ query.category === "smartphone" ? "active" : "" }` }>*/}
+                    {/*            <ALink href={ { pathname: '/shop', query: { category: "smartphone" } } } scroll={ false }>*/}
+                    {/*                <figure className="categroy-media">*/}
+                    {/*                    <i className="d-icon-mobile"></i>*/}
+                    {/*                </figure>*/}
+                    {/*                <div className="category-content">*/}
+                    {/*                    <h4 className="category-name">SmartPhone</h4>*/}
+                    {/*                </div>*/}
+                    {/*            </ALink>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
 
                     <ToolBox type="horizontal" />
 

@@ -153,7 +153,7 @@ function DetailOne ( props ) {
 
             <div className='product-meta'>
                 SKU: <span className='product-sku'>{ product.data.sku }</span>
-                CATEGORIES: <span className='product-brand'>
+                CATEGORIAS: <span className='product-brand'>
                     {
                         product.data.categories.map( ( item, index ) =>
                             <React.Fragment key={ item.name + '-' + index }>
@@ -269,7 +269,20 @@ function DetailOne ( props ) {
                 <label className="d-none">QTY:</label>
                 <div className="product-form-group">
                     <Quantity max={ product.data.stock } product={ product } onChangeQty={ changeQty } />
-                    <button className={ `btn-product btn-cart text-normal ls-normal font-weight-semi-bold ${ cartActive ? '' : 'disabled' }` } onClick={ addToCartHandler } onClick={ addToCartHandler }><i className='d-icon-bag'></i>Add to Cart</button>
+                    {/*<button className={ `btn-product btn-cart text-normal ls-normal font-weight-semi-bold ${ cartActive ? '' : 'disabled' }` } onClick={ addToCartHandler } onClick={ addToCartHandler }><i className='d-icon-bag'></i>Add to Cart</button>*/}
+
+                    <div className="icon-box icon-box-side">
+
+                        <ALink target="_blank" href="https://web.whatsapp.com/send?phone=593939991111&text=Hola." className="text-primary d-inline-block">
+
+
+                            <button className={ `btn-product btn-cart text-normal ls-normal font-weight-semi-bold `} ><i className='fab fa-whatsapp'></i>Consultar Disponibilidad</button>
+
+
+                        </ALink>
+
+                    </div>
+
                 </div>
             </div>
 
