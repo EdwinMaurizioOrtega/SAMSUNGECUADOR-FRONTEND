@@ -70,7 +70,7 @@ function VendorList1 () {
                                 </div>
                                 <div className="store-content">
                                     <h2 className="store-title">
-                                        <ALink href="/vendor/single">Vendor1</ALink>
+                                        <ALink href="/vendor/single">Vendor11</ALink>
                                     </h2>
                                     <div className="ratings-container">
                                         <span className="ratings-full" title="Rated 4.65 out of 5">
@@ -136,7 +136,7 @@ function VendorList1 () {
                                 </div>
                                 <div className="store-content">
                                     <h2 className="store-title">
-                                        <ALink href="/vendor/single">Vendor3</ALink>
+                                        <ALink href="/vendor/single">Vendor33</ALink>
                                     </h2>
                                     <div className="ratings-container">
                                         <span className="ratings-full" title="Rated 4.65 out of 5">

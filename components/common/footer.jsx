@@ -127,71 +127,47 @@ export default function Footer () {
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div className="widget widget-instagram pl-lg-10 mb-0 mb-md-6">
-                                <h4 className="widget-title">Instagram</h4>
+                                <h4 className="widget-title">Redes Sociales</h4>
                                 <figure className="widget-body row">
                                     <div className="col-3">
+                                        <ALink href="https://es-la.facebook.com/hipertronics/">
                                         <LazyLoadImage
                                             src="images/instagram/01.jpg"
                                             alt="instagram 1"
                                             width="64"
                                             height="64"
                                         />
+                                        </ALink>
                                     </div>
                                     <div className="col-3">
+                                        <ALink href="https://www.tiktok.com/tag/hipertronics/">
                                         <LazyLoadImage
                                             src="images/instagram/02.jpg"
                                             alt="instagram 2"
                                             width="64"
                                             height="64"
                                         />
+                                        </ALink>
                                     </div>
                                     <div className="col-3">
+                                        <ALink href="https://www.instagram.com/hipertronics/?hl=es">
                                         <LazyLoadImage
                                             src="images/instagram/03.jpg"
                                             alt="instagram 3"
                                             width="64"
                                             height="64"
                                         />
+                                        </ALink>
                                     </div>
                                     <div className="col-3">
+                                        <ALink href="https://www.linkedin.com/company/hipertronics/?originalSubdomain=ec">
                                         <LazyLoadImage
                                             src="images/instagram/04.jpg"
                                             alt="instagram 4"
                                             width="64"
                                             height="64"
                                         />
-                                    </div>
-                                    <div className="col-3">
-                                        <LazyLoadImage
-                                            src="images/instagram/05.jpg"
-                                            alt="instagram 5"
-                                            width="64"
-                                            height="64"
-                                        />
-                                    </div>
-                                    <div className="col-3">
-                                        <LazyLoadImage
-                                            src="images/instagram/06.jpg"
-                                            alt="instagram 6"
-                                            width="64"
-                                            height="64"
-                                        />
-                                    </div>
-                                    <div className="col-3">
-                                        <LazyLoadImage
-                                            src="images/instagram/07.jpg"
-                                            alt="instagram 7"
-                                            width="64"
-                                            height="64"
-                                        />
-                                    </div>
-                                    <div className="col-3">
-                                        <LazyLoadImage
-                                            src="images/instagram/08.jpg"
-                                            alt="instagram 8"
-                                            width="64"
-                                            height="64"
-                                        />
+                                        </ALink>
                                     </div>
                                 </figure>
                             </div>

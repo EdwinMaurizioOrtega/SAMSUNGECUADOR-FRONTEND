@@ -270,7 +270,13 @@ function ProductOne ( props ) {
                         <div className="product-form product-qty pb-0">
                             <div className="product-form-group">
                                 <Quantity adClass="input-group mr-2 mb-0" max={ product.stock } product={ product } onChangeQty={ changeQty } />
-                                <button className={ `btn-product btn-cart text-normal ls-normal font-weight-semi-bold mb-0 ${ cartActive ? '' : 'disabled' }` } onClick={ addToCartHandler } onClick={ addToCartHandler }><i className='d-icon-bag'></i>Add to Cart</button>
+                                <ALink target="_blank" href="https://web.whatsapp.com/send?phone=593939991111&text=Hola." className="text-primary d-inline-block">
+
+
+                                    <button className={ `btn-product btn-cart text-normal ls-normal font-weight-semi-bold `} ><i className='fab fa-whatsapp'></i>Consultar..</button>
+
+
+                                </ALink>
                             </div>
                         </div>
                     </div>

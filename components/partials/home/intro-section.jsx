@@ -30,7 +30,7 @@ function IntroSection ( props ) {
                                 <div className="banner-price-info font-weight-semi-bold text-body text-uppercase ls-m">
                                     SCVS-INMV-DNAR-2022-00003181
                                 </div>
-                                <ALink target="_blank" href="https://hipertronics.us/media/wysiwyg/smartwave/porto/RESOLUCION_3189_I_EOLP_LIDENAR_S.A..pdf" className="btn btn-dark btn-outline btn-rounded">
+                                <ALink href="https://apollo.hipertronics.us/uploads/files/RESOLUCION_3189_I_EOLP_LIDENAR_SA.pdf" className="btn btn-dark btn-outline btn-rounded">
                                     Descargar Aquí<i className="d-icon-arrow-right"></i></ALink>
                             </Reveal>
                         </div>

@@ -63,10 +63,10 @@ function ProductsSidebar ( props ) {
                                             <div className="overflow-hidden" ref={ setCollapsibleElement }>
                                                 <ul className="widget-body filter-items">
                                                     <li className="store-name">
-                                                        <span>Store Name:</span><span className="details">vendor1</span>
+                                                        <span>Store Name:</span><span className="details">vendor1111</span>
                                                     </li>
                                                     <li className="seller-name">
-                                                        <span>Vendor:</span><span className="details">vendor1</span>
+                                                        <span>Vendor:</span><span className="details">vendor11</span>
                                                     </li>
                                                     <li className="store-address">
                                                         <span>Address:</span><span className="details">ON<br />Canada</span>

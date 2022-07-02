@@ -44,15 +44,15 @@ function AboutUs() {
                 <div className="container">
                     <ul className="breadcrumb">
                         <li><ALink href="/"><i className="d-icon-home"></i></ALink></li>
-                        <li>About Us</li>
+                        <li>Sobre Nosotros</li>
                     </ul>
                 </div>
             </nav>
             <div className="page-header pl-4 pr-4"
                 style={ { backgroundImage: `url( ./images/page-header/about-us.jpg )`, backgroundColor: "#3C63A4" } }>
-                <h3 className="page-subtitle font-weight-bold">Welcome to Riode</h3>
-                <h1 className="page-title font-weight-bold lh-1 text-white text-capitalize">Our Services</h1>
-                <p className="page-desc text-white mb-0">Lorem quis bibendum auctor, nisi elit consequat ipsum,<br /> nec sagittis sem nibh id elit.</p>
+                <h3 className="page-subtitle text-black font-weight-bold">¡Bienvenido a Hipertronics!</h3>
+                <h1 className="page-title font-weight-bold lh-1 text-black text-capitalize">¿Quiénes somos?</h1>
+                <p className="page-desc text-black mb-0">Desde el 2007 trabajando por  liderar el mercado innovador y <br /> tecnológico en el Ecuador.</p>
             </div>
 
             <div className="page-content mt-10 pt-10">
@@ -61,16 +61,16 @@ function AboutUs() {
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-lg-4 mb-10 mb-lg-4">
-                                    <h5 className="section-subtitle lh-2 ls-md font-weight-normal">01. What We Do</h5>
-                                    <h3 className="section-title lh-1 font-weight-bold">Provide perfect and practical services
+                                    <h5 className="section-subtitle lh-2 ls-md font-weight-normal">01. ¿Qué hacemos?</h5>
+                                    <h3 className="section-title lh-1 font-weight-bold">Distribuidores autorizados
                                     </h3>
-                                    <p className="section-desc">Lorem quis bibendum auctar, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                                    <p className="section-desc">Nos dedicamos a la distribución autorizada de celulares y accesorios tecnológicos en Ecuador.</p>
                                 </div>
                                 <div className="col-lg-8 ">
                                     <div className="row">
                                         <div className="col-md-4 mb-4">
                                             <div className="counter text-center text-dark">
-                                                <CountUp start={ 0 } end={ 35 } duration={ 4 }>
+                                                <CountUp start={ 0 } end={ 15 } duration={ 2 }>
                                                     { ( { countUpRef, start } ) => (
                                                         <div className="count-to">
                                                             <span ref={ countUpRef } />
@@ -78,13 +78,13 @@ function AboutUs() {
                                                         </div>
                                                     ) }
                                                 </CountUp>
-                                                <h5 className="count-title font-weight-bold text-body ls-md">Business Year</h5>
-                                                <p className="text-grey mb-0">Lorem ipsum dolor sit<br />amet, conctetur adipisci elit. viverra erat orci.</p>
+                                                <h5 className="count-title font-weight-bold text-body ls-md">Años en el mercado</h5>
+                                                <p className="text-grey mb-0">Más de 15 años en el <br />mercado ecuatoriano.</p>
                                             </div>
                                         </div>
                                         <div className="col-md-4 mb-4">
                                             <div className="counter text-center text-dark">
-                                                <CountUp start={ 0 } end={ 50 } duration={ 4 }>
+                                                <CountUp start={ 0 } end={ 3 } duration={ 2 }>
                                                     { ( { countUpRef, start } ) => (
                                                         <div className="count-to">
                                                             <span ref={ countUpRef } />
@@ -92,13 +92,13 @@ function AboutUs() {
                                                         </div>
                                                     ) }
                                                 </CountUp>
-                                                <h5 className="count-title font-weight-bold text-body ls-md">Design Brands</h5>
-                                                <p className="text-grey mb-0">Lorem ipsum dolor sit<br />amet, conctetur adipisci elit. viverra erat orci.</p>
+                                                <h5 className="count-title font-weight-bold text-body ls-md">Lugar</h5>
+                                                <p className="text-grey mb-0">Top 3 de mejores importadores de <br />equipos celulares del Ecuador.</p>
                                             </div>
                                         </div>
                                         <div className="col-md-4 mb-4">
                                             <div className="counter text-center text-dark">
-                                                <CountUp start={ 0 } end={ 130 } duration={ 4 }>
+                                                <CountUp start={ 0 } end={ 56 } duration={ 4 }>
                                                     { ( { countUpRef, start } ) => (
                                                         <div className="count-to">
                                                             <span ref={ countUpRef } />
@@ -106,8 +106,8 @@ function AboutUs() {
                                                         </div>
                                                     ) }
                                                 </CountUp>
-                                                <h5 className="count-title font-weight-bold text-body ls-md">Team Members</h5>
-                                                <p className="text-grey mb-0">Lorem ipsum dolor sit<br />amet, conctetur adipisci elit. viverra erat orci.</p>
+                                                <h5 className="count-title font-weight-bold text-body ls-md">Miembros</h5>
+                                                <p className="text-grey mb-0">Equipo <br /> Laboral.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -121,28 +121,19 @@ function AboutUs() {
                     <section className="customer-section pb-10">
                         <div className="container">
                             <div className="row align-items-center">
-                                <div className="col-md-7 mb-4">
-                                    <figure>
-                                        <LazyLoadImage
-                                            src="./images/subpages/customer.jpg"
-                                            alt="Happy Customer"
-                                            width="580"
-                                            height="507"
-                                            effect="opacity"
-                                            className="banner-radius"
-                                            style={ { backgroundColor: "#BDD0DE" } }
-                                        />
-                                    </figure>
-                                </div>
-                                <div className="col-md-5 mb-4">
-                                    <h5 className="section-subtitle lh-2 ls-md font-weight-normal">02. Happy Customer</h5>
-                                    <h3 className="section-title lh-1 font-weight-bold">Provide fashionable and<br />qualifed products</h3>
+                                <div className="col-md-6 mb-4 text-center">
+
+                                    <h3 className="section-title lh-1 font-weight-bold">Misión</h3>
                                     <p className="section-desc text-grey">
-                                        Already millions of people are very satisfied by thi.<br />
-                                        s page builder and the number is growing more and more. Technolog<br />
-                                        developing, requirements are increasing. Riode has brought.
+                                        Aportar en la innovación y desarrollo tecnológico, haciendo llegar equipos electrónicos de punta al mercado ecuatoriano.
                                     </p>
-                                    <ALink href="#" className="btn btn-dark btn-link btn-underline ls-m">Visit Our Store<i className="d-icon-arrow-right"></i></ALink>
+                                </div>
+                                <div className="col-md-6 mb-4 text-center">
+
+                                    <h3 className="section-title lh-1 font-weight-bold">Visión</h3>
+                                    <p className="section-desc text-grey">
+                                        Liderar el mercado tecnológico brindando la mejor calidad y experiencia al público, construyendo una marca en donde las personas puedan depositar su confianza.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -153,29 +144,47 @@ function AboutUs() {
                     <section className="store-section pb-10">
                         <div className="container">
                             <div className="row align-items-center">
-                                <div className="col-md-6 order-md-first mb-4">
-                                    <h5 className="section-subtitle lh-2 ls-md font-weight-normal mb-1">03. Our Store</h5>
-                                    <h3 className="section-title lh-1 font-weight-bold">Expect Restless<br />Amazing Support</h3>
-                                    <p className="section-desc text-grey">
-                                        Already millions of people are very satisfied by thi.<br />
-                                        s page builder and the number is growing more and more. Technolog<br />
-                                        developing, requirements are increasing. Riode has brought.
-                                    </p>
-                                    <ALink href="#" className="btn btn-dark btn-link btn-underline ls-m">Get Our Store<i className="d-icon-arrow-right"></i></ALink>
-                                </div>
-
-                                <div className="col-md-6 mb-4">
-                                    <figure>
-                                        <LazyLoadImage
-                                            src="./images/subpages/store.jpg"
-                                            alt="Our Store"
-                                            width="580"
-                                            height="507"
-                                            effect="opacity"
-                                            className="banner-radius"
-                                            style={ { backgroundColor: "#DEE6E8" } }
-                                        />
+                                <div className="col-md-4 order-md-first mb-4 text-center">
+                                    <figure className="brand-wrapper bg-white banner-radius">
+                                        <img src="./images/brands/a1.jpg" alt="Brand" width="150" height="150" />
                                     </figure>
+                                    <h3 className="section-title lh-1 font-weight-bold">Cooperación</h3>
+
+                                </div>
+                                <div className="col-md-4 order-md-first mb-4 text-center">
+                                    <figure className="brand-wrapper bg-white banner-radius">
+                                        <img src="./images/brands/a2.jpg" alt="Brand" width="180" height="100" />
+                                    </figure>
+                                    <h3 className="section-title lh-1 font-weight-bold">Innovación</h3>
+
+                                </div>
+                                <div className="col-md-4 order-md-first mb-4 text-center">
+                                    <figure className="brand-wrapper bg-white banner-radius">
+                                        <img src="./images/brands/a3.jpg" alt="Brand" width="180" height="100" />
+                                    </figure>
+                                    <h3 className="section-title lh-1 font-weight-bold">Eficiencia</h3>
+
+                                </div>
+                                <div className="col-md-4 order-md-first mb-4 text-center">
+                                    <figure className="brand-wrapper bg-white banner-radius">
+                                        <img src="./images/brands/a4.jpg" alt="Brand" width="180" height="100" />
+                                    </figure>
+                                    <h3 className="section-title lh-1 font-weight-bold">Excelencia</h3>
+
+                                </div>
+                                <div className="col-md-4 order-md-first mb-4 text-center">
+                                    <figure className="brand-wrapper bg-white banner-radius">
+                                        <img src="./images/brands/a5.jpg" alt="Brand" width="180" height="100" />
+                                    </figure>
+                                    <h3 className="section-title lh-1 font-weight-bold">Compromiso</h3>
+
+                                </div>
+                                <div className="col-md-4 order-md-first mb-4 text-center">
+                                    <figure className="brand-wrapper bg-white banner-radius">
+                                        <img src="./images/brands/a6.jpg" alt="Brand" width="180" height="100" />
+                                    </figure>
+                                    <h3 className="section-title lh-1 font-weight-bold">Seguridad</h3>
+
                                 </div>
                             </div>
                         </div>
@@ -185,8 +194,8 @@ function AboutUs() {
                 <Reveal keyframes={ fadeIn } delay="50" duration="1000" triggerOnce>
                     <section className="brand-section grey-section pt-10 pb-10">
                         <div className="container mt-8 mb-10">
-                            <h5 className="section-subtitle lh-2 ls-md font-weight-normal mb-1 text-center">04. Our Clients</h5>
-                            <h3 className="section-title lh-1 font-weight-bold text-center mb-5">Popular Brands</h3>
+                            <h5 className="section-subtitle lh-2 ls-md font-weight-normal mb-1 text-center">02. Nuestros Clientes</h5>
+                            <h3 className="section-title lh-1 font-weight-bold text-center mb-5">Empresas Populares</h3>
 
                             <OwlCarousel adClass="owl-theme" options={ mainSlider16 }>
                                 <figure className="brand-wrap bg-white banner-radius">
@@ -215,9 +224,9 @@ function AboutUs() {
                 <Reveal keyframes={ fadeIn } delay="50" duration="1000" triggerOnce>
                     <section className="team-section pt-8 mt-10 pb-10 mb-6">
                         <div className="container">
-                            <h5 className="section-subtitle lh-2 ls-md font-weight-normal mb-1 text-center">05. Our Leaders</h5>
-                            <h3 className="section-title lh-1 font-weight-bold text-center mb-5">Meet our team</h3>
-                            <div className="row cols-sm-2 cols-md-4">
+                            <h5 className="section-subtitle lh-2 ls-md font-weight-normal mb-1 text-center">03. Nuestros Lideres</h5>
+                            <h3 className="section-title lh-1 font-weight-bold text-center mb-5">Conoce nuestro equipo.</h3>
+                            <div className="row cols-sm-2 cols-md-2">
                                 <Reveal keyframes={ fadeInLeftShorter } delay="20" duration="1000" triggerOnce>
                                     <div className="member">
                                         <figure className="banner-radius">
@@ -237,8 +246,8 @@ function AboutUs() {
                                             </div>
                                         </figure>
 
-                                        <h4 className="member-name">Tomasz Treflerzan</h4>
-                                        <h5 className="member-job">Ceo / Founder</h5>
+                                        <h4 className="member-name">Henry Aguilar</h4>
+                                        <h5 className="member-job">Gerente General</h5>
                                     </div>
                                 </Reveal>
 
@@ -261,58 +270,11 @@ function AboutUs() {
                                             </div>
                                         </figure>
 
-                                        <h4 className="member-name">Dylan Chavez</h4>
-                                        <h5 className="member-job">Support manager / founder</h5>
+                                        <h4 className="member-name">Andrea Abril</h4>
+                                        <h5 className="member-job">Gerente de operaciones</h5>
                                     </div>
                                 </Reveal>
 
-                                <Reveal keyframes={ fadeInLeftShorter } delay="40" duration="1000" triggerOnce>
-                                    <div className="member">
-                                        <figure className="banner-radius">
-                                            <LazyLoadImage
-                                                src="./images/subpages/team3.jpg"
-                                                alt="Oteam member"
-                                                width={ 280 }
-                                                height={ 280 }
-                                                effect="opacity"
-                                                style={ { backgroundColor: "#EEE" } }
-                                            />
-
-                                            <div className="overlay social-links">
-                                                <ALink href="#" className="social-link social-facebook fab fa-facebook-f"></ALink>
-                                                <ALink href="#" className="social-link social-twitter fab fa-twitter"></ALink>
-                                                <ALink href="#" className="social-link social-linkedin fab fa-linkedin-in"></ALink>
-                                            </div>
-                                        </figure>
-
-                                        <h4 className="member-name">Viktoriia Demianenko</h4>
-                                        <h5 className="member-job">Designer</h5>
-                                    </div>
-                                </Reveal>
-
-                                <Reveal keyframes={ fadeInLeftShorter } delay="50" duration="1000" triggerOnce>
-                                    <div className="member">
-                                        <figure className="banner-radius">
-                                            <LazyLoadImage
-                                                src="./images/subpages/team4.jpg"
-                                                alt="Oteam member"
-                                                width={ 280 }
-                                                height={ 280 }
-                                                effect="opacity"
-                                                style={ { backgroundColor: "#EEE" } }
-                                            />
-
-                                            <div className="overlay social-links">
-                                                <ALink href="#" className="social-link social-facebook fab fa-facebook-f"></ALink>
-                                                <ALink href="#" className="social-link social-twitter fab fa-twitter"></ALink>
-                                                <ALink href="#" className="social-link social-linkedin fab fa-linkedin-in"></ALink>
-                                            </div>
-                                        </figure>
-
-                                        <h4 className="member-name">Mikhail Hnatuk</h4>
-                                        <h5 className="member-job">Support</h5>
-                                    </div>
-                                </Reveal>
                             </div>
                         </div>
                     </section>

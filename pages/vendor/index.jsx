@@ -69,8 +69,8 @@ function VendorList () {
                                 </div>
                                 <div className="store-content">
                                     <h2 className="store-title">
-                                        <ALink href="/vendor/single">Vendor1</ALink>
-                                        <span className="featured-label">Featured</span>
+                                        <ALink href="/vendor/single">Oficina</ALink>
+                                        <span className="featured-label">Matriz</span>
                                     </h2>
                                     <div className="ratings-container">
                                         <span className="ratings-full" title="Rated 4.65 out of 5">
@@ -78,13 +78,13 @@ function VendorList () {
                                         </span>
                                     </div>
                                     <p>
-                                        <span className="street">Steven Street,</span><br />
-                                        <span className="city">El Carjon,</span><br />
-                                        <span className="state">California,</span>
-                                        <span className="Country">United States (US)</span>
+                                        <span className="street">Padre Aguirre 9-68 y Gran comobia,</span><br />
+                                        <span className="city">Cuenca,</span><br />
+                                        <span className="state">Azuay,</span>
+                                        <span className="Country">Ecuador</span>
                                     </p>
                                     <div className="store-phone">
-                                        <i className="fa fa-phone"></i>123456789
+                                        <i className="fa fa-phone"></i>0980151017
                                     </div>
                                 </div>
                                 <div className="store-footer">
@@ -97,8 +97,8 @@ function VendorList () {
                                             effect="opacity"
                                         />
                                     </figure>
-                                    <ALink href="/vendor/single" className=
-                                        "btn btn-dark btn-link btn-underline">Visit Store<i className="d-icon-arrow-right"></i></ALink>
+                                    <ALink href="https://goo.gl/maps/bfpJEdy8FPnu6n9k8" className=
+                                        "btn btn-dark btn-link btn-underline">Encuentranos en:<i className="d-icon-arrow-right"></i></ALink>
                                 </div>
                             </div>
                         </div>
@@ -116,7 +116,7 @@ function VendorList () {
                                 </div>
                                 <div className="store-content">
                                     <h2 className="store-title">
-                                        <ALink href="/vendor/single">Vendor2</ALink>
+                                        <ALink href="/vendor/single">Oficina Quito</ALink>
                                     </h2>
                                     <div className="ratings-container">
                                         <span className="ratings-full" title="Rated 4.65 out of 5">
@@ -124,8 +124,10 @@ function VendorList () {
                                         </span>
                                     </div>
                                     <p>
-                                        <span className="state">London,</span>
-                                        <span className="Country">United Kingdom (UK)</span>
+                                        <span className="street">Av. Naciones Unidas y Nuñez de Vela. Edificio Metropolitan. Oficina 609,</span><br />
+                                        <span className="city">Quito,</span><br />
+                                        <span className="state">Pichincha,</span>
+                                        <span className="Country">Ecuador</span>
                                     </p>
                                     <div className="store-phone">
                                         <i className="fa fa-phone"></i>123456789
@@ -141,7 +143,7 @@ function VendorList () {
                                             effect="opacity"
                                         />
                                     </figure>
-                                    <ALink href="/vendor/single" className="btn btn-dark btn-link btn-underline">Visit Store<i className="d-icon-arrow-right"></i></ALink>
+                                    <ALink href="https://goo.gl/maps/86e7RVJBEC5HyrcT8" className="btn btn-dark btn-link btn-underline">Encuentranos en:<i className="d-icon-arrow-right"></i></ALink>
                                 </div>
                             </div>
                         </div>
@@ -159,7 +161,7 @@ function VendorList () {
                                 </div>
                                 <div className="store-content">
                                     <h2 className="store-title">
-                                        <ALink href="/vendor/single">Vendor3</ALink>
+                                        <ALink href="/vendor/single">Oficina Guayaquil</ALink>
                                     </h2>
                                     <div className="ratings-container">
                                         <span className="ratings-full" title="Rated 4.65 out of 5">
@@ -167,8 +169,10 @@ function VendorList () {
                                         </span>
                                     </div>
                                     <p>
-                                        <span className="state">Rio de Janeiro,</span>
-                                        <span className="Country">Brazil</span>
+                                        <span className="street">Av. Villamil y Alberto Reyna. Edificio "El Dorado". Antes de subir al banco Pichincha,</span><br />
+                                        <span className="city">Guayas,</span><br />
+                                        <span className="state">guayaquil,</span>
+                                        <span className="Country">Ecuador</span>
                                     </p>
                                     <div className="store-phone">
                                         <i className="fa fa-phone"></i>123456789
@@ -184,139 +188,139 @@ function VendorList () {
                                             effect="opacity"
                                         />
                                     </figure>
-                                    <ALink href="/vendor/single" className="btn btn-dark btn-link btn-underline">Visit Store<i className="d-icon-arrow-right"></i></ALink>
+                                    <ALink href="https://goo.gl/maps/fiZQo4ZtfCbiTzsk6" className="btn btn-dark btn-link btn-underline">Encuentranos en:<i className="d-icon-arrow-right"></i></ALink>
                                 </div>
                             </div>
                         </div>
-                        <div className="store-wrapper">
-                            <div className="store">
-                                <div className="store-header" style={ { backgroundColor: "#dac6ad" } }>
-                                    <figure className="store-banner">
-                                        <LazyLoadImage
-                                            src="images/home/vendor/store/4.jpg"
-                                            alt="Vendor"
-                                            width="447"
-                                            height="291"
-                                        />
-                                    </figure>
-                                </div>
-                                <div className="store-content">
-                                    <h2 className="store-title">
-                                        <ALink href="/vendor/single">Vendor4</ALink>
-                                    </h2>
-                                    <div className="ratings-container">
-                                        <span className="ratings-full" title="Rated 4.65 out of 5">
-                                            <span className="ratings" style={ { width: "87%" } }>4.65</span>
-                                        </span>
-                                    </div>
-                                    <p>
-                                        <span className="state">Ontario,</span>
-                                        <span className="Country">Canada</span>
-                                    </p>
-                                    <div className="store-phone">
-                                        <i className="fa fa-phone"></i>123456789
-                                    </div>
-                                </div>
-                                <div className="store-footer">
-                                    <figure className="seller-avatar">
-                                        <LazyLoadImage
-                                            src="images/home/vendor/avatar/4.jpg"
-                                            alt="Vendor avatar"
-                                            width="64"
-                                            height="64"
-                                            effect="opacity"
-                                        />
-                                    </figure>
-                                    <ALink href="/vendor/single" className="btn btn-dark btn-link btn-underline">Visit Store<i className="d-icon-arrow-right"></i></ALink>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="store-wrapper">
-                            <div className="store">
-                                <div className="store-header" style={ { backgroundColor: "#4c3f3d" } }>
-                                    <figure className="store-banner">
-                                        <LazyLoadImage
-                                            src="images/home/vendor/store/5.jpg"
-                                            alt="Vendor"
-                                            width="447"
-                                            height="291"
-                                        />
-                                    </figure>
-                                </div>
-                                <div className="store-content">
-                                    <h2 className="store-title">
-                                        <ALink href="/vendor/single">Vendor5</ALink>
-                                    </h2>
-                                    <div className="ratings-container">
-                                        <span className="ratings-full" title="Rated 4.65 out of 5">
-                                            <span className="ratings" style={ { width: "87%" } }>4.65</span>
-                                        </span>
-                                    </div>
-                                    <p>
-                                        <span className="state">Canberra,</span>
-                                        <span className="Country">Australia</span>
-                                    </p>
-                                    <div className="store-phone">
-                                        <i className="fa fa-phone"></i>123456789
-                                    </div>
-                                </div>
-                                <div className="store-footer">
-                                    <figure className="seller-avatar">
-                                        <LazyLoadImage
-                                            src="images/home/vendor/avatar/5.jpg"
-                                            alt="Vendor avatar"
-                                            width="64"
-                                            height="64"
-                                            effect="opacity"
-                                        />
-                                    </figure>
-                                    <ALink href="/vendor/single" className="btn btn-dark btn-link btn-underline">Visit Store<i className="d-icon-arrow-right"></i></ALink>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="store-wrapper">
-                            <div className="store">
-                                <div className="store-header" style={ { backgroundColor: "#2d3c3b" } }>
-                                    <figure className="store-banner">
-                                        <LazyLoadImage
-                                            src="images/home/vendor/store/6.jpg"
-                                            alt="Vendor"
-                                            width="447"
-                                            height="291"
-                                        />
-                                    </figure>
-                                </div>
-                                <div className="store-content">
-                                    <h2 className="store-title">
-                                        <ALink href="/vendor/single">Vendor6</ALink>
-                                    </h2>
-                                    <div className="ratings-container">
-                                        <span className="ratings-full" title="Rated 4.65 out of 5">
-                                            <span className="ratings" style={ { width: "87%" } }>4.65</span>
-                                        </span>
-                                    </div>
-                                    <p>
-                                        <span className="state">Berlin,</span>
-                                        <span className="Country">Germany</span>
-                                    </p>
-                                    <div className="store-phone">
-                                        <i className="fa fa-phone"></i>123456789
-                                    </div>
-                                </div>
-                                <div className="store-footer">
-                                    <figure className="seller-avatar">
-                                        <LazyLoadImage
-                                            src="images/home/vendor/avatar/6.jpg"
-                                            alt="Vendor avatar"
-                                            width="64"
-                                            height="64"
-                                            effect="opacity"
-                                        />
-                                    </figure>
-                                    <ALink href="/vendor/single" className="btn btn-dark btn-link btn-underline">Visit Store<i className="d-icon-arrow-right"></i></ALink>
-                                </div>
-                            </div>
-                        </div>
+                        {/*<div className="store-wrapper">*/}
+                        {/*    <div className="store">*/}
+                        {/*        <div className="store-header" style={ { backgroundColor: "#dac6ad" } }>*/}
+                        {/*            <figure className="store-banner">*/}
+                        {/*                <LazyLoadImage*/}
+                        {/*                    src="images/home/vendor/store/4.jpg"*/}
+                        {/*                    alt="Vendor"*/}
+                        {/*                    width="447"*/}
+                        {/*                    height="291"*/}
+                        {/*                />*/}
+                        {/*            </figure>*/}
+                        {/*        </div>*/}
+                        {/*        <div className="store-content">*/}
+                        {/*            <h2 className="store-title">*/}
+                        {/*                <ALink href="/vendor/single">Vendor4</ALink>*/}
+                        {/*            </h2>*/}
+                        {/*            <div className="ratings-container">*/}
+                        {/*                <span className="ratings-full" title="Rated 4.65 out of 5">*/}
+                        {/*                    <span className="ratings" style={ { width: "87%" } }>4.65</span>*/}
+                        {/*                </span>*/}
+                        {/*            </div>*/}
+                        {/*            <p>*/}
+                        {/*                <span className="state">Ontario,</span>*/}
+                        {/*                <span className="Country">Canada</span>*/}
+                        {/*            </p>*/}
+                        {/*            <div className="store-phone">*/}
+                        {/*                <i className="fa fa-phone"></i>123456789*/}
+                        {/*            </div>*/}
+                        {/*        </div>*/}
+                        {/*        <div className="store-footer">*/}
+                        {/*            <figure className="seller-avatar">*/}
+                        {/*                <LazyLoadImage*/}
+                        {/*                    src="images/home/vendor/avatar/4.jpg"*/}
+                        {/*                    alt="Vendor avatar"*/}
+                        {/*                    width="64"*/}
+                        {/*                    height="64"*/}
+                        {/*                    effect="opacity"*/}
+                        {/*                />*/}
+                        {/*            </figure>*/}
+                        {/*            <ALink href="/vendor/single" className="btn btn-dark btn-link btn-underline">Visit Store<i className="d-icon-arrow-right"></i></ALink>*/}
+                        {/*        </div>*/}
+                        {/*    </div>*/}
+                        {/*</div>*/}
+                        {/*<div className="store-wrapper">*/}
+                        {/*    <div className="store">*/}
+                        {/*        <div className="store-header" style={ { backgroundColor: "#4c3f3d" } }>*/}
+                        {/*            <figure className="store-banner">*/}
+                        {/*                <LazyLoadImage*/}
+                        {/*                    src="images/home/vendor/store/5.jpg"*/}
+                        {/*                    alt="Vendor"*/}
+                        {/*                    width="447"*/}
+                        {/*                    height="291"*/}
+                        {/*                />*/}
+                        {/*            </figure>*/}
+                        {/*        </div>*/}
+                        {/*        <div className="store-content">*/}
+                        {/*            <h2 className="store-title">*/}
+                        {/*                <ALink href="/vendor/single">Vendor5</ALink>*/}
+                        {/*            </h2>*/}
+                        {/*            <div className="ratings-container">*/}
+                        {/*                <span className="ratings-full" title="Rated 4.65 out of 5">*/}
+                        {/*                    <span className="ratings" style={ { width: "87%" } }>4.65</span>*/}
+                        {/*                </span>*/}
+                        {/*            </div>*/}
+                        {/*            <p>*/}
+                        {/*                <span className="state">Canberra,</span>*/}
+                        {/*                <span className="Country">Australia</span>*/}
+                        {/*            </p>*/}
+                        {/*            <div className="store-phone">*/}
+                        {/*                <i className="fa fa-phone"></i>123456789*/}
+                        {/*            </div>*/}
+                        {/*        </div>*/}
+                        {/*        <div className="store-footer">*/}
+                        {/*            <figure className="seller-avatar">*/}
+                        {/*                <LazyLoadImage*/}
+                        {/*                    src="images/home/vendor/avatar/5.jpg"*/}
+                        {/*                    alt="Vendor avatar"*/}
+                        {/*                    width="64"*/}
+                        {/*                    height="64"*/}
+                        {/*                    effect="opacity"*/}
+                        {/*                />*/}
+                        {/*            </figure>*/}
+                        {/*            <ALink href="/vendor/single" className="btn btn-dark btn-link btn-underline">Visit Store<i className="d-icon-arrow-right"></i></ALink>*/}
+                        {/*        </div>*/}
+                        {/*    </div>*/}
+                        {/*</div>*/}
+                        {/*<div className="store-wrapper">*/}
+                        {/*    <div className="store">*/}
+                        {/*        <div className="store-header" style={ { backgroundColor: "#2d3c3b" } }>*/}
+                        {/*            <figure className="store-banner">*/}
+                        {/*                <LazyLoadImage*/}
+                        {/*                    src="images/home/vendor/store/6.jpg"*/}
+                        {/*                    alt="Vendor"*/}
+                        {/*                    width="447"*/}
+                        {/*                    height="291"*/}
+                        {/*                />*/}
+                        {/*            </figure>*/}
+                        {/*        </div>*/}
+                        {/*        <div className="store-content">*/}
+                        {/*            <h2 className="store-title">*/}
+                        {/*                <ALink href="/vendor/single">Vendor6</ALink>*/}
+                        {/*            </h2>*/}
+                        {/*            <div className="ratings-container">*/}
+                        {/*                <span className="ratings-full" title="Rated 4.65 out of 5">*/}
+                        {/*                    <span className="ratings" style={ { width: "87%" } }>4.65</span>*/}
+                        {/*                </span>*/}
+                        {/*            </div>*/}
+                        {/*            <p>*/}
+                        {/*                <span className="state">Berlin,</span>*/}
+                        {/*                <span className="Country">Germany</span>*/}
+                        {/*            </p>*/}
+                        {/*            <div className="store-phone">*/}
+                        {/*                <i className="fa fa-phone"></i>123456789*/}
+                        {/*            </div>*/}
+                        {/*        </div>*/}
+                        {/*        <div className="store-footer">*/}
+                        {/*            <figure className="seller-avatar">*/}
+                        {/*                <LazyLoadImage*/}
+                        {/*                    src="images/home/vendor/avatar/6.jpg"*/}
+                        {/*                    alt="Vendor avatar"*/}
+                        {/*                    width="64"*/}
+                        {/*                    height="64"*/}
+                        {/*                    effect="opacity"*/}
+                        {/*                />*/}
+                        {/*            </figure>*/}
+                        {/*            <ALink href="/vendor/single" className="btn btn-dark btn-link btn-underline">Visit Store<i className="d-icon-arrow-right"></i></ALink>*/}
+                        {/*        </div>*/}
+                        {/*    </div>*/}
+                        {/*</div>*/}
                     </div>
                 </div>
             </div>
