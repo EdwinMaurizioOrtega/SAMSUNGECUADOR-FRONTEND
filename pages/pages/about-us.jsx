@@ -51,7 +51,7 @@ function AboutUs() {
             <div className="page-header pl-4 pr-4"
                 style={ { backgroundImage: `url( ./images/page-header/about-us.jpg )`, backgroundColor: "#3C63A4" } }>
                 <h3 className="page-subtitle text-black font-weight-bold">¡Bienvenido a Hipertronics!</h3>
-                <h1 className="page-title font-weight-bold lh-1 text-black text-capitalize">¿Quiénes somos?</h1>
+                <h1 className="page-title font-weight-bold lh-1 text-black text-capitalize" style={{color: 'coral !important'}}>¿Quiénes somos?</h1>
                 <p className="page-desc text-black mb-0">Desde el 2007 trabajando por  liderar el mercado innovador y <br /> tecnológico en el Ecuador.</p>
             </div>
 
@@ -62,14 +62,14 @@ function AboutUs() {
                             <div className="row align-items-center">
                                 <div className="col-lg-4 mb-10 mb-lg-4">
                                     <h5 className="section-subtitle lh-2 ls-md font-weight-normal">01. ¿Qué hacemos?</h5>
-                                    <h3 className="section-title lh-1 font-weight-bold">Distribuidores autorizados
+                                    <h3 className="section-title lh-1 font-weight-bold" style={{color: 'coral'}}>Distribuidores autorizados
                                     </h3>
                                     <p className="section-desc">Nos dedicamos a la distribución autorizada de celulares y accesorios tecnológicos en Ecuador.</p>
                                 </div>
                                 <div className="col-lg-8 ">
                                     <div className="row">
                                         <div className="col-md-4 mb-4">
-                                            <div className="counter text-center text-dark">
+                                            <div className="counter text-center" style={{color: 'coral'}}>
                                                 <CountUp start={ 0 } end={ 15 } duration={ 2 }>
                                                     { ( { countUpRef, start } ) => (
                                                         <div className="count-to">
@@ -83,7 +83,7 @@ function AboutUs() {
                                             </div>
                                         </div>
                                         <div className="col-md-4 mb-4">
-                                            <div className="counter text-center text-dark">
+                                            <div className="counter text-center" style={{color: 'coral'}}>
                                                 <CountUp start={ 0 } end={ 3 } duration={ 2 }>
                                                     { ( { countUpRef, start } ) => (
                                                         <div className="count-to">
@@ -97,7 +97,7 @@ function AboutUs() {
                                             </div>
                                         </div>
                                         <div className="col-md-4 mb-4">
-                                            <div className="counter text-center text-dark">
+                                            <div className="counter text-center" style={{color: 'coral'}}>
                                                 <CountUp start={ 0 } end={ 56 } duration={ 4 }>
                                                     { ( { countUpRef, start } ) => (
                                                         <div className="count-to">
@@ -141,12 +141,16 @@ function AboutUs() {
                 </Reveal>
 
                 <Reveal keyframes={ fadeIn } delay="50" duration="1000" triggerOnce>
-                    <section className="store-section pb-10">
+                    <section className="brand-section grey-section pt-10 pb-10">
                         <div className="container">
+
+                            <h5 className="section-subtitle lh-2 ls-md font-weight-normal mb-1 text-center"></h5>
+                            <h3 className="section-title lh-1 font-weight-bold text-center mb-5">Nuestros Valores</h3>
+
                             <div className="row align-items-center">
                                 <div className="col-md-4 order-md-first mb-4 text-center">
                                     <figure className="brand-wrapper bg-white banner-radius">
-                                        <img src="./images/brands/a1.jpg" alt="Brand" width="150" height="150" />
+                                        <img src="./images/brands/a1.jpg" alt="Brand" width="180" height="180" />
                                     </figure>
                                     <h3 className="section-title lh-1 font-weight-bold">Cooperación</h3>
 
@@ -196,7 +200,6 @@ function AboutUs() {
                         <div className="container mt-8 mb-10">
                             <h5 className="section-subtitle lh-2 ls-md font-weight-normal mb-1 text-center">02. Nuestros Clientes</h5>
                             <h3 className="section-title lh-1 font-weight-bold text-center mb-5">Empresas Populares</h3>
-
                             <OwlCarousel adClass="owl-theme" options={ mainSlider16 }>
                                 <figure className="brand-wrap bg-white banner-radius">
                                     <img src="./images/brands/1.png" alt="Brand" width="180" height="100" />
@@ -233,8 +236,8 @@ function AboutUs() {
                                             <LazyLoadImage
                                                 src="./images/subpages/team1.jpg"
                                                 alt="Oteam member"
-                                                width={ 280 }
-                                                height={ 280 }
+                                                width={ 150 }
+                                                height={ 150 }
                                                 effect="opacity"
                                                 style={ { backgroundColor: "#EEE" } }
                                             />
@@ -257,8 +260,8 @@ function AboutUs() {
                                             <LazyLoadImage
                                                 src="./images/subpages/team2.jpg"
                                                 alt="Oteam member"
-                                                width={ 280 }
-                                                height={ 280 }
+                                                width={ 150 }
+                                                height={ 150 }
                                                 effect="opacity"
                                                 style={ { backgroundColor: "#EEE" } }
                                             />
@@ -271,7 +274,7 @@ function AboutUs() {
                                         </figure>
 
                                         <h4 className="member-name">Andrea Abril</h4>
-                                        <h5 className="member-job">Gerente de operaciones</h5>
+                                        <h5 className="member-job">Presidente</h5>
                                     </div>
                                 </Reveal>
 
@@ -279,7 +282,24 @@ function AboutUs() {
                         </div>
                     </section>
                 </Reveal>
+
+                <Reveal keyframes={ fadeIn } delay="50" duration="1000" triggerOnce>
+                    <section className="brand-section grey-section pt-10 pb-10">
+                        <div className="container mt-8 mb-10">
+                            <h5 className="section-subtitle lh-2 ls-md font-weight-normal mb-1 text-center">04. Organigrama</h5>
+                            <h3 className="section-title lh-1 font-weight-bold text-center mb-5" style={{color: 'coral'}}>Empresarial</h3>
+
+                            <div className="page-header pl-4 pr-4"
+                                 style={ { backgroundImage: `url( ./images/page-header/organigrama.png )`, backgroundColor: "#FFFFFF" } }>
+
+                            </div>
+                        </div>
+                    </section>
+                </Reveal>
+
             </div>
+
+
         </main>
     )
 
