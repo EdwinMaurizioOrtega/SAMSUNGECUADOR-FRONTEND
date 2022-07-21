@@ -391,21 +391,9 @@ const IMEI_SIMPLE = gql`
 `
 
 export const GET_GARANTIA_IMEI_DATA = gql`
-   query indexData($gooo: String!) {
-        imeiCons(gooo: $gooo) {
-            cedula
-            nombre
-            direccion
-            telefono
-            tipocliente
-            correo
-            producto {
-              nocomp05
-              codprod05
-              fecmov05
-              desprod01
-              tieneGarantia
-            }
-    }
+   query GarantiaLidenar($imei: String!) {
+  garantiaLidenar(imei: $imei) {
+    garantia
   }
+}
 `

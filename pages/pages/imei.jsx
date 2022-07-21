@@ -8,15 +8,16 @@ import withApollo from "server/apollo";
 
 function SearchIMEI() {
 
-
     const [enteredName, setEnteredName] = useState(''); //INIT TO EMPTY
 
     const [getPosts, {data, loading, error}] = useLazyQuery(GET_GARANTIA_IMEI_DATA);
-    console.log(data && data.imeiCons.nombre);
+    console.log(data && data.garantiaLidenar.garantia);
 
     const showImei = enteredName => {
-        getPosts({variables: {gooo: enteredName}})
+        getPosts({variables: {imei: enteredName}})
     }
+
+    //console.log(GET_GARANTIA_IMEI_DATA)
 
     return (
         <main className="main">
@@ -29,8 +30,8 @@ function SearchIMEI() {
             <div className="page-content">
                 <section
                     className="error-section d-flex flex-column justify-content-center align-items-center text-center pl-3 pr-3">
-                    <h1 className="mb-2 ls-m">Validar Garantia PAC</h1>
-                    <div className="App">
+                    <h1 className="mb-2 ls-m">Validar Garantia Lidenar - Hipertronics</h1>
+                    <div className="App" style={{display: "contents"}}>
 
                         <div className="input-wrapper input-wrapper-inline input-wrapper-round">
                             <input type="text" className="form-control email" name="email" id="email2" placeholder="IMEI here..." required
@@ -44,7 +45,7 @@ function SearchIMEI() {
                                     }}
                             >BUSCAR</button>
                         </div>
-                        <h1>{data && data.imeiCons.producto.tieneGarantia}</h1>
+                        <h1>{data && data.garantiaLidenar.garantia}</h1>
 
                     </div>
 
