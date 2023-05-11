@@ -34,43 +34,43 @@ function MainMenu () {
                     </div>
 
             </div>
-            <div className="category category-icon">
-                <ALink href={ { pathname: "/shop", query: { brands: "blu" } } }>
-                    <figure className="categroy-media">
-                        <LazyLoadImage
-                            src="images/home/category/2.png"
-                            alt="Category"
-                            width="100"
-                            height="100"
-                        />
-                    </figure>
-                    <div className="category-content">
-                        <ALink href={ { pathname: "/shop", query: { tag: "celulares-blu" } } } >
-                        <h4 className="category-name">Celulares</h4>
-                        </ALink>
-                            <ALink href={ { pathname: "/shop", query: { tag: "accesorios-blu" } } } >
-                        <h4 className="category-name">Accesorios</h4>
-                            </ALink>
-                    </div>
-                </ALink>
-            </div>
-            <div className="category category-icon">
-                <ALink href={ { pathname: "/shop", query: { brands: "doogee" } } }>
-                    <figure className="categroy-media">
-                        <LazyLoadImage
-                            src="images/home/category/6.png"
-                            alt="Category"
-                            width="100"
-                            height="100"
-                        />
-                    </figure>
-                    <div className="category-content">
-                        <ALink href={ { pathname: "/shop", query: { tag: "celulares-doogee" } } } >
-                        <h4 className="category-name">Celulares</h4>
-                    </ALink>
-                    </div>
-                </ALink>
-            </div>
+            {/*<div className="category category-icon">*/}
+            {/*    <ALink href={ { pathname: "/shop", query: { brands: "blu" } } }>*/}
+            {/*        <figure className="categroy-media">*/}
+            {/*            <LazyLoadImage*/}
+            {/*                src="images/home/category/2.png"*/}
+            {/*                alt="Category"*/}
+            {/*                width="100"*/}
+            {/*                height="100"*/}
+            {/*            />*/}
+            {/*        </figure>*/}
+            {/*        <div className="category-content">*/}
+            {/*            <ALink href={ { pathname: "/shop", query: { tag: "celulares-blu" } } } >*/}
+            {/*            <h4 className="category-name">Celulares</h4>*/}
+            {/*            </ALink>*/}
+            {/*                <ALink href={ { pathname: "/shop", query: { tag: "accesorios-blu" } } } >*/}
+            {/*            <h4 className="category-name">Accesorios</h4>*/}
+            {/*                </ALink>*/}
+            {/*        </div>*/}
+            {/*    </ALink>*/}
+            {/*</div>*/}
+            {/*<div className="category category-icon">*/}
+            {/*    <ALink href={ { pathname: "/shop", query: { brands: "doogee" } } }>*/}
+            {/*        <figure className="categroy-media">*/}
+            {/*            <LazyLoadImage*/}
+            {/*                src="images/home/category/6.png"*/}
+            {/*                alt="Category"*/}
+            {/*                width="100"*/}
+            {/*                height="100"*/}
+            {/*            />*/}
+            {/*        </figure>*/}
+            {/*        <div className="category-content">*/}
+            {/*            <ALink href={ { pathname: "/shop", query: { tag: "celulares-doogee" } } } >*/}
+            {/*            <h4 className="category-name">Celulares</h4>*/}
+            {/*        </ALink>*/}
+            {/*        </div>*/}
+            {/*    </ALink>*/}
+            {/*</div>*/}
             <div className="category category-icon">
                 <ALink href={ { pathname: "/shop", query: { brands: "xiaomi" } } }>
                     <figure className="categroy-media">
@@ -91,23 +91,23 @@ function MainMenu () {
                     </div>
                 </ALink>
             </div>
-            <div className="category category-icon">
-                <ALink href={ { pathname: "/shop", query: { brands: "tecno" } } }>
-                    <figure className="categroy-media">
-                        <LazyLoadImage
-                            src="images/home/category/4.png"
-                            alt="Category"
-                            width="100"
-                            height="100"
-                        />
-                    </figure>
-                    <div className="category-content">
-                        <ALink href={ { pathname: "/shop", query: { tag: "celulares-tecno" } } } >
-                        <h4 className="category-name">Celulares</h4>
-                </ALink>
-                    </div>
-                </ALink>
-            </div>
+            {/*<div className="category category-icon">*/}
+            {/*    <ALink href={ { pathname: "/shop", query: { brands: "tecno" } } }>*/}
+            {/*        <figure className="categroy-media">*/}
+            {/*            <LazyLoadImage*/}
+            {/*                src="images/home/category/4.png"*/}
+            {/*                alt="Category"*/}
+            {/*                width="100"*/}
+            {/*                height="100"*/}
+            {/*            />*/}
+            {/*        </figure>*/}
+            {/*        <div className="category-content">*/}
+            {/*            <ALink href={ { pathname: "/shop", query: { tag: "celulares-tecno" } } } >*/}
+            {/*            <h4 className="category-name">Celulares</h4>*/}
+            {/*    </ALink>*/}
+            {/*        </div>*/}
+            {/*    </ALink>*/}
+            {/*</div>*/}
             <div className="category category-icon">
                 <ALink href={ { pathname: "/shop", query: { brands: "infinix" } } }>
                     <figure className="categroy-media">

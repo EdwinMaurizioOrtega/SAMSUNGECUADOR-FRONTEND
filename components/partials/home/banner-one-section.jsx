@@ -38,7 +38,7 @@ function BannerOneSection () {
                         </figure>
                         <div className="banner-content">
                             <h4 className="banner-subtitle text-white font-weight-semi-bold text-uppercase ls-s">Distribuidores</h4>
-                            <h3 className="banner-title text-white font-weight-normal ls-m">Autorizados de <strong className="text-uppercase">BLU</strong></h3>
+                            <h3 className="banner-title text-white font-weight-normal ls-m">Autorizados de <strong className="text-uppercase">INFINIX</strong></h3>
                             <span className="divider bg-white"></span>
                             <ALink href="/shop" className="btn btn-white btn-link btn-underline">Comprar ahora<i className="d-icon-arrow-right"></i></ALink>
                         </div>

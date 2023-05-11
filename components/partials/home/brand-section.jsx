@@ -9,7 +9,7 @@ function BrandSection () {
             <div className="container">
                 <h2 className="title title-line title-underline">Marcas En Las Que Confiamos</h2>
 
-                <div className="row cols-lg-6 cols-md-4 cols-sm-3 cols-2 gutter-xs">
+                <div className="row cols-lg-3 cols-md-4 cols-sm-3 cols-2 gutter-xs">
                     <div className="image-wrap">
                         <figure>
                             <ALink href="#">
@@ -36,32 +36,32 @@ function BrandSection () {
                             </ALink>
                         </figure>
                     </div>
-                    <div className="image-wrap">
-                        <figure>
-                            <ALink href="#">
-                                <LazyLoadImage
-                                    src="images/home/brand/3.jpg"
-                                    alt="Brand"
-                                    width="228"
-                                    height="100"
-                                    effect="opacity"
-                                />
-                            </ALink>
-                        </figure>
-                    </div>
-                    <div className="image-wrap">
-                        <figure>
-                            <ALink href="#">
-                                <LazyLoadImage
-                                    src="images/home/brand/4.jpg"
-                                    alt="Brand"
-                                    width="228"
-                                    height="100"
-                                    effect="opacity"
-                                />
-                            </ALink>
-                        </figure>
-                    </div>
+                    {/*<div className="image-wrap">*/}
+                    {/*    <figure>*/}
+                    {/*        <ALink href="#">*/}
+                    {/*            <LazyLoadImage*/}
+                    {/*                src="images/home/brand/3.jpg"*/}
+                    {/*                alt="Brand"*/}
+                    {/*                width="228"*/}
+                    {/*                height="100"*/}
+                    {/*                effect="opacity"*/}
+                    {/*            />*/}
+                    {/*        </ALink>*/}
+                    {/*    </figure>*/}
+                    {/*</div>*/}
+                    {/*<div className="image-wrap">*/}
+                    {/*    <figure>*/}
+                    {/*        <ALink href="#">*/}
+                    {/*            <LazyLoadImage*/}
+                    {/*                src="images/home/brand/4.jpg"*/}
+                    {/*                alt="Brand"*/}
+                    {/*                width="228"*/}
+                    {/*                height="100"*/}
+                    {/*                effect="opacity"*/}
+                    {/*            />*/}
+                    {/*        </ALink>*/}
+                    {/*    </figure>*/}
+                    {/*</div>*/}
                     <div className="image-wrap">
                         <figure>
                             <ALink href="#">
@@ -75,84 +75,84 @@ function BrandSection () {
                             </ALink>
                         </figure>
                     </div>
-                    <div className="image-wrap">
-                        <figure>
-                            <ALink href="#">
-                                <LazyLoadImage
-                                    src="images/home/brand/6.jpg"
-                                    alt="Brand"
-                                    width="228"
-                                    height="100"
-                                    effect="opacity"
-                                />
-                            </ALink>
-                        </figure>
-                    </div>
-                    <div className="image-wrap">
-                        <figure>
-                            <ALink href="#">
-                                <LazyLoadImage
-                                    src="images/home/brand/7.jpg"
-                                    alt="Brand"
-                                    width="228"
-                                    height="100"
-                                    effect="opacity"
-                                />
-                            </ALink>
-                        </figure>
-                    </div>
-                    <div className="image-wrap">
-                        <figure>
-                            <ALink href="#">
-                                <LazyLoadImage
-                                    src="images/home/brand/8.jpg"
-                                    alt="Brand"
-                                    width="228"
-                                    height="100"
-                                    effect="opacity"
-                                />
-                            </ALink>
-                        </figure>
-                    </div>
-                    <div className="image-wrap">
-                        <figure>
-                            <ALink href="#">
-                                <LazyLoadImage
-                                    src="images/home/brand/9.jpg"
-                                    alt="Brand"
-                                    width="228"
-                                    height="100"
-                                    effect="opacity"
-                                />
-                            </ALink>
-                        </figure>
-                    </div>
-                    <div className="image-wrap">
-                        <figure>
-                            <ALink href="#">
-                                <LazyLoadImage
-                                    src="images/home/brand/11.jpg"
-                                    alt="Brand"
-                                    width="228"
-                                    height="100"
-                                    effect="opacity"
-                                />
-                            </ALink>
-                        </figure>
-                    </div>
-                    <div className="image-wrap">
-                        <figure>
-                            <ALink href="#">
-                                <LazyLoadImage
-                                    src="images/home/brand/10.jpg"
-                                    alt="Brand"
-                                    width="228"
-                                    height="100"
-                                    effect="opacity"
-                                />
-                            </ALink>
-                        </figure>
-                    </div>
+                    {/*<div className="image-wrap">*/}
+                    {/*    <figure>*/}
+                    {/*        <ALink href="#">*/}
+                    {/*            <LazyLoadImage*/}
+                    {/*                src="images/home/brand/6.jpg"*/}
+                    {/*                alt="Brand"*/}
+                    {/*                width="228"*/}
+                    {/*                height="100"*/}
+                    {/*                effect="opacity"*/}
+                    {/*            />*/}
+                    {/*        </ALink>*/}
+                    {/*    </figure>*/}
+                    {/*</div>*/}
+                    {/*<div className="image-wrap">*/}
+                    {/*    <figure>*/}
+                    {/*        <ALink href="#">*/}
+                    {/*            <LazyLoadImage*/}
+                    {/*                src="images/home/brand/7.jpg"*/}
+                    {/*                alt="Brand"*/}
+                    {/*                width="228"*/}
+                    {/*                height="100"*/}
+                    {/*                effect="opacity"*/}
+                    {/*            />*/}
+                    {/*        </ALink>*/}
+                    {/*    </figure>*/}
+                    {/*</div>*/}
+                    {/*<div className="image-wrap">*/}
+                    {/*    <figure>*/}
+                    {/*        <ALink href="#">*/}
+                    {/*            <LazyLoadImage*/}
+                    {/*                src="images/home/brand/8.jpg"*/}
+                    {/*                alt="Brand"*/}
+                    {/*                width="228"*/}
+                    {/*                height="100"*/}
+                    {/*                effect="opacity"*/}
+                    {/*            />*/}
+                    {/*        </ALink>*/}
+                    {/*    </figure>*/}
+                    {/*</div>*/}
+                    {/*<div className="image-wrap">*/}
+                    {/*    <figure>*/}
+                    {/*        <ALink href="#">*/}
+                    {/*            <LazyLoadImage*/}
+                    {/*                src="images/home/brand/9.jpg"*/}
+                    {/*                alt="Brand"*/}
+                    {/*                width="228"*/}
+                    {/*                height="100"*/}
+                    {/*                effect="opacity"*/}
+                    {/*            />*/}
+                    {/*        </ALink>*/}
+                    {/*    </figure>*/}
+                    {/*</div>*/}
+                    {/*<div className="image-wrap">*/}
+                    {/*    <figure>*/}
+                    {/*        <ALink href="#">*/}
+                    {/*            <LazyLoadImage*/}
+                    {/*                src="images/home/brand/11.jpg"*/}
+                    {/*                alt="Brand"*/}
+                    {/*                width="228"*/}
+                    {/*                height="100"*/}
+                    {/*                effect="opacity"*/}
+                    {/*            />*/}
+                    {/*        </ALink>*/}
+                    {/*    </figure>*/}
+                    {/*</div>*/}
+                    {/*<div className="image-wrap">*/}
+                    {/*    <figure>*/}
+                    {/*        <ALink href="#">*/}
+                    {/*            <LazyLoadImage*/}
+                    {/*                src="images/home/brand/10.jpg"*/}
+                    {/*                alt="Brand"*/}
+                    {/*                width="228"*/}
+                    {/*                height="100"*/}
+                    {/*                effect="opacity"*/}
+                    {/*            />*/}
+                    {/*        </ALink>*/}
+                    {/*    </figure>*/}
+                    {/*</div>*/}
                     {/*<div className="image-wrap">*/}
                     {/*    <figure>*/}
                     {/*        <ALink href="#">*/}
