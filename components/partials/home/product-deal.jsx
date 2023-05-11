@@ -175,19 +175,19 @@ function ProductOne ( props ) {
                             <ALink href={ `/product/default/${ product.slug }` }>{ product.name }</ALink>
                         </h3>
 
-                        <div className="product-price">
-                            {
-                                product.price[ 0 ] !== product.price[ 1 ] ?
-                                    product.variants.length === 0 || ( product.variants.length > 0 && !product.variants[ 0 ].price ) ?
-                                        <>
-                                            <ins className="new-price">${ toDecimal( product.price[ 0 ] ) }</ins>
-                                            <del className="old-price">${ toDecimal( product.price[ 1 ] ) }</del>
-                                        </>
-                                        :
-                                        < del className="new-price">${ toDecimal( product.price[ 0 ] ) } – ${ toDecimal( product.price[ 1 ] ) }</del>
-                                    : <ins className="new-price">${ toDecimal( product.price[ 0 ] ) }</ins>
-                            }
-                        </div>
+                        {/*<div className="product-price">*/}
+                        {/*    {*/}
+                        {/*        product.price[ 0 ] !== product.price[ 1 ] ?*/}
+                        {/*            product.variants.length === 0 || ( product.variants.length > 0 && !product.variants[ 0 ].price ) ?*/}
+                        {/*                <>*/}
+                        {/*                    <ins className="new-price">${ toDecimal( product.price[ 0 ] ) }</ins>*/}
+                        {/*                    <del className="old-price">${ toDecimal( product.price[ 1 ] ) }</del>*/}
+                        {/*                </>*/}
+                        {/*                :*/}
+                        {/*                < del className="new-price">${ toDecimal( product.price[ 0 ] ) } – ${ toDecimal( product.price[ 1 ] ) }</del>*/}
+                        {/*            : <ins className="new-price">${ toDecimal( product.price[ 0 ] ) }</ins>*/}
+                        {/*    }*/}
+                        {/*</div>*/}
 
                         <div className="ratings-container">
                             <div className="ratings-full">
@@ -269,7 +269,7 @@ function ProductOne ( props ) {
 
                         <div className="product-form product-qty pb-0">
                             <div className="product-form-group">
-                                <Quantity adClass="input-group mr-2 mb-0" max={ product.stock } product={ product } onChangeQty={ changeQty } />
+                                {/*<Quantity adClass="input-group mr-2 mb-0" max={ product.stock } product={ product } onChangeQty={ changeQty } />*/}
                                 <ALink target="_blank" href="https://web.whatsapp.com/send?phone=593939991111&text=Hola." className="text-primary d-inline-block">
 
 

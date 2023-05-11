@@ -42,19 +42,19 @@ function SmallProduct ( props ) {
                     <ALink href={ `/product/default/${ product.slug }` }>{ product.name }</ALink>
                 </h3>
 
-                <div className="product-price">
-                    {
-                        product.price[ 0 ] !== product.price[ 1 ] ?
-                            product.variants.length === 0 || ( product.variants.length > 0 && !product.variants[ 0 ].price ) ?
-                                <>
-                                    <ins className="new-price">${ toDecimal( product.price[ 0 ] ) }</ins>
-                                    <del className="old-price">${ toDecimal( product.price[ 1 ] ) }</del>
-                                </>
-                                :
-                                < del className="new-price">${ toDecimal( product.price[ 0 ] ) } – ${ toDecimal( product.price[ 1 ] ) }</del>
-                            : <ins className="new-price">${ toDecimal( product.price[ 0 ] ) }</ins>
-                    }
-                </div>
+                {/*<div className="product-price">*/}
+                {/*    {*/}
+                {/*        product.price[ 0 ] !== product.price[ 1 ] ?*/}
+                {/*            product.variants.length === 0 || ( product.variants.length > 0 && !product.variants[ 0 ].price ) ?*/}
+                {/*                <>*/}
+                {/*                    <ins className="new-price">${ toDecimal( product.price[ 0 ] ) }</ins>*/}
+                {/*                    <del className="old-price">${ toDecimal( product.price[ 1 ] ) }</del>*/}
+                {/*                </>*/}
+                {/*                :*/}
+                {/*                < del className="new-price">${ toDecimal( product.price[ 0 ] ) } – ${ toDecimal( product.price[ 1 ] ) }</del>*/}
+                {/*            : <ins className="new-price">${ toDecimal( product.price[ 0 ] ) }</ins>*/}
+                {/*    }*/}
+                {/*</div>*/}
 
                 <div className="ratings-container">
                     <div className="ratings-full">
@@ -68,7 +68,7 @@ function SmallProduct ( props ) {
                     }
                 </div>
 
-                { isStockCount && <div className="count-text">Only <strong>{ product.stock }</strong> Left</div> }
+                {/*{ isStockCount && <div className="count-text">Only <strong>{ product.stock }</strong> Left</div> }*/}
             </div>
         </div>
     )
