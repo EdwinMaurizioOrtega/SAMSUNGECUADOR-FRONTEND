@@ -25,6 +25,7 @@ import NewsletterSection from '~/components/partials/home/newsletter-section';
 import BrandSection from '~/components/partials/home/brand-section';
 import BlogSection from '~/components/partials/home/blog-section';
 import RecentCollection from '~/components/partials/home/recent-collection';
+import IntroSectionV2 from "~/components/partials/home/intro-section-v2";
 
 function HomePage () {
     const { data, loading, error } = useQuery( GET_HOME_DATA, { variables: { productsCount: 9 } } );
@@ -85,6 +86,13 @@ function HomePage () {
 
 
                 <BrandSection />
+                <div className="intro-section">
+                    <div className="container">
+                        <IntroSectionV2 />
+
+                        <ServiceBox />
+                    </div>
+                </div>
 
                 {/*<BlogSection posts={ posts } />*/}
 

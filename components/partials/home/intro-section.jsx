@@ -25,13 +25,13 @@ function IntroSection ( props ) {
                         </figure>
                         <div className="banner-content">
                             <Reveal keyframes={ fadeInLeftShorter } duration={ 1000 }>
-                                <h5 className="banner-subtitle text-capitalize font-weight-normal">Conoce más sobre la emisión de obligaciones</h5>
-                                <h3 className="banner-title text-uppercase font-weight-bold ls-m">Resolución No.</h3>
+                                <h5 className="banner-subtitle text-capitalize font-weight-normal">Samsung </h5>
+                                <h3 className="banner-title text-uppercase font-weight-bold ls-m"> Galaxy A54</h3>
                                 <div className="banner-price-info font-weight-semi-bold text-body text-uppercase ls-m">
-                                    SCVS-INMV-DNAR-2022-00003181
+                                    Simplicidad inspirada
                                 </div>
-                                <ALink href="https://apollo.hipertronics.us/uploads/files/RESOLUCION_3189_I_EOLP_LIDENAR_SA.pdf" className="btn btn-dark btn-outline btn-rounded">
-                                    Descargar Aquí<i className="d-icon-arrow-right"></i></ALink>
+                                <ALink href="../product/default/samsung-a24-black/" className="btn btn-dark btn-outline btn-rounded">
+                                    Ver Aquí<i className="d-icon-arrow-right"></i></ALink>
                             </Reveal>
                         </div>
                     </div>

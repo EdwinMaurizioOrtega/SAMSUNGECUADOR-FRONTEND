@@ -7,7 +7,7 @@ function CategorySection () {
     return (
         <section className="grey-section pt-8 pb-4">
             <div className="container">
-                <div className="row cols-xl-5 cols-lg-4 cols-md-3 cols-sm-2 cols-1">
+                <div className="row cols-xl-4 cols-lg-4 cols-md-3 cols-sm-2 cols-1">
                     <div className="category category-ellipse mb-4">
                         <figure className="category-media mr-2">
                             <ALink href={ { pathname: "/shop" } }>
@@ -76,23 +76,23 @@ function CategorySection () {
                             </h4>
                         </div>
                     </div>
-                    <div className="category category-ellipse mb-4">
-                        <figure className="category-media mr-2">
-                            <ALink href={ { pathname: "/shop" } }>
-                                <LazyLoadImage
-                                    src="images/home/category/35.jpg"
-                                    alt="Category"
-                                    width="100"
-                                    height="100"
-                                />
-                            </ALink>
-                        </figure>
-                        <div className="category-content pt-0 text-left">
-                            <h4 className="category-name font-weight-normal ls-s">
-                                <ALink href={ { pathname: "/shop" } }>Micas</ALink>
-                            </h4>
-                        </div>
-                    </div>
+                    {/*<div className="category category-ellipse mb-4">*/}
+                    {/*    <figure className="category-media mr-2">*/}
+                    {/*        <ALink href={ { pathname: "/shop" } }>*/}
+                    {/*            <LazyLoadImage*/}
+                    {/*                src="images/home/category/35.jpg"*/}
+                    {/*                alt="Category"*/}
+                    {/*                width="100"*/}
+                    {/*                height="100"*/}
+                    {/*            />*/}
+                    {/*        </ALink>*/}
+                    {/*    </figure>*/}
+                    {/*    <div className="category-content pt-0 text-left">*/}
+                    {/*        <h4 className="category-name font-weight-normal ls-s">*/}
+                    {/*            <ALink href={ { pathname: "/shop" } }>Micas</ALink>*/}
+                    {/*        </h4>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
                 </div>
             </div>
         </section>

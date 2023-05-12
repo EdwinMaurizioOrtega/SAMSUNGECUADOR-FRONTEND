@@ -40,8 +40,8 @@ const App = ({ Component, pageProps }) => {
 
                     <title>Riode - React eCommerce Template</title>
 
-                    <meta name="keywords" content="React Template" />
-                    <meta name="description" content="Riode - React eCommerce Template" />
+                    <meta name="keywords" content="HT eCommerce" />
+                    <meta name="description" content="HT eCommerce" />
                     <meta name="author" content="D-THEMES" />
                 </Helmet>
 

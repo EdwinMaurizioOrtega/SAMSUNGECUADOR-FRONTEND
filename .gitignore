@@ -37,3 +37,4 @@ sw.js
 
 #ida
 .idea
+/package-lock.json
