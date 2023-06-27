@@ -1,6 +1,5 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import SlideToggle from 'react-slide-toggle';
 
 import BreadCrumb from '~/components/features/breadcrumb';
 import ALink from '~/components/features/custom-link';
@@ -9,7 +8,7 @@ import ElementsList from '~/components/partials/elements/elements-list';
 
 
 
-function Alert ( props ) {
+function Alert( props ) {
     return (
         <>
             <Helmet>

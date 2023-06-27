@@ -24,7 +24,7 @@ function Layout( { children, closeQuickview } ) {
 
     useLayoutEffect( () => {
         document.querySelector( 'body' ).classList.remove( 'loaded' );
-    }, [ router.pathname ] )
+    }, [ router.asPath ] )
 
     useEffect( () => {
         window.addEventListener( 'scroll', showScrollTopHandler, true );
@@ -53,7 +53,7 @@ function Layout( { children, closeQuickview } ) {
         setTimeout( () => {
             document.querySelector( 'body' ).classList.add( 'loaded' );
         }, 50 );
-    }, [ router.pathname ] )
+    }, [ router.asPath ] )
 
     return (
         <>

@@ -8,36 +8,36 @@ import { cartActions } from '~/store/cart';
 
 import { toDecimal, getTotalPrice } from '~/utils';
 
-function Cart ( props ) {
+function Cart(props) {
     const { cartList, removeFromCart, updateCart } = props;
-    const [ cartItems, setCartItems ] = useState( [] );
+    const [cartItems, setCartItems] = useState([]);
 
-    useEffect( () => {
-        setCartItems( [ ...cartList ] );
-    }, [ cartList ] )
+    useEffect(() => {
+        setCartItems([...cartList]);
+    }, [cartList])
 
-    const onChangeQty = ( name, qty ) => {
-        setCartItems( cartItems.map( item => {
+    const onChangeQty = (name, qty) => {
+        setCartItems(cartItems.map(item => {
             return item.name === name ? { ...item, qty: qty } : item
-        } ) );
+        }));
     }
 
     const compareItems = () => {
-        if ( cartItems.length !== cartList.length ) return false;
+        if (cartItems.length !== cartList.length) return false;
 
-        for ( let index = 0; index < cartItems.length; index++ ) {
-            if ( cartItems[ index ].qty !== cartList[ index ].qty ) return false;
+        for (let index = 0; index < cartItems.length; index++) {
+            if (cartItems[index].qty !== cartList[index].qty) return false;
         }
 
         return true;
     }
 
     const update = () => {
-        updateCart( cartItems );
+        updateCart(cartItems);
     }
 
     return (
-        <div className="main cart border-no">
+        <div className="main cart">
             <div className="page-content pt-7 pb-10">
                 <div className="step-by pr-4 pl-4">
                     <h3 className="title title-simple title-step active"><ALink href="#">1. Shopping Cart</ALink></h3>
@@ -63,46 +63,46 @@ function Cart ( props ) {
                                             </thead>
                                             <tbody>
                                                 {
-                                                    cartItems.map( item =>
-                                                        <tr key={ 'cart' + item.name }>
+                                                    cartItems.map(item =>
+                                                        <tr key={'cart' + item.name}>
                                                             <td className="product-thumbnail">
                                                                 <figure>
-                                                                    <ALink href={ '/product/default/' + item.slug }>
-                                                                        <img src={ process.env.NEXT_PUBLIC_ASSET_URI + item.pictures[ 0 ].url } width="100" height="100"
+                                                                    <ALink href={'/product/default/' + item.slug}>
+                                                                        <img src={process.env.NEXT_PUBLIC_ASSET_URI + item.pictures[0].url} width="100" height="100"
                                                                             alt="product" />
                                                                     </ALink>
                                                                 </figure>
                                                             </td>
                                                             <td className="product-name">
                                                                 <div className="product-name-section">
-                                                                    <ALink href={ '/product/default/' + item.slug }>Converse Training Shoes</ALink>
+                                                                    <ALink href={'/product/default/' + item.slug}>{item.name}</ALink>
                                                                 </div>
                                                             </td>
                                                             <td className="product-subtotal">
-                                                                <span className="amount">${ toDecimal( item.price ) }</span>
+                                                                <span className="amount">${toDecimal(item.price)}</span>
                                                             </td>
 
                                                             <td className="product-quantity">
-                                                                <Quantity qty={ item.qty } max={ item.stock } onChangeQty={ qty => onChangeQty( item.name, qty ) } />
+                                                                <Quantity qty={item.qty} max={item.stock} onChangeQty={qty => onChangeQty(item.name, qty)} />
                                                             </td>
                                                             <td className="product-price">
-                                                                <span className="amount">${ toDecimal( item.price * item.qty ) }</span>
+                                                                <span className="amount">${toDecimal(item.price * item.qty)}</span>
                                                             </td>
                                                             <td className="product-close">
-                                                                <ALink href="#" className="product-remove" title="Remove this product" onClick={ () => removeFromCart( item ) }>
+                                                                <ALink href="#" className="product-remove" title="Remove this product" onClick={() => removeFromCart(item)}>
                                                                     <i className="fas fa-times"></i>
                                                                 </ALink>
                                                             </td>
                                                         </tr>
-                                                    ) }
+                                                    )}
                                             </tbody>
                                         </table>
                                         <div className="cart-actions mb-6 pt-4">
                                             <ALink href="/shop" className="btn btn-dark btn-md btn-rounded btn-icon-left mr-4 mb-4"><i className="d-icon-arrow-left"></i>Continue Shopping</ALink>
                                             <button
                                                 type="submit"
-                                                className={ `btn btn-outline btn-dark btn-md btn-rounded ${ compareItems() ? ' btn-disabled' : '' }` }
-                                                onClick={ update }
+                                                className={`btn btn-outline btn-dark btn-md btn-rounded ${compareItems() ? ' btn-disabled' : ''}`}
+                                                onClick={update}
                                             >
                                                 Update Cart
                                 </button>
@@ -125,7 +125,7 @@ function Cart ( props ) {
                                                                 <h4 className="summary-subtitle">Subtotal</h4>
                                                             </td>
                                                             <td>
-                                                                <p className="summary-subtotal-price">${ toDecimal( getTotalPrice( cartItems ) ) }</p>
+                                                                <p className="summary-subtotal-price">${toDecimal(getTotalPrice(cartItems))}</p>
                                                             </td>
                                                         </tr>
                                                         <tr className="sumnary-shipping shipping-row-last">
@@ -186,7 +186,7 @@ function Cart ( props ) {
                                                                 <h4 className="summary-subtitle">Total</h4>
                                                             </td>
                                                             <td>
-                                                                <p className="summary-total-price ls-s">${ toDecimal( getTotalPrice( cartItems ) ) }</p>
+                                                                <p className="summary-total-price ls-s">${toDecimal(getTotalPrice(cartItems))}</p>
                                                             </td>
                                                         </tr>
                                                     </tbody>
@@ -214,10 +214,10 @@ function Cart ( props ) {
     )
 }
 
-function mapStateToProps ( state ) {
+function mapStateToProps(state) {
     return {
         cartList: state.cart.data ? state.cart.data : []
     }
 }
 
-export default connect( mapStateToProps, { removeFromCart: cartActions.removeFromCart, updateCart: cartActions.updateCart } )( Cart );
+export default connect(mapStateToProps, { removeFromCart: cartActions.removeFromCart, updateCart: cartActions.updateCart })(Cart);

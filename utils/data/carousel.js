@@ -285,7 +285,7 @@ export const mainSlider17 = {
     loop: false,
     // dots: true,
     nav: false,
-    margin: 20,
+    margin: 0,
     responsive: {
         0: {
             items: 2
@@ -294,7 +294,10 @@ export const mainSlider17 = {
             items: 3
         },
         992: {
-            items: 4,
+            items: 4
+        },
+        1200: {
+            items: 5,
             dots: false,
             nav: false
         }
@@ -350,13 +353,20 @@ export const mainSlider20 = {
 export const introSlider = {
     nav: false,
     dots: true,
-    autoplay: false,
-    items: 1
+    loop: false,
+    margin: 1,
+    items: 1,
+    autoplay: false
 }
 
 export const serviceSlider = {
+    items: 3,
     nav: false,
     dots: false,
+    margin: 0,
+    loop: false,
+    autoplay: false,
+    autoplayTimeout: 5000,
     responsive: {
         0: {
             items: 1
@@ -364,11 +374,9 @@ export const serviceSlider = {
         576: {
             items: 2
         },
-        992: {
-            items: 3
-        },
-        1306: {
-            items: 4
+        768: {
+            items: 3,
+            loop: false
         }
     }
 }
@@ -399,33 +407,13 @@ export const brandSlider = {
     }
 }
 
-export const brandSlider2 = {
+export const productSlider = {
+    items: 5,
     nav: false,
     dots: false,
-    margin: 0,
-    responsive: {
-        0: {
-            items: 2
-        },
-        576: {
-            items: 3
-        },
-        768: {
-            items: 4
-        },
-        992: {
-            items: 6
-        },
-        1200: {
-            items: 7
-        }
-    }
-}
-
-export const productSlider = {
-    nav: false,
-    dots: true,
-    margin: 20,
+    autoplay: false,
+    loop: false,
+    margin: 1,
     responsive: {
         0: {
             items: 2
@@ -438,31 +426,33 @@ export const productSlider = {
         },
         992: {
             items: 5,
-            dots: false
+            // dots: false,
+            nav: true
         }
     }
 }
 
 export const productSlider2 = {
+    items: 5,
     nav: false,
     dots: true,
+    autoplay: false,
+    loop: false,
     margin: 20,
     responsive: {
         0: {
             items: 2
         },
-        576: {
+        768: {
             items: 3
         },
-        768: {
+        992: {
             items: 4
         },
-        992: {
-            items: 6
-        },
         1200: {
-            items: 8,
-            dots: false
+            items: 5,
+            dots: false,
+            nav: true
         }
     }
 }

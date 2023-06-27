@@ -7,7 +7,7 @@ import MediaLightBox from '~/components/partials/product/light-box';
 
 import { mainSlider18 } from '~/utils/data/carousel';
 
-export default function MediaFour( props ) {
+export default function MediaOne( props ) {
     const { product } = props;
     const [ isOpen, setOpenState ] = useState( false );
     const [ index, setIndex ] = useState( 0 );

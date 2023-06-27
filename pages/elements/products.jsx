@@ -20,7 +20,7 @@ import ElementsList from '~/components/partials/elements/elements-list';
 
 import { mainSlider1, mainSlider7, mainSlider19 } from '~/utils/data/carousel';
 
-function Products () {
+function Products() {
     const { data, loading } = useQuery( GET_PRODUCTS );
     const products = data ? data.products.data : [];
 
@@ -44,7 +44,7 @@ function Products () {
                                 <div className="row product-wrapper">
                                     {
                                         products.slice( 0, 4 ).map( ( item ) =>
-                                            <div className="col-md-3 col-6" key={ 'default-' + item.slug }>
+                                            <div className="col-md-3 col-6" key={ 'default-' + item.name }>
                                                 <ProductOne product={ item } />
                                             </div>
                                         )
@@ -68,7 +68,7 @@ function Products () {
                                 <div className="row product-wrapper">
                                     {
                                         products.slice( 0, 4 ).map( ( item ) =>
-                                            <div className="col-md-3 col-6" key={ 'centered-' + item.slug }>
+                                            <div className="col-md-3 col-6" key={ 'centered-' + item.name }>
                                                 <ProductTwo product={ item } />
                                             </div>
                                         )
@@ -92,7 +92,7 @@ function Products () {
                                 <div className="row product-wrapper">
                                     {
                                         products.slice( 0, 4 ).map( ( item ) =>
-                                            <div className="col-md-3 col-6" key={ 'classic-' + item.slug }>
+                                            <div className="col-md-3 col-6" key={ 'classic-' + item.name }>
                                                 <ProductThree product={ item } />
                                             </div>
                                         )
@@ -116,7 +116,7 @@ function Products () {
                                 <div className="row product-wrapper">
                                     {
                                         products.slice( 0, 4 ).map( ( item ) =>
-                                            <div className="col-md-3 col-6" key={ 'popup-' + item.slug }>
+                                            <div className="col-md-3 col-6" key={ 'popup-' + item.name }>
                                                 <ProductFour product={ item } />
                                             </div>
                                         )
@@ -140,7 +140,7 @@ function Products () {
                                 <div className="row product-wrapper split-line">
                                     {
                                         products.slice( 0, 5 ).map( ( item ) =>
-                                            <div className="col-xl-5col col-lg-3 col-sm-4 col-6" key={ 'split-line-' + item.slug }>
+                                            <div className="col-xl-5col col-lg-3 col-sm-4 col-6" key={ 'split-line-' + item.name }>
                                                 <ProductFive product={ item } />
                                             </div>
                                         )
@@ -164,7 +164,7 @@ function Products () {
                                 <OwlCarousel adClass="owl-theme gutter-xs" options={ mainSlider1 }>
                                     {
                                         products.slice( 0, 5 ).map( ( item ) =>
-                                            <ProductTwo product={ item } key={ 'without-space-' + item.slug } />
+                                            <ProductTwo product={ item } key={ 'without-space-' + item.name } />
                                         )
                                     }
                                 </OwlCarousel> :
@@ -186,7 +186,7 @@ function Products () {
                                 <div className="row product-wrapper equal-height">
                                     {
                                         products.slice( 0, 4 ).map( ( item ) =>
-                                            <div className="col-md-3 col-6" key={ 'image-gap-' + item.slug }>
+                                            <div className="col-md-3 col-6" key={ 'image-gap-' + item.name }>
                                                 <ProductTwo product={ item } adClass="product-image-gap" />
                                             </div>
                                         )
@@ -210,7 +210,7 @@ function Products () {
                                 <OwlCarousel adClass="owl-theme" options={ mainSlider19 }>
                                     {
                                         products.slice( 0, 5 ).map( ( item ) =>
-                                            <ProductSix product={ item } key={ 'modern-style-one-' + item.slug } />
+                                            <ProductSix product={ item } key={ 'modern-style-one-' + item.name } />
                                         )
                                     }
                                 </OwlCarousel> :
@@ -232,7 +232,7 @@ function Products () {
                                 <OwlCarousel adClass="owl-theme" options={ mainSlider19 }>
                                     {
                                         products.slice( 0, 5 ).map( ( item ) =>
-                                            <ProductSeven product={ item } key={ 'modern-style-two-' + item.slug } />
+                                            <ProductSeven product={ item } key={ 'modern-style-two-' + item.name } />
                                         )
                                     }
                                 </OwlCarousel> :
@@ -256,7 +256,7 @@ function Products () {
                                         <div className="row">
                                             {
                                                 products.slice( 0, 2 ).map( ( item ) =>
-                                                    <div className="col-6 col-sm-12" key={ 'list-' + item.slug }>
+                                                    <div className="col-6 col-sm-12" key={ 'list-' + item.name }>
                                                         <ProductEight product={ item } />
                                                     </div>
                                                 )
@@ -272,7 +272,7 @@ function Products () {
                                                     <div className="products-col">
                                                         {
                                                             products.slice( 0, 4 ).map( item => (
-                                                                <SmallProduct product={ item } key={ 'small-' + item.slug } />
+                                                                <SmallProduct product={ item } key={ 'small-' + item.name } />
                                                             ) )
                                                         }
                                                     </div>
@@ -280,7 +280,7 @@ function Products () {
                                                     <div className="products-col">
                                                         {
                                                             products.slice( 4, 8 ).map( item => (
-                                                                <SmallProduct product={ item } key={ 'small-' + item.slug } />
+                                                                <SmallProduct product={ item } key={ 'small-' + item.name } />
                                                             ) )
                                                         }
                                                     </div>

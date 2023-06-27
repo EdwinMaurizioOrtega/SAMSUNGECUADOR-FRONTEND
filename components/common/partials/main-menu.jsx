@@ -1,143 +1,79 @@
-import React from "react";
 import { useRouter } from 'next/router';
 
 import ALink from '~/components/features/custom-link';
-import {LazyLoadImage} from "react-lazy-load-image-component";
 
-function MainMenu () {
-    const pathname = useRouter().pathname;
+function MainMenu() {
+    const router = useRouter();
+    const pathname = router.pathname;
+    const query = router.query;
 
     return (
-        <nav className="menu category-menu">
-            <div className="category category-icon">
-                <ALink href={ { pathname: "/shop", query: { brands: "samsung" } } }>
-                    <figure className="categroy-media">
-                        <LazyLoadImage
-                            src="images/home/category/1.png"
-                            alt="Category"
-                            width="100"
-                            height="100"
-                        />
-                    </figure>
-                </ALink>
-                    <div className="category-content">
-
-                        <ALink href={ { pathname: "/shop", query: { tag: "celulares-samsung" } } } >
-                        <h4 className="category-name">Celulares</h4>
-                        </ALink>
-                        <ALink href={ { pathname: "/shop", query: { tag: "accesorios-samsung" } } } >
-                        <h4 className="category-name">Accesorios</h4>
-                        </ALink>
-                        <ALink href={ { pathname: "/shop", query: { tag: "tvs-samsung" } } } >
-                        <h4 className="category-name">TVs</h4>
-                        </ALink>
-                    </div>
-
-            </div>
-            {/*<div className="category category-icon">*/}
-            {/*    <ALink href={ { pathname: "/shop", query: { brands: "blu" } } }>*/}
-            {/*        <figure className="categroy-media">*/}
-            {/*            <LazyLoadImage*/}
-            {/*                src="images/home/category/2.png"*/}
-            {/*                alt="Category"*/}
-            {/*                width="100"*/}
-            {/*                height="100"*/}
-            {/*            />*/}
-            {/*        </figure>*/}
-            {/*        <div className="category-content">*/}
-            {/*            <ALink href={ { pathname: "/shop", query: { tag: "celulares-blu" } } } >*/}
-            {/*            <h4 className="category-name">Celulares</h4>*/}
-            {/*            </ALink>*/}
-            {/*                <ALink href={ { pathname: "/shop", query: { tag: "accesorios-blu" } } } >*/}
-            {/*            <h4 className="category-name">Accesorios</h4>*/}
-            {/*                </ALink>*/}
-            {/*        </div>*/}
-            {/*    </ALink>*/}
-            {/*</div>*/}
-            {/*<div className="category category-icon">*/}
-            {/*    <ALink href={ { pathname: "/shop", query: { brands: "doogee" } } }>*/}
-            {/*        <figure className="categroy-media">*/}
-            {/*            <LazyLoadImage*/}
-            {/*                src="images/home/category/6.png"*/}
-            {/*                alt="Category"*/}
-            {/*                width="100"*/}
-            {/*                height="100"*/}
-            {/*            />*/}
-            {/*        </figure>*/}
-            {/*        <div className="category-content">*/}
-            {/*            <ALink href={ { pathname: "/shop", query: { tag: "celulares-doogee" } } } >*/}
-            {/*            <h4 className="category-name">Celulares</h4>*/}
-            {/*        </ALink>*/}
-            {/*        </div>*/}
-            {/*    </ALink>*/}
-            {/*</div>*/}
-            <div className="category category-icon">
-                <ALink href={ { pathname: "/shop", query: { brands: "xiaomi" } } }>
-                    <figure className="categroy-media">
-                        <LazyLoadImage
-                            src="images/home/category/3.png"
-                            alt="Category"
-                            width="100"
-                            height="100"
-                        />
-                    </figure>
-                    <div className="category-content">
-                        <ALink href={ { pathname: "/shop", query: { tag: "celulares-xiaomi" } } } >
-                        <h4 className="category-name">Celulares</h4>
-                        </ALink>
-                            <ALink href={ { pathname: "/shop", query: { tag: "accesorios-xiaomi" } } } >
-                        <h4 className="category-name">Accesorios</h4>
-                            </ALink>
-                    </div>
-                </ALink>
-            </div>
-            {/*<div className="category category-icon">*/}
-            {/*    <ALink href={ { pathname: "/shop", query: { brands: "tecno" } } }>*/}
-            {/*        <figure className="categroy-media">*/}
-            {/*            <LazyLoadImage*/}
-            {/*                src="images/home/category/4.png"*/}
-            {/*                alt="Category"*/}
-            {/*                width="100"*/}
-            {/*                height="100"*/}
-            {/*            />*/}
-            {/*        </figure>*/}
-            {/*        <div className="category-content">*/}
-            {/*            <ALink href={ { pathname: "/shop", query: { tag: "celulares-tecno" } } } >*/}
-            {/*            <h4 className="category-name">Celulares</h4>*/}
-            {/*    </ALink>*/}
-            {/*        </div>*/}
-            {/*    </ALink>*/}
-            {/*</div>*/}
-            <div className="category category-icon">
-                <ALink href={ { pathname: "/shop", query: { brands: "infinix" } } }>
-                    <figure className="categroy-media">
-                        <LazyLoadImage
-                            src="images/home/category/5.png"
-                            alt="Category"
-                            width="100"
-                            height="100"
-                        />
-                    </figure>
-                    <div className="category-content">
-                        <ALink href={ { pathname: "/shop", query: { tag: "celulares-infinix" } } } >
-                        <h4 className="category-name">Celulares</h4>
-                        </ALink>
-                    </div>
-                </ALink>
-            </div>
-            <div className="category category-icon">
-                <ALink href="/shop">
-                    <figure className="categroy-media">
-                        <i className="d-icon-category"></i>
-                    </figure>
-                    <div className="category-content">
-                        <ALink href={ { pathname: "/shop"}} >
-                        <h4 className="category-name">Categorias</h4>
-                        </ALink>
-                    </div>
-                </ALink>
-            </div>
-        </nav>
+        <div className="row align-items-center gutter-no scrollable">
+            <ALink href={{ pathname: "/shop", query: { category: "mobile" } }} className={`${query.category === 'mobile' ? 'active' : ''} category category-icon-inline`} scroll={false}>
+                <div className="category-media" style={{ fontSize: '3.8rem' }}>
+                    <i className="d-icon-mobile"></i>
+                </div>
+                <div className="category-content">
+                    <h4 className="category-name">Mobile Phone <br />&amp; Accessories</h4>
+                </div>
+            </ALink>
+            <ALink href={{ pathname: "/shop", query: { category: "camera" } }} className={`${query.category === 'camera' ? 'active' : ''} category category-icon-inline`} scroll={false}>
+                <div className="category-media">
+                    <i className="d-icon-camera1"></i>
+                </div>
+                <div className="category-content">
+                    <h4 className="category-name">Camera, Photo<br /> &amp; Accessories</h4>
+                </div>
+            </ALink>
+            <ALink href={{ pathname: "/shop", query: { category: "headphone" } }} className={`${query.category === 'headphone' ? 'active' : ''} category category-icon-inline`} scroll={false}>
+                <div className="category-media">
+                    <i className="d-icon-headphone"></i>
+                </div>
+                <div className="category-content">
+                    <h4 className="category-name">Portable <br />Headphone</h4>
+                </div>
+            </ALink>
+            <ALink href={{ pathname: "/shop", query: { category: "computer" } }} className={`${query.category === 'computer' ? 'active' : ''} category category-icon-inline`} scroll={false}>
+                <div className="category-media">
+                    <i className="d-icon-desktop"></i>
+                </div>
+                <div className="category-content">
+                    <h4 className="category-name">Computers <br />&amp; Tablets</h4>
+                </div>
+            </ALink>
+            <ALink href={{ pathname: "/shop", query: { category: "kitchen" } }} className={`${query.category === 'kitchen' ? 'active' : ''} category category-icon-inline`} scroll={false}>
+                <div className="category-media">
+                    <i className="d-icon-cook"></i>
+                </div>
+                <div className="category-content">
+                    <h4 className="category-name">Home, Kitchen <br />Electronics</h4>
+                </div>
+            </ALink>
+            <ALink href={{ pathname: "/shop", query: { category: "gaming" } }} className={`${query.category === 'gaming' ? 'active' : ''} category category-icon-inline`} scroll={false}>
+                <div className="category-media">
+                    <i className="d-icon-table-tv"></i>
+                </div>
+                <div className="category-content">
+                    <h4 className="category-name">Home Video <br />&amp; Theater</h4>
+                </div>
+            </ALink>
+            <ALink href={{ pathname: "/shop", query: { category: "accessories" } }} className={`${query.category === 'accessories' ? 'active' : ''} category category-icon-inline`} scroll={false}>
+                <div className="category-media" style={{ fontSize: '3.3rem' }}>
+                    <i className="d-icon-gamepad2"></i>
+                </div>
+                <div className="category-content">
+                    <h4 className="category-name">Gaming &amp; <br />Accessories</h4>
+                </div>
+            </ALink>
+            <ALink href={{ pathname: "/shop", query: { category: "mobile" } }} className={`${query.category === 'mobile' ? 'active' : ''} category category-icon-inline`} scroll={false}>
+                <div className="category-media">
+                    <i className="d-icon-category"></i>
+                </div>
+                <div className="category-content">
+                    <h4 className="category-name">Browse <br />More</h4>
+                </div>
+            </ALink>
+        </div>
     )
 }
 

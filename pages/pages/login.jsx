@@ -4,7 +4,7 @@ import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';
 
 import ALink from '~/components/features/custom-link';
 
-function Login () {
+function Login() {
     return (
         <main className="main">
             <Helmet>
@@ -104,4 +104,4 @@ function Login () {
     )
 }
 
-export default React.memo( Login );
+export default React.memo(Login);

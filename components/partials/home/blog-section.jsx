@@ -1,25 +1,33 @@
 import React from 'react';
+import Reveal from 'react-awesome-reveal';
 
 import OwlCarousel from '~/components/features/owl-carousel';
 
-import PostSix from '~/components/features/post/post-six';
+import PostThree from '~/components/features/post/post-three';
 
-import { mainSlider12 } from '~/utils/data/carousel';
+import { fadeIn, fadeInUpShorter } from '~/utils/data/keyframes';
+import { mainSlider14 } from '~/utils/data/carousel';
 
-function BlogSection ( props ) {
+function BlogSection(props) {
     const { posts } = props;
 
     return (
-        <section className="mb-10 pb-2">
+        <section className="blog mt-10 pt-3 pb-lg-5">
             <div className="container">
-                <h2 className="title title-line title-underline">From Our Blog</h2>
+                <Reveal keyframes={fadeIn} duration={1000} triggerOnce>
+                    <h2 className="title title-simple text-left">Latest News</h2>
+                </Reveal>
 
-                <OwlCarousel adClass="owl-theme" options={ mainSlider12 }>
+                <OwlCarousel adClass="owl-theme owl-nav-full" options={mainSlider14}>
                     {
                         posts && posts.length ?
-                            posts.slice( 15 ).map( ( post, index ) => (
-                                <PostSix isDate={ false } post={ post } adClass="post-sm text-center" key={ "post-six" + index } btnAdClass="btn-primary font-weight-semi-bold" />
-                            ) ) : ''
+                            posts.slice(15, 17).map((post, index) => (
+                                <React.Fragment key={"post-three" + index}>
+                                    <Reveal keyframes={fadeInUpShorter} duration={1000} delay={index * 200 + 300} triggerOnce>
+                                        <PostThree post={post} adClass="overlay-zoom" isCalender={true} btnAdClass="btn-sm btn-outline" />
+                                    </Reveal>
+                                </React.Fragment>
+                            )) : ''
                     }
                 </OwlCarousel>
             </div>
@@ -27,4 +35,4 @@ function BlogSection ( props ) {
     )
 }
 
-export default React.memo( BlogSection );
+export default React.memo(BlogSection);

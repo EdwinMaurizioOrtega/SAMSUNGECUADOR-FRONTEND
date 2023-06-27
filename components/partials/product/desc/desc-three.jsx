@@ -42,9 +42,12 @@ export default function DescThree( props ) {
                 <Tab className="nav-item">
                     <span className="nav-link">Description</span>
                 </Tab>
-                <Tab className="nav-item">
-                    <span className="nav-link">Additional information</span>
-                </Tab>
+                {
+                    product && product.brands.length > 0 || colors.length > 0 || sizes.length > 0 ?
+                        <Tab className="nav-item">
+                            <span className="nav-link">Additional information</span>
+                        </Tab> : ''
+                }
                 {
                     isGuide ?
                         <Tab className="nav-item">
@@ -73,67 +76,70 @@ export default function DescThree( props ) {
                     </div>
                 </TabPanel>
 
-                <TabPanel className="tab-pane product-tab-additional">
-                    <ul className="list-none">
-                        {
-                            product.categories.length > 0 ?
-                                <li><label>Categories:</label>
-                                    <p>
-                                        { product.categories.map( ( item, index ) => (
-                                            <React.Fragment key={ item.name + '-' + index }>
-                                                { item.name }
-                                                { index < product.categories.length - 1 ? ', ' : "" }
-                                            </React.Fragment>
-                                        ) ) }
-                                    </p>
-                                </li> : ""
-                        }
+                {
+                    product && product.brands.length > 0 || colors.length > 0 || sizes.length > 0 ?
+                        <TabPanel className="tab-pane product-tab-additional">
+                            <ul className="list-none">
+                                {
+                                    product.categories.length > 0 ?
+                                        <li><label>Categories:</label>
+                                            <p>
+                                                { product.categories.map( ( item, index ) => (
+                                                    <React.Fragment key={ item.name + '-' + index }>
+                                                        { item.name }
+                                                        { index < product.categories.length - 1 ? ', ' : "" }
+                                                    </React.Fragment>
+                                                ) ) }
+                                            </p>
+                                        </li> : ""
+                                }
 
-                        {
-                            product && product.brands.length > 0 ?
-                                <li><label>Brands:</label>
-                                    <p>
-                                        { product.brands.map( ( item, index ) => (
-                                            <React.Fragment key={ item.name + '-' + index }>
-                                                { item.name }
-                                                { index < product.brands.length - 1 ? ', ' : "" }
-                                            </React.Fragment>
-                                        ) ) }
-                                    </p>
-                                </li> : ""
-                        }
+                                {
+                                    product.brands.length > 0 ?
+                                        <li><label>Brands:</label>
+                                            <p>
+                                                { product.brands.map( ( item, index ) => (
+                                                    <React.Fragment key={ item.name + '-' + index }>
+                                                        { item.name }
+                                                        { index < product.brands.length - 1 ? ', ' : "" }
+                                                    </React.Fragment>
+                                                ) ) }
+                                            </p>
+                                        </li> : ""
+                                }
 
-                        {
-                            colors.length > 0 ?
-                                <li><label>Color:</label>
-                                    <p>
-                                        { colors.map( ( item, index ) => (
-                                            <React.Fragment key={ item.name + '-' + index }>
-                                                { item.name }
-                                                { index < colors.length - 1 ? ', ' : "" }
-                                            </React.Fragment>
-                                        ) ) }
-                                    </p>
-                                </li> : ""
-                        }
+                                {
+                                    colors.length > 0 ?
+                                        <li><label>Color:</label>
+                                            <p>
+                                                { colors.map( ( item, index ) => (
+                                                    <React.Fragment key={ item.name + '-' + index }>
+                                                        { item.name }
+                                                        { index < colors.length - 1 ? ', ' : "" }
+                                                    </React.Fragment>
+                                                ) ) }
+                                            </p>
+                                        </li> : ""
+                                }
 
-                        {
-                            sizes.length > 0 ?
-                                <li><label>Size:</label>
-                                    <p>
-                                        {
-                                            sizes.map( ( item, index ) => (
-                                                <React.Fragment key={ item.name + '-' + index }>
-                                                    { item.name }
-                                                    { index < sizes.length - 1 ? ', ' : "" }
-                                                </React.Fragment>
-                                            ) ) }
-                                    </p>
-                                </li> : ""
-                        }
-                    </ul>
-                </TabPanel>
-
+                                {
+                                    sizes.length > 0 ?
+                                        <li><label>Size:</label>
+                                            <p>
+                                                {
+                                                    sizes.map( ( item, index ) => (
+                                                        <React.Fragment key={ item.name + '-' + index }>
+                                                            { item.name }
+                                                            { index < sizes.length - 1 ? ', ' : "" }
+                                                        </React.Fragment>
+                                                    ) ) }
+                                            </p>
+                                        </li> : ""
+                                }
+                            </ul>
+                        </TabPanel>
+                        : ''
+                }
                 {
                     isGuide ?
                         <TabPanel className="tab-pane product-tab-size-guide">

@@ -13,48 +13,48 @@ const customStyles = {
 
 let index = 0;
 
-Modal.setAppElement( "#__next" );
+Modal.setAppElement("#__next");
 
-function LoginModal () {
-    const [ open, setOpen ] = useState( false );
+function LoginModal() {
+    const [open, setOpen] = useState(false);
 
-    function closeModal () {
-        document.querySelector( ".ReactModal__Overlay" ).classList.add( 'removed' );
-        document.querySelector( ".login-popup.ReactModal__Content" ).classList.remove( "ReactModal__Content--after-open" );
-        document.querySelector( ".login-popup-overlay.ReactModal__Overlay" ).classList.remove( "ReactModal__Overlay--after-open" );
-        setTimeout( () => {
-            setOpen( false );
-        }, 330 );
+    function closeModal() {
+        document.querySelector(".ReactModal__Overlay").classList.add('removed');
+        document.querySelector(".login-popup.ReactModal__Content").classList.remove("ReactModal__Content--after-open");
+        document.querySelector(".login-popup-overlay.ReactModal__Overlay").classList.remove("ReactModal__Overlay--after-open");
+        setTimeout(() => {
+            setOpen(false);
+        }, 330);
     }
 
-    function openModal ( e, loginIndex = 0 ) {
+    function openModal(e, loginIndex = 0) {
         e.preventDefault();
         index = loginIndex;
-        setOpen( true );
+        setOpen(true);
     }
 
     return (
         <>
-            <a className="login-link" href="#" onClick={ openModal }>
-                <i className="d-icon-user"></i>Iniciar sesión</a>
-            <span className="delimiter">/</span>
-            <a className="register-link ml-0" onClick={ ( e ) => openModal( e, 1 ) } href="#">Registrarse</a>
+            <a className="login-link d-md-block" href="#" onClick={openModal}>
+                <i className="d-icon-user"></i>Sign in</a>
+            <span className="delimiter text-white">/</span>
+            <a className="register-link ml-0" onClick={(e) => openModal(e, 1)} href="#">Register</a>
 
             {
                 open ?
                     <Modal
-                        isOpen={ open }
-                        onRequestClose={ closeModal }
-                        style={ customStyles }
+                        isOpen={open}
+                        onRequestClose={closeModal}
+                        style={customStyles}
                         contentLabel="Login Modal"
                         className="login-popup"
                         overlayClassName="login-popup-overlay"
-                        shouldReturnFocusAfterClose={ false }
+                        shouldReturnFocusAfterClose={false}
                         id="login-modal"
                     >
                         <div className="form-box">
                             <div className="tab tab-nav-simple tab-nav-boxed form-tab">
-                                <Tabs selectedTabClassName="active" selectedTabPanelClassName="active" defaultIndex={ index }>
+                                <Tabs selectedTabClassName="active" selectedTabPanelClassName="active" defaultIndex={index}>
                                     <TabList className="nav nav-tabs nav-fill align-items-center border-no justify-content-center mb-5">
                                         <Tab className="nav-item">
                                             <span className="nav-link border-no lh-1 ls-normal">Sign in</span>
@@ -126,11 +126,11 @@ function LoginModal () {
                             </div>
                         </div>
 
-                        <button title="Close (Esc)" type="button" className="mfp-close" onClick={ closeModal }><span>×</span></button>
+                        <button title="Close (Esc)" type="button" className="mfp-close" onClick={closeModal}><span>×</span></button>
                     </Modal> : ''
             }
         </>
     )
 }
 
-export default ( LoginModal );
+export default (LoginModal);

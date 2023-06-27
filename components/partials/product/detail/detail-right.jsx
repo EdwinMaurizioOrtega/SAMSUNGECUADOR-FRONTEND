@@ -1,7 +1,9 @@
 import { connect } from 'react-redux';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
-import Collapse from 'react-bootstrap/Collapse';
+import SlideToggle from 'react-slide-toggle';
+
+
 
 import { wishlistActions } from '~/store/wishlist';
 import { cartActions } from '~/store/cart';
@@ -18,8 +20,6 @@ function DetailRight( props ) {
     const [ curColor, setCurColor ] = useState( 'null' );
     const [ curSize, setCurSize ] = useState( 'null' );
     const [ curIndex, setCurIndex ] = useState( 0 );
-    const [ cartActive, setCartActive ] = useState( false );
-    const [ quantity, setQauntity ] = useState( 1 );
     let product = data && data.product;
 
     // decide if the product is wishlisted
@@ -43,26 +43,59 @@ function DetailRight( props ) {
     }
 
     useEffect( () => {
-        setCurIndex( -1 );
-        resetValueHandler();
+        if ( document.querySelector( '.product-form .btn-cart' ) ) {
+            if ( product.data.variants.length > 0 ) {
+                document.querySelector( '.product-form .btn-cart' ).setAttribute( 'disabled', 'disabled' );
+            } else {
+                document.querySelector( '.product-form .btn-cart' ).removeAttribute( 'disabled' );
+            }
+        }
+
+        return () => {
+            resetValueHandler();
+
+            if ( document.querySelector( '.reset-value-button' ) ) {
+                document.querySelector( '.reset-value-button' ).style.display = "none";
+            }
+
+            if ( document.querySelector( '.single-product-price' ) ) {
+                document.querySelector( '.single-product-price' ).style.display = "none";
+            }
+        }
     }, [ product ] )
 
     useEffect( () => {
         if ( product.data.variants.length > 0 ) {
             if ( ( curSize !== 'null' && curColor !== 'null' ) || ( curSize === 'null' && product.data.variants[ 0 ].size === null && curColor !== 'null' ) || ( curColor === 'null' && product.data.variants[ 0 ].color === null && curSize !== 'null' ) ) {
-                setCartActive( true );
+                document.querySelector( '.product-form .btn-cart' ).removeAttribute( 'disabled' );
+
+                if ( document.querySelector( '.single-product-price' ) && document.querySelector( '.single-product-price' ).classList.contains( 'COLLAPSED' ) ) {
+                    document.querySelector( '.show-price' ).click();
+                }
                 setCurIndex( product.data.variants.findIndex( item => ( item.size !== null && item.color !== null && item.color.name === curColor && item.size.name === curSize ) || ( item.size === null && item.color.name === curColor ) || ( item.color === null && item.size.name === curSize ) ) );
             } else {
-                setCartActive( false );
+                document.querySelector( '.product-form .btn-cart' ).setAttribute( 'disabled', 'disabled' );
+
+                if ( document.querySelector( '.single-product-price' ) && document.querySelector( '.single-product-price' ).classList.contains( 'EXPANDED' ) ) {
+                    document.querySelector( '.show-price' ).click();
+                }
+            }
+
+            if ( curSize !== 'null' || curColor !== 'null' ) {
+                if ( document.querySelector( '.reset-value-button' ) && document.querySelector( '.reset-value-button' ).classList.contains( 'COLLAPSED' ) ) {
+                    document.querySelector( '.show-reset-button' ).click();
+                }
+            } else if ( document.querySelector( '.reset-value-button' ) && document.querySelector( '.reset-value-button' ).classList.contains( 'EXPANDED' ) ) {
+                document.querySelector( '.show-reset-button' ).click();
             }
         } else {
-            setCartActive( true );
+            document.querySelector( '.product-form .btn-cart' ).removeAttribute( 'disabled' );
         }
 
         if ( product.stock === 0 ) {
-            setCartActive( false );
+            document.querySelector( '.product-form .btn-cart' ).setAttribute( 'disabled', 'disabled' );
         }
-    }, [ curColor, curSize, product ] )
+    }, [ curColor, curSize ] )
 
     const wishlistHandler = ( e ) => {
         e.preventDefault();
@@ -89,7 +122,9 @@ function DetailRight( props ) {
     }
 
     const addToCartHandler = () => {
-        if ( product.data.stock > 0 && cartActive ) {
+        if ( product.data.stock > 0 ) {
+            let qty = document.querySelector( '.product-form-group .quantity' ).value;
+
             if ( product.data.variants.length > 0 ) {
                 let tmpName = product.data.name, tmpPrice;
                 tmpName += curColor !== 'null' ? '-' + curColor : '';
@@ -103,9 +138,10 @@ function DetailRight( props ) {
                     tmpPrice = product.data.variants[ curIndex ].sale_price ? product.data.variants[ curIndex ].sale_price : product.data.variants[ curIndex ].price;
                 }
 
-                addToCart( { ...product.data, name: tmpName, qty: quantity, price: tmpPrice } );
+
+                addToCart( { ...product.data, name: tmpName, qty: qty, price: tmpPrice } );
             } else {
-                addToCart( { ...product.data, qty: quantity, price: product.data.price[ 0 ] } );
+                addToCart( { ...product.data, qty: qty, price: product.data.price[ 0 ] } );
             }
         }
     }
@@ -113,6 +149,13 @@ function DetailRight( props ) {
     const resetValueHandler = ( e ) => {
         setCurColor( 'null' );
         setCurSize( 'null' );
+
+        if ( document.querySelector( '.select-color' ) ) {
+            document.querySelector( '.select-color' ).value = 'null';
+        }
+        if ( document.querySelector( '.select-size' ) ) {
+            document.querySelector( '.select-size' ).value = 'null';
+        }
     }
 
     function isDisabled( color, size ) {
@@ -129,10 +172,6 @@ function DetailRight( props ) {
         return product.data.variants.findIndex( item => item.color.name === color && item.size.name === size ) === -1;
     }
 
-    function changeQty( qty ) {
-        setQauntity( qty );
-    }
-
     return (
         <div className={ `product-details mb-4 ${ isSticky ? 'p-sticky' : '' } ${ adClass }` }>
             {
@@ -143,7 +182,7 @@ function DetailRight( props ) {
                                 <div className='product-form product-variations product-color'>
                                     <label>Color:</label>
                                     <div className='select-box'>
-                                        <select name='color' className='form-control select-color' onChange={ setColorHandler } value={ curColor }>
+                                        <select name='color' className='form-control select-color' onChange={ setColorHandler } defaultValue={ curColor }>
                                             <option value="null">Choose an option</option>
                                             {
                                                 colors.map( item =>
@@ -162,7 +201,7 @@ function DetailRight( props ) {
                                     <label>Size:</label>
                                     <div className='product-form-group'>
                                         <div className='select-box'>
-                                            <select name='size' className='form-control select-size' onChange={ setSizeHandler } value={ curSize }>
+                                            <select name='size' className='form-control select-size' onChange={ setSizeHandler } defaultValue={ curSize }>
                                                 <option value="null">Choose an option</option>
                                                 {
                                                     sizes.map( item =>
@@ -173,38 +212,43 @@ function DetailRight( props ) {
                                             </select>
                                         </div>
 
-                                        <Collapse in={ 'null' !== curColor || 'null' !== curSize }>
-                                            <div className="card-wrapper overflow-hidden reset-value-button w-100 mb-0">
-                                                <ALink href='#' className='product-variation-clean' onClick={ resetValueHandler }>Clean All</ALink>
-                                            </div>
-                                        </Collapse>
+                                        <SlideToggle collapsed={ 'null' === curColor || 'null' === curSize }>
+                                            { ( { onToggle, setCollapsibleElement, toggleState } ) => (
+                                                <>
+                                                    <button onClick={ onToggle } className='show-reset-button d-none'>Click</button>
+                                                    <div ref={ setCollapsibleElement } className={ `overflow-hidden reset-value-button w-100 ${ toggleState }` }>
+                                                        <ALink href='#' className='product-variation-clean' onClick={ resetValueHandler }>Clean All</ALink>
+                                                    </div>
+                                                </>
+                                            ) }
+                                        </SlideToggle>
                                     </div>
                                 </div> : ""
                         }
 
 
                         <div className='product-variation-price'>
-                            <Collapse in={ cartActive && curIndex > -1 }>
-                                <div className="card-wrapper">
-                                    {
-                                        curIndex > -1 ?
-                                            <div className="single-product-price">
-                                                {
-                                                    product.data.variants[ curIndex ].price ?
-                                                        product.data.variants[ curIndex ].sale_price ?
-                                                            <div className="product-price mb-0">
-                                                                <ins className="new-price">${ toDecimal( product.data.variants[ curIndex ].sale_price ) }</ins>
-                                                                <del className="old-price">${ toDecimal( product.data.variants[ curIndex ].price ) }</del>
-                                                            </div>
-                                                            : <div className="product-price mb-0">
-                                                                <ins className="new-price">${ toDecimal( product.data.variants[ curIndex ].price ) }</ins>
-                                                            </div>
-                                                        : ""
-                                                }
-                                            </div> : ''
-                                    }
-                                </div>
-                            </Collapse>
+                            <SlideToggle collapsed={ 'null' === curColor || 'null' === curSize }>
+                                { ( { onToggle, setCollapsibleElement, toggleState } ) => (
+                                    <>
+                                        <button onClick={ onToggle } className='show-price d-none'>Click</button>
+                                        <div ref={ setCollapsibleElement } className={ `overflow-hidden single-product-price ${ toggleState }` }>
+                                            {
+                                                product.data.variants[ curIndex ].price ?
+                                                    product.data.variants[ curIndex ].sale_price ?
+                                                        <div className="product-price">
+                                                            <ins className="new-price">${ toDecimal( product.data.variants[ curIndex ].sale_price ) }</ins>
+                                                            <del className="old-price">${ toDecimal( product.data.variants[ curIndex ].price ) }</del>
+                                                        </div>
+                                                        : <div className="product-price">
+                                                            <ins className="new-price">${ toDecimal( product.data.variants[ curIndex ].price ) }</ins>
+                                                        </div>
+                                                    : ""
+                                            }
+                                        </div>
+                                    </>
+                                ) }
+                            </SlideToggle>
                         </div>
                     </> : ''
             }
@@ -214,8 +258,8 @@ function DetailRight( props ) {
             <div className="product-form product-qty pb-0">
                 <label className="d-none">QTY:</label>
                 <div className="product-form-group">
-                    <Quantity max={ product.data.stock } product={ product } onChangeQty={ changeQty } />
-                    <button className={ `btn-product btn-cart text-normal ls-normal font-weight-semi-bold ${ cartActive ? '' : 'disabled' }` } onClick={ addToCartHandler }><i className='d-icon-bag'></i>Add to Cart</button>
+                    <Quantity max={ product.data.stock } product={ product } />
+                    <button className='btn-product btn-cart text-normal ls-normal font-weight-semi-bold' onClick={ addToCartHandler }><i className='d-icon-bag'></i>Add to Cart</button>
                 </div>
             </div>
 

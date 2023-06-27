@@ -1,13 +1,15 @@
 import ALink from '~/components/features/custom-link';
 
-export default function ShopBanner ( props ) {
-
+export default function ShopBanner(props) {
     return (
-        <div className="shop-boxed-banner banner mb-8 mb-lg-7" style={ { backgroundImage: "url(images/home/banner/shopbanner.jpg)", backgroundColor: "#ECEDEF" } }>
+        <div className="shop-banner banner" style={{ backgroundImage: `url( ./images/home/page-header.jpg )`, backgroundColor: "#eee" }}>
             <div className="banner-content">
-                <h4 className="banner-subtitle font-weight-semi-bold ls-m text-uppercase text-secondary mb-3">Por temporada</h4>
-                <h1 className="banner-title font-weight-bold ls-m mb-6">Nuestros productos</h1>
-                <ALink href="/shop" className="btn btn-dark btn-outline btn-rounded">Tienda<i className="d-icon-arrow-right"></i></ALink>
+                <h3 className="banner-subtitle mb-2 text-uppercase ls-l text-primary font-weight-bold">Up to
+                25% Off
+							</h3>
+                <h1 className="banner-title mb-1 text-uppercase ls-m font-weight-bold">Cromebook simlicity</h1>
+                <p className="font-primary ls-m text-dark">Galaxy Style</p>
+                <ALink href="/shop" className="btn btn-outline btn-dark btn-rounded">Shop now</ALink>
             </div>
         </div>
     )

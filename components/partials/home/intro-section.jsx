@@ -7,123 +7,123 @@ import ALink from '~/components/features/custom-link';
 import OwlCarousel from '~/components/features/owl-carousel';
 
 import { introSlider } from '~/utils/data/carousel';
-import { fadeInRightShorter, fadeInLeftShorter } from '~/utils/data/keyframes';
+import { fadeInUpShorter, fadeInRightShorter, fadeInDownShorter, fadeInLeftShorter } from '~/utils/data/keyframes';
 
-function IntroSection ( props ) {
+function IntroSection() {
     return (
-        <div className="row">
-            <div className="col-lg-9 mb-4">
-                <OwlCarousel adClass="owl-theme owl-dot-inner intro-slider animation-slider" options={ introSlider }>
-                    <div className="banner banner-fixed content-middle intro-slide intro-slide1 banner-radius" style={ { backgroundColor: "#f8f8f8" } }>
-                        <figure>
-                            <LazyLoadImage
-                                src="images/home/slides/1.jpg"
-                                alt="Banner"
-                                width="1030"
-                                height="450"
-                            />
-                        </figure>
-                        <div className="banner-content">
-                            <Reveal keyframes={ fadeInLeftShorter } duration={ 1000 }>
-                                <h5 className="banner-subtitle text-capitalize font-weight-normal">Samsung </h5>
-                                <h3 className="banner-title text-uppercase font-weight-bold ls-m"> Galaxy A54</h3>
-                                <div className="banner-price-info font-weight-semi-bold text-body text-uppercase ls-m">
-                                    Simplicidad inspirada
+        <section className="intro-section container">
+            <div className="row grid">
+                <div className="grid-item col-lg-8 col-sm-6 height-x2">
+                    <Reveal keyframes={fadeInRightShorter} delay={400} duration={1000} className="h-100">
+                        <OwlCarousel adClass="intro-slider animation-slider owl-carousel owl-theme owl-dot-inner row cols-1 gutter-no" options={introSlider}>
+                            <div className="intro-slide1 banner banner-fixed" style={{ backgroundColor: '#1f1f1f' }}>
+                                <figure>
+                                    <LazyLoadImage
+                                        src="./images/home/slides/1.jpg"
+                                        alt="Intro Slider"
+                                        effect="opacity"
+                                        width="100%"   //785
+                                        height="auto"   //433
+                                    />
+                                </figure>
+                                <div className="banner-content y-50">
+                                    <h4 className="banner-subtitle mb-0">Over 200 Products
+                                            with discounts</h4>
+                                    <h3 className="banner-title text-uppercase">Camera Sale
+                                        </h3>
+                                    <p className="banner-price text-uppercase mb-5">starting at&nbsp;
+                                            <span><sup>$</sup>299.<sup>99</sup></span></p>
+                                    <ALink href="/shop" className="btn btn-outline btn-white btn-md mb-2 btn-rounded">Shop
+                                            now</ALink>
                                 </div>
-                                <ALink href="../product/default/samsung-a24-black/" className="btn btn-dark btn-outline btn-rounded">
-                                    Ver Aquí<i className="d-icon-arrow-right"></i></ALink>
-                            </Reveal>
-                        </div>
-                    </div>
-                    <div className="banner banner-fixed content-middle intro-slide intro-slide2 banner-radius" style={ { backgroundColor: "#e2e2e3" } }>
-                        <figure>
-                            <LazyLoadImage
-                                src="images/home/slides/2.jpg"
-                                alt="Banner"
-                                width="1030"
-                                height="450"
-                            />
-                        </figure>
-                        <div className="banner-content text-right">
-                            <Reveal keyframes={ fadeInRightShorter } duration={ 1000 }>
-                                <h5 className="banner-subtitle text-capitalize font-weight-normal">¡Llévalo donde quieras!</h5>
-                                <h3 className="banner-title text-uppercase font-weight-bold ls-m">The Freestyle</h3>
-                                <div className="banner-price-info font-weight-semi-bold text-dark text-uppercase ls-m">
-                                    Portátil <span className="text-primary">Poderoso</span>
+                            </div>
+                            <div className="intro-slide2 banner banner-fixed" style={{ backgroundColor: '#f5f6f8' }}>
+                                <figure>
+                                    <LazyLoadImage
+                                        src="./images/home/slides/1-1.jpg"
+                                        alt="Intro Slider"
+                                        effect="opacity"
+                                        width="100%"   //785
+                                        height="auto"   //433
+                                    />
+                                </figure>
+                                <div className="banner-content w-100 x-50 text-center">
+                                    <h3 className="banner-title ls-m">iPhone X.</h3>
+                                    <h4 className="banner-subtitle mb-5 font-weight-normal text-body">Find the best
+                                            super powerful for you!</h4>
                                 </div>
-                                <p className="text-dark font-weight-normal">Sorprendentemente simple</p>
-                                <ALink href="/shop" className="btn btn-dark btn-outline btn-rounded">
-                                    Comprar<i className="d-icon-arrow-right"></i></ALink>
-                            </Reveal>
-                        </div>
-                    </div>
-                    <div className="banner banner-fixed content-middle intro-slide intro-slide3 banner-radius" style={ { backgroundColor: "#d8dee4" } }>
-                        <figure>
-                            <LazyLoadImage
-                                src="images/home/slides/3.jpg"
-                                alt="Banner"
-                                width="1030"
-                                height="450"
-                            />
-                        </figure>
-                        <div className="banner-content">
-                            <Reveal keyframes={ fadeInLeftShorter } duration={ 1000 }>
-                                <h5 className="banner-subtitle text-capitalize font-weight-normal mb-1">Tu TV ideal</h5>
-                                <h3 className="banner-title text-uppercase font-weight-bold ls-m">Smart TV</h3>
-                                <div className="banner-price-info font-weight-semi-bold text-dark text-uppercase ls-m">
-                                    Brillante y colorido, <span className="text-primary">QLED 4k</span>
-                                </div>
-                                <p className="text-dark font-weight-normal">Explora cual de nuestras TVs, se adapta más a ti</p>
-                                <ALink href="/shop" className="btn btn-dark btn-outline btn-rounded">Comprar<i className="d-icon-arrow-right"></i></ALink>
-                            </Reveal>
-                        </div>
-                    </div>
-                </OwlCarousel >
-            </div>
-            <div className="col-lg-3">
-                <div className="row cols-lg-1 cols-sm-2 cols-1">
-                    <div className="intro-banner mb-4">
-                        <div className="banner banner-fixed content-middle banner-radius overlay-zoom" style={ { backgroundColor: "#232323" } }>
-                            <figure>
-                                <LazyLoadImage
-                                    src="images/home/banner/1.jpg"
-                                    alt="Intro Banner"
-                                    width="330"
-                                    height="215"
-                                />
-                            </figure>
-                            <div className="banner-content">
-                                <h3 className="banner-title font-weight-bold text-white ls-m">Productos</h3>
-                                <div className="product-count text-uppercase text-white font-weight-semi-bold">HT</div>
-                                <span className="divider bg-white"></span>
-                                <ALink href={ { pathname: "/shop" } } className="btn btn-white btn-link btn-underline ls-m">
-                                    Ver Catálogo<i className="d-icon-arrow-right"></i></ALink>
+                            </div>
+                        </OwlCarousel>
+                    </Reveal>
+                </div>
+                <div className="grid-item col-lg-4 col-sm-6 height-x2">
+                    <Reveal keyframes={fadeInDownShorter} delay={400} duration={1000} className="h-100">
+                        <div className="intro-banner1 banner banner-fixed" style={{ backgroundColor: '#f1f1f1' }}>
+                            <ALink href="/shop">
+                                <figure>
+                                    <LazyLoadImage
+                                        src="./images/home/banner/2.jpg"
+                                        alt="banner"
+                                        effect="opacity"
+                                        width="100%"   //385
+                                        height="auto"   //433
+                                    />
+                                </figure>
+                            </ALink>
+                            <div className="banner-content w-100 x-50 text-center">
+                                <h4 className="banner-subtitle mb-3">Trade-in your phone
+                                        for up to $30</h4>
+                                <h3 className="banner-title mb-0 font-weight-bold">New Galaxy S9</h3>
                             </div>
                         </div>
-                    </div>
-                    <div className="intro-banner mb-4">
-                        <div className="banner banner-fixed content-middle banner-radius overlay-zoom" style={ { backgroundColor: "#eca5a9" } }>
+                    </Reveal>
+                </div>
+                <div className="grid-item col-sm-6 height-x1">
+                    <Reveal keyframes={fadeInUpShorter} delay={400} duration={1000} className="h-100">
+                        <div className="intro-banner2 banner banner-fixed overlay-light" style={{ backgroundColor: '#fff296' }}>
                             <figure>
                                 <LazyLoadImage
-                                    src="images/home/banner/2.jpg"
-                                    alt="Intro Banner"
-                                    width="330"
-                                    height="215"
+                                    src="./images/home/banner/3.jpg"
+                                    alt="banner"
+                                    effect="opacity"
+                                    width="100%"   //585
+                                    height="auto"   //213
                                 />
                             </figure>
-                            <div className="banner-content">
-                                <h3 className="banner-title font-weight-bold text-white ls-m">Sistema</h3>
-                                <div className="product-count text-uppercase text-white font-weight-semi-bold">Hipertronics</div>
-                                <span className="divider bg-white"></span>
-                                <ALink href="https://app.hipertronics.us/clientes/" className="btn btn-white btn-link btn-underline ls-m">
-                                    Ingresar<i className="d-icon-arrow-right"></i></ALink>
+                            <div className="banner-content w-100 y-50">
+                                <h3 className="banner-title mb-2 ls-m text-uppercase">Nikon 850<span
+                                    className="d-block text-normal">Launch Party</span></h3>
+                                <h4 className="banner-subtitle font-secondary">Free Event</h4>
+                                <div className="banner-price-info ls-m font-weight-semi-bold text-dark"><ins
+                                    className="mr-2">$299.99</ins><del>$400.99</del></div>
                             </div>
                         </div>
-                    </div>
+                    </Reveal>
+                </div>
+                <div className="grid-item col-sm-6 height-x1">
+                    <Reveal keyframes={fadeInLeftShorter} delay={400} duration={1000} className="h-100">
+                        <div className="intro-banner3 banner banner-fixed overlay-dark" style={{ backgroundColor: '#4b484f' }}>
+                            <figure>
+                                <LazyLoadImage
+                                    src="./images/home/banner/4.jpg"
+                                    alt="banner"
+                                    effect="opacity"
+                                    width="100%"   //585
+                                    height="auto"   //213
+                                />
+                            </figure>
+                            <div className="banner-content w-100 y-50">
+                                <h4 className="banner-subtitle mb-1 text-white">New Arrivals</h4>
+                                <h3 className="banner-title ls-m text-white">Airpod Collection</h3>
+                                <p className="font-weight-semi-bold text-white ls-m">Wireless, Effortiess, Magical</p>
+                                <h4 className="banner-desc text-white mb-0">Discount <span className="text-secondary">20% Off</span></h4>
+                            </div>
+                        </div>
+                    </Reveal>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
-export default React.memo( IntroSection );
+export default React.memo(IntroSection);

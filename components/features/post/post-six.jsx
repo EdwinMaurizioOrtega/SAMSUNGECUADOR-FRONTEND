@@ -8,7 +8,7 @@ import { videoHandler } from '~/utils';
 import { mainSlider20 } from '~/utils/data/carousel';
 
 function PostSix ( props ) {
-    const { post, adClass = '', isLazy = false, isOriginal = false, isDate = true, btnText = "Read more", btnAdClass = 'btn-md btn-dark' } = props;
+    const { post, adClass = '', isLazy = false, isOriginal = false, btnText = "Read more", btnAdClass = 'btn-md' } = props;
 
     return (
         <div className={ `post post-sm ${ post.type === 'gallery' ? '' : 'overlay-zoom' } ${ post.type === 'video' ? 'post-video' : '' } ${ adClass }` }>
@@ -104,16 +104,12 @@ function PostSix ( props ) {
 
             <div className="post-details">
                 <div className="post-meta">
-                    by <ALink href="#" className="post-author">{ post.author } </ALink>
-                    { isDate ? <> on <ALink href="#" className="post-date">{ new Date( post.date ).toLocaleDateString( 'en-US', { year: 'numeric', month: 'short', day: "2-digit", timeZone: "UTC" } ) }</ALink></>
-                        : ""
-                    }
-                     | <ALink href="#" className="post-comment"><span>{ post.comments }</span> Comments</ALink>
+                    by <ALink href="#" className="post-author">{ post.author }</ALink> on <ALink href="#" className="post-date">{ new Date( post.date ).toLocaleDateString( 'en-US', { year: 'numeric', month: 'short', day: "2-digit", timeZone: "UTC" } ) }</ALink> | <ALink href="#" className="post-comment"><span>{ post.comments }</span> Comments</ALink>
                 </div>
                 <h4 className="post-title">
                     <ALink href={ `/blog/single/${ post.slug }` }>{ post.title }</ALink>
                 </h4>
-                <ALink href={ `/blog/single/${ post.slug }` } className={ `btn btn-link btn-underline ${ btnAdClass }` }>{ btnText }<i className="d-icon-arrow-right"></i></ALink>
+                <ALink href={ `/blog/single/${ post.slug }` } className={ `btn btn-link btn-underline btn-dark ${ btnAdClass }` }>{ btnText }<i className="d-icon-arrow-right"></i></ALink>
             </div>
         </div >
     )

@@ -2,12 +2,12 @@ import ALink from '~/components/features/custom-link';
 import { useRouter } from 'next/router';
 
 export default function ProductNav ( props ) {
-    const { product, adClass = "" } = props;
+    const { product } = props;
 
     const router = useRouter();
 
     return (
-        <ul className={ `product-nav ${ adClass }` }>
+        <ul className="product-nav">
             {
                 product.prev ?
                     <li className={ `product-nav-${ product.next ? 'prev' : 'next no-next' }` }>

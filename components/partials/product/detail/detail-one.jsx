@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux';
 import { useRouter } from 'next/router';
-import Collapse from 'react-bootstrap/Collapse';
+import Collapse from 'react-bootstrap/collapse';
 
 
 import ALink from '~/components/features/custom-link';
@@ -21,7 +21,7 @@ function DetailOne( props ) {
     const { toggleWishlist, addToCart, wishlist } = props;
     const [ curColor, setCurColor ] = useState( 'null' );
     const [ curSize, setCurSize ] = useState( 'null' );
-    const [ curIndex, setCurIndex ] = useState( -1 );
+    const [ curIndex, setCurIndex ] = useState( 0 );
     const [ cartActive, setCartActive ] = useState( false );
     const [ quantity, setQauntity ] = useState( 1 );
     let product = data && data.product;
@@ -47,10 +47,8 @@ function DetailOne( props ) {
     }
 
     useEffect( () => {
-        return () => {
-            setCurIndex( -1 );
-            resetValueHandler();
-        }
+        setCurIndex( -1 );
+        resetValueHandler();
     }, [ product ] )
 
     useEffect( () => {
@@ -292,28 +290,15 @@ function DetailOne( props ) {
                                     <div className="product-info">
                                         <div className="product-price mb-0">
                                             {
-                                                curIndex > -1 && product.data.variants[ 0 ] ?
-                                                    product.data.variants[ curIndex ].price ?
-                                                        product.data.variants[ curIndex ].sale_price ?
-                                                            <>
-                                                                <ins className="new-price">${ toDecimal( product.data.variants[ curIndex ].sale_price ) }</ins>
-                                                                <del className="old-price">${ toDecimal( product.data.variants[ curIndex ].price ) }</del>
-                                                            </>
-                                                            :
-                                                            <>
-                                                                <ins className="new-price">${ toDecimal( product.data.variants[ curIndex ].price ) }</ins>
-                                                            </>
-                                                        : ""
-                                                    :
-                                                    product.data.price[ 0 ] !== product.data.price[ 1 ] ?
-                                                        product.data.variants.length === 0 ?
-                                                            <>
-                                                                <ins className="new-price">${ toDecimal( product.data.price[ 0 ] ) }</ins>
-                                                                <del className="old-price">${ toDecimal( product.data.price[ 1 ] ) }</del>
-                                                            </>
-                                                            :
-                                                            < del className="new-price">${ toDecimal( product.data.price[ 0 ] ) } – ${ toDecimal( product.data.price[ 1 ] ) }</del>
-                                                        : <ins className="new-price">${ toDecimal( product.data.price[ 0 ] ) }</ins>
+                                                product.data.price[ 0 ] !== product.data.price[ 1 ] ?
+                                                    product.data.variants.length === 0 ?
+                                                        <>
+                                                            <ins className="new-price">${ toDecimal( product.data.price[ 0 ] ) }</ins>
+                                                            <del className="old-price">${ toDecimal( product.data.price[ 1 ] ) }</del>
+                                                        </>
+                                                        :
+                                                        < del className="new-price">${ toDecimal( product.data.price[ 0 ] ) } – ${ toDecimal( product.data.price[ 1 ] ) }</del>
+                                                    : <ins className="new-price">${ toDecimal( product.data.price[ 0 ] ) }</ins>
                                             }
                                         </div>
 
@@ -356,7 +341,7 @@ function DetailOne( props ) {
                     <ALink href="#" className="social-link social-pinterest fab fa-pinterest-p"></ALink>
                 </div> <span className="divider d-lg-show"></span> <a href="#" className={ `btn-product btn-wishlist` } title={ isWishlisted ? 'Browse wishlist' : 'Add to wishlist' } onClick={ wishlistHandler }>
                     <i className={ isWishlisted ? "d-icon-heart-full" : "d-icon-heart" }></i> {
-                        isWishlisted ? 'Browse wishlist' : 'Add to Wishlist'
+                        isWishlisted ? 'Browse wishlist' : 'Add to Wishlistt'
                     }
                 </a>
             </div>

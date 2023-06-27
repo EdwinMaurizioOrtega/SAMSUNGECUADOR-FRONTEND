@@ -14,10 +14,6 @@
 /* 1. config */
 @import 'config/variables';
 
-// Color
-$primary-color: #3467ef;
-$secondary-color: #f6bb20;
-
 /* 2. mixins */
 @import 'mixins/breakpoints'; 
 @import 'mixins/core';
@@ -28,7 +24,7 @@ $secondary-color: #f6bb20;
 @import 'components/nouislider';
 
 /* 4. base */
-@import 'demo/market1_config';
+@import 'demo/demo27_config';
 
 @import 'base/base';
 @import 'base/helper';
@@ -106,6 +102,5 @@ $secondary-color: #f6bb20;
 @import 'pages/order';
 @import 'pages/icons';
 @import 'pages/faq';
-@import 'pages/vendor';
 
-@import 'demo/market1_custom';
+@import 'demo/demo27_custom';

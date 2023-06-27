@@ -1,16 +1,16 @@
-import Helmet from 'react-helmet';
 import React, { useEffect } from 'react';
+import Helmet from 'react-helmet';
 
 import ALink from '~/components/features/custom-link';
 
-function Error404 () {
-    useEffect( () => {
-        document.querySelector( 'header' ).classList.remove( 'header-border' );
+function Error404() {
+    useEffect(() => {
+        document.querySelector('header').classList.remove('header-border');
 
         return () => {
-            document.querySelector( 'header' ).classList.add( 'header-border' );
+            document.querySelector('header').classList.add('header-border');
         }
-    }, [] )
+    }, [])
 
     return (
         <main className="main">
@@ -34,4 +34,4 @@ function Error404 () {
     )
 }
 
-export default React.memo( Error404 );
+export default React.memo(Error404);

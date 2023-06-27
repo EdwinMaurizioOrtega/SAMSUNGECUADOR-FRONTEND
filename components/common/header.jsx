@@ -1,5 +1,6 @@
-import { useEffect } from 'react';
-import { useRouter } from 'next/router';
+import { useState, useEffect } from "react";
+import Cookie from "js-cookie";
+import { useRouter } from "next/router";
 
 import ALink from '~/components/features/custom-link';
 
@@ -10,87 +11,106 @@ import LoginModal from '~/components/features/modals/login-modal';
 
 import { headerBorderRemoveList } from '~/utils/data/menu'
 
-export default function Header ( props ) {
+export default function Header(props) {
     const router = useRouter();
+    const [showTopNotice, setShowTopNotice] = useState(!Cookie.get("closeTopNotice"));
 
-    useEffect( () => {
-        let header = document.querySelector( 'header' );
-        if ( header ) {
-            if ( headerBorderRemoveList.includes( router.pathname ) && header.classList.contains( 'header-border' ) ) header.classList.remove( 'header-border' )
-            else if ( !headerBorderRemoveList.includes( router.pathname ) ) document.querySelector( 'header' ).classList.add( 'header-border' );
+    useEffect(() => {
+        let header = document.querySelector('header');
+        if (header) {
+            if (headerBorderRemoveList.includes(router.pathname) || router.pathname.includes('product/default')) header.classList.remove('header-border')
+            else if (!headerBorderRemoveList.includes(router.pathname)) document.querySelector('header').classList.add('header-border');
         }
-    }, [ router.pathname ] )
-
+    }, [router.pathname])
 
     const showMobileMenu = () => {
-        document.querySelector( 'body' ).classList.add( 'mmenu-active' );
+        document.querySelector('body').classList.add('mmenu-active');
+    }
+
+    function closeTopNotice(e) {
+        e.preventDefault();
+        setShowTopNotice(false);
+        Cookie.set("closeTopNotice", true, { expires: 7, path: router.basePath });
     }
 
     return (
         <header className="header">
+            {
+                showTopNotice ?
+                    <div className="justify-content-center bg-dark top-notice p-relative">
+                        <div className="alert alert-black font-primary ">
+                            Get 10% extra Off on Riode Birthday Sale - Use coupon Riodebirthday 10% -&nbsp;
+                    <ALink href="/shop" className="btn btn-shop btn-link btn-primary text-normal btn-sm font-primary ml-1">
+                                Shop now!</ALink>
+                        </div>
+                        <a className="btn btn-icon btn-notice-close y-50" href="#" onClick={closeTopNotice}><i className="d-icon-close"></i></a>
+                    </div>
+                    :
+                    ''
+            }
+
             <div className="header-top">
                 <div className="container">
                     <div className="header-left">
-                        <p className="welcome-msg ls-normal">HT Premium - Cashback: Te devolvemos tu DINERO!</p>
+                        <p className="welcome-msg">Welcome to Riode store message or remove it!</p>
                     </div>
                     <div className="header-right">
-                        {/*<div className="dropdown">*/}
-                        {/*    <ALink href="#">USD</ALink>*/}
-                        {/*    <ul className="dropdown-box">*/}
-                        {/*        <li><ALink href="#">USD</ALink></li>*/}
-                        {/*        <li><ALink href="#">EUR</ALink></li>*/}
-                        {/*    </ul>*/}
-                        {/*</div>*/}
+                        <div className="dropdown">
+                            <ALink href="#">USD</ALink>
+                            <ul className="dropdown-box">
+                                <li><ALink href="#">USD</ALink></li>
+                                <li><ALink href="#">EUR</ALink></li>
+                            </ul>
+                        </div>
 
-                        {/*<div className="dropdown ml-5">*/}
-                        {/*    <ALink href="#">ENG</ALink>*/}
-                        {/*    <ul className="dropdown-box">*/}
-                        {/*        <li>*/}
-                        {/*            <ALink href="#">ENG</ALink>*/}
-                        {/*        </li>*/}
-                        {/*        <li>*/}
-                        {/*            <ALink href="#">FRH</ALink>*/}
-                        {/*        </li>*/}
-                        {/*    </ul>*/}
-                        {/*</div>*/}
+                        <div className="dropdown">
+                            <ALink href="#">ENG</ALink>
+                            <ul className="dropdown-box">
+                                <li>
+                                    <ALink href="#">ENG</ALink>
+                                </li>
+                                <li>
+                                    <ALink href="#">FRH</ALink>
+                                </li>
+                            </ul>
+                        </div>
 
                         <span className="divider"></span>
-                        <ALink href="/vendor" className="contact d-lg-show"><i className="d-icon-map"></i>Locales</ALink>
-                        <ALink href="/pages/account" className="help d-lg-show"><i className="d-icon-info"></i> Mi cuenta</ALink>
+
+                        <ALink href="/pages/contact-us" className="contact d-lg-show"><i className="d-icon-map"></i>Contact</ALink>
+                        <ALink href="#" className="help d-lg-show"><i className="d-icon-info"></i> Need Help</ALink>
                         <LoginModal />
                     </div>
                 </div>
             </div>
 
-            <div className="header-middle sticky-header fix-top sticky-content">
+            <div className="header-middle">
                 <div className="container">
-                    <div className="header-left mr-4">
-                        <ALink href="#" className="mobile-menu-toggle" onClick={ showMobileMenu }>
+                    <div className="header-left">
+                        <ALink href="#" className="mobile-menu-toggle text-white" onClick={showMobileMenu}>
                             <i className="d-icon-bars2"></i>
                         </ALink>
 
-                        <ALink href="/">
-                            <img src='./images/home/logo.png' alt="logo" style={{height: '75px'}} />
+                        <ALink href="/" className="logo">
+                            <img src='./images/home/logo.png' alt="logo" width="154" height="43" />
                         </ALink>
+                    </div>
 
+                    <div className="header-center">
                         <SearchBox />
                     </div>
 
                     <div className="header-right">
-                        <div className="icon-box icon-box-side">
-                            <div className="icon-box-icon mr-0 mr-lg-2">
-                                <i className="fab fa-whatsapp"></i>
+                        <ALink href="tel:#" className="icon-box icon-box-side">
+                            <div className="icon-box-icon mr-0 mr-lg-2 text-white">
+                                <i className="d-icon-phone"></i>
                             </div>
                             <div className="icon-box-content d-lg-show">
-                                <h4 className="icon-box-title text-dark text-normal">
-                                    <ALink target="_blank" href="https://web.whatsapp.com/send?phone=593939991111&text=Hola." className="text-primary d-inline-block">Ventas WhatsApp</ALink>:</h4>
-                                <p><ALink href="tel:#">093 999 1111</ALink></p>
+                                <h4 className="icon-box-title text-white">Call Us Now:</h4>
+                                <p className="text-white">0(800) 123-456</p>
                             </div>
-                        </div>
-                        <span className="divider mr-4"></span>
-                        <ALink href="#" className="compare">
-                            <i className="d-icon-compare"></i>
                         </ALink>
+                        <span className="divider"></span>
                         <ALink href="/pages/wishlist" className="wishlist">
                             <i className="d-icon-heart"></i>
                         </ALink>
@@ -101,8 +121,8 @@ export default function Header ( props ) {
                 </div>
             </div>
 
-            <div className={ `header-bottom ${ router.pathname === '/' ? '' : 'pb-0' }` }>
-                <div className="container">
+            <div className="header-bottom sticky-header fix-top sticky-content">
+                <div className="container justify-content-center">
                     <MainMenu />
                 </div>
             </div>

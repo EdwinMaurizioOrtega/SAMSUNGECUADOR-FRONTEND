@@ -22,11 +22,11 @@ function Account() {
                 </div>
             </nav>
 
-            <div className="page-content mt-4 mb-10 pb-6">
+            <div className="page-content mt-4 pb-10">
                 <div className="container">
                     <h2 className="title title-center mb-10">My Account</h2>
 
-                    <Tabs selectedTabClassName="show" selectedTabPanelClassName="active" defaultIndex={ 0 } className="tab tab-vertical gutter-lg">
+                    <Tabs selectedTabClassName="show" selectedTabPanelClassName="active" defaultIndex={0} className="tab tab-vertical gutter-lg">
                         <TabList className="nav nav-tabs mb-4 col-lg-3 col-md-4" role="tablist">
                             <Tab className="nav-item">
                                 <a className="nav-link">Dashboard</a>
@@ -192,4 +192,4 @@ function Account() {
 
 }
 
-export default React.memo( Account );
+export default React.memo(Account);

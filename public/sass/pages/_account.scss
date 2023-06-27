@@ -160,8 +160,8 @@
         .tab-content { padding-left: 1.5rem; }
     }
 }
-@include mq(xs, max) {
-    .order-action, .order-table thead th:last-child {
-        display: none;
-    }
-}
+// @include mq(xs, max) {
+//     .order-action, thead th:last-child {
+//         display: none;
+//     }
+// }

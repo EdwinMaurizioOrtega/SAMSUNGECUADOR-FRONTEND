@@ -1,5 +1,5 @@
 import { useQuery } from "@apollo/react-hooks";
-import SlideToggle from 'react-slide-toggle';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import withApollo from '~/server/apollo';
 import { GET_SHOP_SIDEBAR_DATA } from '~/server/queries';
@@ -11,9 +11,7 @@ import SmallProduct from '~/components/features/product/product-sm';
 
 import { mainSlider7 } from '~/utils/data/carousel';
 
-
-
-function ProductsSidebar ( props ) {
+function ProductsSidebar( props ) {
     const { adClass = '', type = "right" } = props;
     const { data, loading, error } = useQuery( GET_SHOP_SIDEBAR_DATA, { variables: { featured: true } } );
     const featured = data && data.shopSidebarData.featured;
@@ -33,7 +31,7 @@ function ProductsSidebar ( props ) {
     }
 
     return (
-        <aside className={ `col-xl-3 col-lg-4 sidebar sidebar-fixed sticky-sidebar-wrapper ${ adClass } ${ type === 'left' ? '' : 'right-sidebar' }` }>
+        <aside className={ `col-lg-3 sidebar-fixed sticky-sidebar-wrapper ${ adClass } ${ type === 'left' ? 'sidebar' : 'right-sidebar' }` }>
             <div className="sidebar-overlay" onClick={ hideSidebarhandler }>
                 <ALink className="sidebar-close" href="#">
                     <i className="d-icon-times"></i>
@@ -53,60 +51,56 @@ function ProductsSidebar ( props ) {
                 {
                     loading ? <div className="widget-2"></div> :
                         <div className="sticky-sidebar">
-                            <div className="widget widget-collapsible widget-vendor-info">
-                                <SlideToggle collapsed={ false } >
-                                    { ( { onToggle, setCollapsibleElement, toggleState } ) => (
-                                        <>
-                                            <h3 className={ `widget-title ${ toggleState.toLowerCase() }` } onClick={ onToggle }>
-                                                Vendor Info <span className="toggle-btn parse-content"></span>
-                                            </h3>
-                                            <div className="overflow-hidden" ref={ setCollapsibleElement }>
-                                                <ul className="widget-body filter-items">
-                                                    <li className="store-name">
-                                                        <span>Store Name:</span><span className="details">vendor1111</span>
-                                                    </li>
-                                                    <li className="seller-name">
-                                                        <span>Vendor:</span><span className="details">vendor11</span>
-                                                    </li>
-                                                    <li className="store-address">
-                                                        <span>Address:</span><span className="details">ON<br />Canada</span>
-                                                    </li>
-                                                    <li className="clearfix">
-                                                        <span className="ratings-container">
-                                                            <span className="ratings-full" title="Rated 4.65 out of 5">
-                                                                <span className="ratings" style={ { width: "93%" } }></span>
-                                                                <span className="tooltiptext tooltip-top">4.65</span>
-                                                            </span>
-                                                        </span>
-                                                        <span className="details">4.65 rating from 31 reviews</span>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </>
-                                    ) }
-                                </SlideToggle >
+                            <div className="service-list mb-4">
+                                <div className="icon-box icon-box-side icon-box3">
+                                    <span className="icon-box-icon">
+                                        <i className="d-icon-secure"></i>
+                                    </span>
+                                    <div className="icon-box-content">
+                                        <h4 className="icon-box-title text-capitalize">Secured Payment</h4>
+                                        <p>We secure payment!</p>
+                                    </div>
+                                </div>
+                                <div className="icon-box icon-box-side icon-box1">
+                                    <span className="icon-box-icon">
+                                        <i className="d-icon-truck"></i>
+                                    </span>
+                                    <div className="icon-box-content">
+                                        <h4 className="icon-box-title text-capitalize">Free Shipping</h4>
+                                        <p>For all orders over $99</p>
+                                    </div>
+                                </div>
+                                <div className="icon-box icon-box-side icon-box2">
+                                    <span className="icon-box-icon">
+                                        <i className="d-icon-money"></i>
+                                    </span>
+                                    <div className="icon-box-content">
+                                        <h4 className="icon-box-title text-capitalize">Money Back</h4>
+                                        <p>Any back within 30 days</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div className="widget widget-collapsible widget-contact-vendor">
-                                <SlideToggle collapsed={ false } >
-                                    { ( { onToggle, setCollapsibleElement, toggleState } ) => (
-                                        <>
-                                            <h3 className={ `widget-title ${ toggleState.toLowerCase() }` } onClick={ onToggle }>
-                                                Contact Vendor <span className="toggle-btn parse-content"></span>
-                                            </h3>
-                                            <div className="overflow-hidden" ref={ setCollapsibleElement }>
-                                                <div className="widget-body">
-                                                    <input type="text" className="form-control" id="name" name="name" placeholder="Your Name" required="" />
-                                                    <input type="text" className="form-control" id="address" name="address" placeholder="you@example.com" required="" />
-                                                    <textarea id="message" cols="30" rows="6" className="form-control" placeholder="Type your message..." required=""></textarea>
-                                                    <ALink href="#" className="btn btn-dark btn-rounded">Send Message</ALink>
-                                                </div>
-                                            </div>
-                                        </>
-                                    ) }
-                                </SlideToggle >
+
+                            <div className="banner banner-fixed mb-7">
+                                <figure>
+                                    <LazyLoadImage
+                                        src="./images/product-banner.jpg"
+                                        alt="banner"
+                                        width="280"
+                                        height="320"
+                                        effect="opacity"
+                                        style={ { backgroundColor: "#BDD0DE" } }
+                                    />
+                                </figure>
+
+                                <div className="banner-content text-center">
+                                    <h5 className="banner-subtitle ls-l text-uppercase mb-0">Gucci Shoes</h5>
+                                    <h3 className="banner-title ls-s text-uppercase mb-0">New Trend 2021</h3>
+                                </div>
                             </div>
+
                             <div className="widget widget-products">
-                                <h4 className="widget-title lh-1 border-no text-capitalize ">More Products</h4>
+                                <h4 className="widget-title mb-3 lh-1 border-no text-capitalize ">Our Featured</h4>
 
                                 <ul className="widget-body">
                                     <OwlCarousel adClass="owl-nav-top" options={ mainSlider7 }>

@@ -1,5 +1,3 @@
-import { useEffect } from 'react';
-import { useRouter } from 'next/router';
 import { connect } from 'react-redux';
 
 import ALink from '~/components/features/custom-link';
@@ -10,11 +8,6 @@ import { getTotalPrice, getCartCount, toDecimal } from '~/utils';
 
 function CartMenu( props ) {
     const { cartList, removeFromCart } = props;
-    const router = useRouter();
-
-    useEffect( () => {
-        hideCartMenu();
-    }, [ router.asPath ] )
 
     const showCartMenu = ( e ) => {
         e.preventDefault();
@@ -34,7 +27,7 @@ function CartMenu( props ) {
         <div className="dropdown cart-dropdown type2 cart-offcanvas mr-0 mr-lg-2">
             <a href="#" className="cart-toggle label-block link" onClick={ showCartMenu }>
                 <div className="cart-label d-lg-show">
-                    <span className="cart-name">Compras:</span>
+                    <span className="cart-name">Shopping Cart:</span>
                     <span className="cart-price">${ toDecimal( getTotalPrice( cartList ) ) }</span>
                 </div>
                 <i className="d-icon-bag"><span className="cart-count">{ getCartCount( cartList ) }</span></i>

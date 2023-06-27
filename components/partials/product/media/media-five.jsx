@@ -9,12 +9,17 @@ import MediaLightBox from '~/components/partials/product/light-box';
 
 import { mainSlider3 } from '~/utils/data/carousel';
 
-export default function MediaFive( props ) {
+export default function MediaOne ( props ) {
     const { product, adClass = '' } = props;
     const [ index, setIndex ] = useState( 0 );
     const [ mediaIndex, setMediaIndex ] = useState( 0 );
     const [ isOpen, setOpenState ] = useState( false );
     const [ mediaRef, setMediaRef ] = useState( null );
+
+    // if ( !product ) {
+    //     window.location.pathname = process.env.NEXT_PUBLIC_ASSET_URI + '/pages/404';
+    // }
+
     let lgImages = product.large_pictures ? product.large_pictures : product.pictures;
 
     useEffect( () => {
