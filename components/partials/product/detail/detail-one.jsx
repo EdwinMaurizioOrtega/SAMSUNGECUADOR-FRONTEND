@@ -341,7 +341,7 @@ function DetailOne( props ) {
                     <ALink href="#" className="social-link social-pinterest fab fa-pinterest-p"></ALink>
                 </div> <span className="divider d-lg-show"></span> <a href="#" className={ `btn-product btn-wishlist` } title={ isWishlisted ? 'Browse wishlist' : 'Add to wishlist' } onClick={ wishlistHandler }>
                     <i className={ isWishlisted ? "d-icon-heart-full" : "d-icon-heart" }></i> {
-                        isWishlisted ? 'Browse wishlist' : 'Add to Wishlistt'
+                        isWishlisted ? 'Browse wishlist' : 'Add to Wishlist'
                     }
                 </a>
             </div>
