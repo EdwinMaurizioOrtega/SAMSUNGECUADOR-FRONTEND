@@ -297,7 +297,7 @@ function DetailOne(props) {
 
 
                             <div>
-                                <FormWhatsAppModal />
+                                <FormWhatsAppModal product={product}/>
                             </div>
 
 

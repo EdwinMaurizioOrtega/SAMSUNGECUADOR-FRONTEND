@@ -13,7 +13,7 @@ let index = 0;
 
 Modal.setAppElement( "#__next" );
 
-function FormWhatsAppModal () {
+function FormWhatsAppModal ({product}) {
     const [ open, setOpen ] = useState( false );
 
     function closeModal () {
@@ -35,6 +35,8 @@ function FormWhatsAppModal () {
     const handleSubmit = (event) => {
         event.preventDefault(); // Evita el comportamiento de envío por defecto del formulario
 
+        console.log(product.data.name);
+
         // Obtiene los valores de los campos
         const nombre = event.target.nombre.value;
         const cedula = event.target.cedula.value;
@@ -53,7 +55,7 @@ function FormWhatsAppModal () {
 
 
         // Construye la URL de WhatsApp con los valores del formulario
-        const whatsappUrl = `https://web.whatsapp.com/send?phone=593939991111&text=Nombre: ${nombre}%0ACédula: ${cedula}%0AEmail: ${email}%0ATeléfono: ${telefono}%0ADirección: ${direccion}%0ACiudad: ${ciudad}`;
+        const whatsappUrl = `https://web.whatsapp.com/send?phone=593939991111&text=Producto: *${product.data.name}*%0ANombre: ${nombre}%0ACédula: ${cedula}%0AEmail: ${email}%0ATeléfono: ${telefono}%0ADirección: ${direccion}%0ACiudad: ${ciudad}`;
 
         // Redirecciona a la URL de WhatsApp
         //window.location.href = whatsappUrl;
