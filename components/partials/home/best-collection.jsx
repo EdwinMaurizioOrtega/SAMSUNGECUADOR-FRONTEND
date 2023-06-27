@@ -18,8 +18,8 @@ function BestCollection(props) {
                 {
                     deal ?
                         <div className="title-wrapper">
-                            <h2 className="title mr-md-4 mt-1 mb-1">Today’s Best Deals</h2>
-                            <Countdown type={3} />
+                            <h2 className="title mr-md-4 mt-1 mb-1">Ofertas destacadas</h2>
+                            {/*<Countdown type={3} />*/}
                             <ALink href="/shop" className="btn btn-link">View more<i className="d-icon-arrow-right"></i></ALink>
                         </div>
                         :

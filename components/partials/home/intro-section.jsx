@@ -27,32 +27,30 @@ function IntroSection() {
                                     />
                                 </figure>
                                 <div className="banner-content y-50">
-                                    <h4 className="banner-subtitle mb-0">Over 200 Products
-                                            with discounts</h4>
-                                    <h3 className="banner-title text-uppercase">Camera Sale
+                                    <h4 className="banner-subtitle mb-0">Promoción por tiempo limitado.</h4>
+                                    <h3 className="banner-title text-uppercase">Z Flip 4 + Buds 2
                                         </h3>
-                                    <p className="banner-price text-uppercase mb-5">starting at&nbsp;
-                                            <span><sup>$</sup>299.<sup>99</sup></span></p>
-                                    <ALink href="/shop" className="btn btn-outline btn-white btn-md mb-2 btn-rounded">Shop
-                                            now</ALink>
+                                    <p className="banner-price text-uppercase mb-5">
+                                            <span><sup>$</sup>939.<sup>00</sup></span> inc. IVA&nbsp;</p>
+                                    <ALink href="/shop" className="btn btn-outline btn-white btn-md mb-2 btn-rounded">Comprar</ALink>
                                 </div>
                             </div>
-                            <div className="intro-slide2 banner banner-fixed" style={{ backgroundColor: '#f5f6f8' }}>
-                                <figure>
-                                    <LazyLoadImage
-                                        src="./images/home/slides/1-1.jpg"
-                                        alt="Intro Slider"
-                                        effect="opacity"
-                                        width="100%"   //785
-                                        height="auto"   //433
-                                    />
-                                </figure>
-                                <div className="banner-content w-100 x-50 text-center">
-                                    <h3 className="banner-title ls-m">iPhone X.</h3>
-                                    <h4 className="banner-subtitle mb-5 font-weight-normal text-body">Find the best
-                                            super powerful for you!</h4>
-                                </div>
-                            </div>
+                            {/*<div className="intro-slide2 banner banner-fixed" style={{ backgroundColor: '#f5f6f8' }}>*/}
+                            {/*    <figure>*/}
+                            {/*        <LazyLoadImage*/}
+                            {/*            src="./images/home/slides/1-1.jpg"*/}
+                            {/*            alt="Intro Slider"*/}
+                            {/*            effect="opacity"*/}
+                            {/*            width="100%"   //785*/}
+                            {/*            height="auto"   //433*/}
+                            {/*        />*/}
+                            {/*    </figure>*/}
+                            {/*    <div className="banner-content w-100 x-50 text-center">*/}
+                            {/*        <h3 className="banner-title ls-m">iPhone X.</h3>*/}
+                            {/*        <h4 className="banner-subtitle mb-5 font-weight-normal text-body">Find the best*/}
+                            {/*                super powerful for you!</h4>*/}
+                            {/*    </div>*/}
+                            {/*</div>*/}
                         </OwlCarousel>
                     </Reveal>
                 </div>
@@ -71,9 +69,8 @@ function IntroSection() {
                                 </figure>
                             </ALink>
                             <div className="banner-content w-100 x-50 text-center">
-                                <h4 className="banner-subtitle mb-3">Trade-in your phone
-                                        for up to $30</h4>
-                                <h3 className="banner-title mb-0 font-weight-bold">New Galaxy S9</h3>
+                                <h4 className="banner-subtitle mb-3">Llegó la hora de renovar tu teléfono.</h4>
+                                <h3 className="banner-title mb-0 font-weight-bold">TRADE-IN</h3>
                             </div>
                         </div>
                     </Reveal>
@@ -91,11 +88,11 @@ function IntroSection() {
                                 />
                             </figure>
                             <div className="banner-content w-100 y-50">
-                                <h3 className="banner-title mb-2 ls-m text-uppercase">Nikon 850<span
-                                    className="d-block text-normal">Launch Party</span></h3>
-                                <h4 className="banner-subtitle font-secondary">Free Event</h4>
+                                <h3 className="banner-title mb-2 ls-m text-uppercase">Samsung TV<span
+                                    className="d-block text-normal">65" LED UHD</span></h3>
+                                <h4 className="banner-subtitle font-secondary">Smart TV</h4>
                                 <div className="banner-price-info ls-m font-weight-semi-bold text-dark"><ins
-                                    className="mr-2">$299.99</ins><del>$400.99</del></div>
+                                    className="mr-2">$1888.99</ins><del>$2000.60</del></div>
                             </div>
                         </div>
                     </Reveal>
@@ -113,10 +110,10 @@ function IntroSection() {
                                 />
                             </figure>
                             <div className="banner-content w-100 y-50">
-                                <h4 className="banner-subtitle mb-1 text-white">New Arrivals</h4>
-                                <h3 className="banner-title ls-m text-white">Airpod Collection</h3>
-                                <p className="font-weight-semi-bold text-white ls-m">Wireless, Effortiess, Magical</p>
-                                <h4 className="banner-desc text-white mb-0">Discount <span className="text-secondary">20% Off</span></h4>
+                                <h4 className="banner-subtitle mb-1 text-white">Galaxy</h4>
+                                <h3 className="banner-title ls-m text-white">TAB S8 Ultra</h3>
+                                <p className="font-weight-semi-bold text-white ls-m">Nueva generación tecnológica</p>
+                                <h4 className="banner-desc text-white mb-0"><span className="text-secondary">$1239.00</span></h4>
                             </div>
                         </div>
                     </Reveal>

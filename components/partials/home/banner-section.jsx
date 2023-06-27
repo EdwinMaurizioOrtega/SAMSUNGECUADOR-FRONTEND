@@ -12,16 +12,16 @@ export default function BannerSection() {
             <div className="container">
                 <div className="banner-content d-block d-lg-flex justify-content-between align-items-center">
                     <Reveal keyframes={fadeInLeft} delay={300} duration={1200} triggerOnce>
-                        <h3 className="banner-title mb-lg-0 mr-8 ls-normal text-white text-uppercase font-weight-normal"><strong>Black</strong>
-                                &nbsp;Friday Sale</h3>
+                        <h3 className="banner-title mb-lg-0 mr-8 ls-normal text-white text-uppercase font-weight-normal">
+                                &nbsp;Tu pago <strong>Difiérelo</strong></h3>
                     </Reveal>
                     <Reveal keyframes={blurIn} delay={300} duration={1200} triggerOnce>
                         <h4 className="banner-subtitle mb-lg-0 mr-8 ls-normal font-italic text-white text-uppercase font-weight-normal">
-                            Only Pay for <strong>Electronics you love</strong></h4>
+                            A 3 y 6 meses <strong>Sin interéses</strong></h4>
                     </Reveal>
-                    <Reveal keyframes={fadeInRight} delay={300} duration={1200} triggerOnce>
-                        <ALink href="/shop" className="btn btn-primary btn-rounded">Shop now</ALink>
-                    </Reveal>
+                    {/*<Reveal keyframes={fadeInRight} delay={300} duration={1200} triggerOnce>*/}
+                    {/*    <ALink href="/shop" className="btn btn-primary btn-rounded">_</ALink>*/}
+                    {/*</Reveal>*/}
                 </div>
             </div>
         </section>

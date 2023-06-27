@@ -14,6 +14,7 @@ import BannerGroup from '~/components/partials/home/banner-group';
 import BannerSection from '~/components/partials/home/banner-section';
 import ProductCollection from '~/components/partials/home/product-collection';
 import LatestCollection from '~/components/partials/home/latest-collection';
+import ServiceBox from "~/components/partials/home/service-section";
 // import BlogSection from '~/components/partials/home/blog-section';
 
 function HomePage() {
@@ -46,9 +47,15 @@ function HomePage() {
 
                 <BannerSection />
 
-                <LatestCollection products={latest} loading={loading} />
+
+
+                {/*<LatestCollection products={latest} loading={loading} />*/}
 
                 {/*<BlogSection posts={posts} />*/}
+
+
+                        <ServiceBox />
+
 
             </div>
 

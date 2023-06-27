@@ -283,7 +283,7 @@ function DetailOne( props ) {
                 <div className="product-form-group">
                     {/*<Quantity max={ product.data.stock } product={ product } onChangeQty={ changeQty } />*/}
                     {/*<button className={ `btn-product btn-cart text-normal ls-normal font-weight-semi-bold ${ cartActive ? '' : 'disabled' }` } onClick={ addToCartHandler } onClick={ addToCartHandler }><i className='d-icon-bag'></i>Add to Cartt</button>*/}
-                    <FormWhatsAppModal/>
+                    <FormWhatsAppModal product={product}/>
                 </div>
             </div>
 

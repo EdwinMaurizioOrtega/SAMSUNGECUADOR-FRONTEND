@@ -21,15 +21,13 @@ export default function BannerGroup() {
                     </figure>
                     <div className="banner-content y-50">
                         <Reveal keyframes={blurIn} delay={200} duration={1200} triggerOnce>
-                            <h3 className="banner-title text-white ls-m">Don’t Miss<br />Get
-                                    Our Special Offer</h3>
+                            <h3 className="banner-title text-white ls-m">Samsung<br />Galaxy Buds 2</h3>
                         </Reveal>
                         <Reveal keyframes={fadeInUpShorter} delay={300} duration={1200} triggerOnce>
-                            <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nibh id
-                                    elit.</p>
+                            <p>Libertad inalambrica y calidad de sonido excepcional</p>
                         </Reveal>
                         <Reveal keyframes={fadeInUpShorter} delay={500} duration={1200} triggerOnce>
-                            <ALink href="/shop" className="btn btn-outline btn-white font-weight-bold">Shop now</ALink>
+                            <ALink href="/shop" className="btn btn-outline btn-white font-weight-bold">Comprar</ALink>
                         </Reveal>
                     </div>
                 </div>
@@ -47,15 +45,14 @@ export default function BannerGroup() {
                     </figure>
                     <div className="banner-content y-50">
                         <Reveal keyframes={blurIn} delay={200} duration={1200} triggerOnce>
-                            <h3 className="banner-title text-white ls-m">New Arrivals <span
-                                className="text-uppercase text-primary">HD8</span><br />for Education</h3>
+                            <h3 className="banner-title text-white ls-m">Watch 5 <span
+                                className="text-uppercase text-primary">PRO</span><br/>Conectividad LTE.</h3>
                         </Reveal>
                         <Reveal keyframes={fadeInUpShorter} delay={300} duration={1200} triggerOnce>
-                            <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nibh id
-                                    elit.</p>
+                            <p>Tu compañero inteligente para un estilo de vida activo.</p>
                         </Reveal>
                         <Reveal keyframes={fadeInUpShorter} delay={500} duration={1200} triggerOnce>
-                            <ALink href="/shop" className="btn btn-primary font-weight-bold">Shop now</ALink>
+                            <ALink href="/shop" className="btn btn-primary font-weight-bold">Comprar</ALink>
                         </Reveal>
                     </div>
                 </div>

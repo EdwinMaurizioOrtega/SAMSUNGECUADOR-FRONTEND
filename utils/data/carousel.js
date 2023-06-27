@@ -360,7 +360,7 @@ export const introSlider = {
 }
 
 export const serviceSlider = {
-    items: 3,
+    items: 4,
     nav: false,
     dots: false,
     margin: 0,
@@ -375,7 +375,7 @@ export const serviceSlider = {
             items: 2
         },
         768: {
-            items: 3,
+            items: 4,
             loop: false
         }
     }

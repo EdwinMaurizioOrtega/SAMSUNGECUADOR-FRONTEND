@@ -39,9 +39,9 @@ export default function Header(props) {
                 showTopNotice ?
                     <div className="justify-content-center bg-dark top-notice p-relative">
                         <div className="alert alert-black font-primary ">
-                            Get 10% extra Off on Riode Birthday Sale - Use coupon Riodebirthday 10% -&nbsp;
+                            Hasta 3 y 6 meses sin interéses 🔥 &nbsp;
                     <ALink href="/shop" className="btn btn-shop btn-link btn-primary text-normal btn-sm font-primary ml-1">
-                                Shop now!</ALink>
+                        </ALink>
                         </div>
                         <a className="btn btn-icon btn-notice-close y-50" href="#" onClick={closeTopNotice}><i className="d-icon-close"></i></a>
                     </div>
@@ -106,8 +106,8 @@ export default function Header(props) {
                                 <i className="d-icon-phone"></i>
                             </div>
                             <div className="icon-box-content d-lg-show">
-                                <h4 className="icon-box-title text-white">Call Us Now:</h4>
-                                <p className="text-white">0(800) 123-456</p>
+                                <h4 className="icon-box-title text-white">Contáctanos:</h4>
+                                <p className="text-white">098 335 0131</p>
                             </div>
                         </ALink>
                         <span className="divider"></span>
