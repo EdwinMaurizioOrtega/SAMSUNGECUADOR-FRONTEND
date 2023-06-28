@@ -52,34 +52,31 @@ export default function Header(props) {
             <div className="header-top">
                 <div className="container">
                     <div className="header-left">
-                        <p className="welcome-msg">Welcome to Riode store message or remove it!</p>
+                        <p className="welcome-msg">¡Bienvenido a Samsung Store Ecuador!</p>
                     </div>
                     <div className="header-right">
-                        <div className="dropdown">
-                            <ALink href="#">USD</ALink>
-                            <ul className="dropdown-box">
-                                <li><ALink href="#">USD</ALink></li>
-                                <li><ALink href="#">EUR</ALink></li>
-                            </ul>
-                        </div>
 
-                        <div className="dropdown">
-                            <ALink href="#">ENG</ALink>
-                            <ul className="dropdown-box">
-                                <li>
-                                    <ALink href="#">ENG</ALink>
-                                </li>
-                                <li>
-                                    <ALink href="#">FRH</ALink>
-                                </li>
-                            </ul>
-                        </div>
+                        <ALink href="/pages/contact-us" className="contact d-lg-show"><i className="d-icon-map"></i>Locales</ALink>
+
+
+
+                        {/*<div className="dropdown">*/}
+                        {/*    <ALink href="#">ENG</ALink>*/}
+                        {/*    <ul className="dropdown-box">*/}
+                        {/*        <li>*/}
+                        {/*            <ALink href="#">ENG</ALink>*/}
+                        {/*        </li>*/}
+                        {/*        <li>*/}
+                        {/*            <ALink href="#">FRH</ALink>*/}
+                        {/*        </li>*/}
+                        {/*    </ul>*/}
+                        {/*</div>*/}
 
                         <span className="divider"></span>
 
-                        <ALink href="/pages/contact-us" className="contact d-lg-show"><i className="d-icon-map"></i>Contact</ALink>
-                        <ALink href="#" className="help d-lg-show"><i className="d-icon-info"></i> Need Help</ALink>
-                        <LoginModal />
+                        <ALink href="/pages/contact-us" className="contact d-lg-show"><i className="d-icon-money"></i>Formas de pago</ALink>
+                        <ALink href="#" className="help d-lg-show"><i className="d-icon-info"></i> Estado pedido</ALink>
+                        {/*<LoginModal />*/}
                     </div>
                 </div>
             </div>
@@ -111,12 +108,12 @@ export default function Header(props) {
                             </div>
                         </ALink>
                         <span className="divider"></span>
-                        <ALink href="/pages/wishlist" className="wishlist">
-                            <i className="d-icon-heart"></i>
-                        </ALink>
+                        {/*<ALink href="/pages/wishlist" className="wishlist">*/}
+                        {/*    <i className="d-icon-heart"></i>*/}
+                        {/*</ALink>*/}
                         <span className="divider"></span>
 
-                        <CartMenu />
+                        {/*<CartMenu />*/}
                     </div>
                 </div>
             </div>

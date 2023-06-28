@@ -39,10 +39,10 @@ function ProductStickyInfo() {
     return (
         <main className="main pt-6 single-product product-sticky-info">
             <Helmet>
-                <title>Riode React eCommerce Template | Product Sticky Info</title>
+                <title>Samsung Ecuador | Product Sticky Info</title>
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Product Sticky Info</h1>
+            <h1 className="d-none">Samsung Ecuador - Product Sticky Info</h1>
 
             {
                 product !== undefined ?

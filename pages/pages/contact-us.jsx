@@ -21,10 +21,10 @@ function ContactUs() {
     return (
         <main className="main contact-us">
             <Helmet>
-                <title>Riode React eCommerce Template | Contact Us</title>
+                <title>Samsung Ecuador | Contact Us</title>
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Contact Us</h1>
+            <h1 className="d-none">Samsung Ecuador - Contact Us</h1>
 
             <nav className="breadcrumb-nav">
                 <div className="container">

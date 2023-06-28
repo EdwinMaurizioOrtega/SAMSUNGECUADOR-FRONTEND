@@ -1,6 +1,9 @@
 import ALink from '~/components/features/custom-link';
 import NewsletterBanner from '~/components/partials/home/newsletter-banner';
 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
+
 export default function Footer() {
     return (
         <>
@@ -10,91 +13,149 @@ export default function Footer() {
                 <div className="container">
                     <div className="footer-middle">
                         <div className="row">
-                            <div className="col-lg-4 col-md-12">
-                                <div className="widget widget-about">
-                                    <ALink href="/" className="logo-footer">
-                                        <img src="images/home/logo-footer.png" alt="logo-footer" width="150"
-                                            height="43" />
-                                    </ALink>
-                                    <div className="widget-body">
-                                        <p>Fringilla urna porttitor rhoncus dolor purus luctus <br /> venenatis lectus magna
-                                        fringilla diam maecenas <br /> ultricies mi eget mauris.
-                                    </p>
-                                        <a href="mailto:Riode@example.com">Riode@example.com</a>
-                                    </div>
+                            <div className="col-lg-3 col-md-6">
+                                <div className="widget widget-info">
+                                    <h4 className="widget-title">Datos de contacto</h4>
+                                    <ul className="widget-body">
+                                        <li>
+                                            <label>Teléfono: </label>
+                                            <ALink href="tel:093 999 1111">093 999 1111</ALink>
+                                        </li>
+                                        <li>
+                                            <label>Correo: </label>
+                                            <ALink href="mailto:ventasdigitales@hipertronics.us">ventasdigitales@hipertronics.us</ALink>
+                                        </li>
+                                        <li>
+                                            <label>Dirección: </label>
+                                            <ALink href="#">Padre Aguirre 9-68, Cuenca, Ecuador</ALink>
+                                        </li>
+                                        <li>
+                                            <label>DIAS LABORABLES / HORAS: </label>
+                                        </li>
+                                        <li>
+                                            <ALink href="#">Lun - Sab / 9:00 AM - 8:00 PM</ALink>
+                                        </li>
+                                    </ul>
                                 </div>
-                            </div>
-                            <div className="col-lg-8 col-md-12">
-                                <div className="row">
-                                    <div className="col-md-4 col-sm-12">
-                                        <div className="widget">
-                                            <h4 className="widget-title">About Us</h4>
-                                            <ul className="widget-body">
-                                                <li>
-                                                    <ALink href="/pages/about-us">About Us</ALink>
-                                                </li>
-                                                <li>
-                                                    <a href="#" onClick={(e) => e.preventDefault()}>Order History</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#" onClick={(e) => e.preventDefault()}>Returns</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#" onClick={(e) => e.preventDefault()}>Custom Service</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#" onClick={(e) => e.preventDefault()}>Terms &amp; Condition</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-4 col-sm-12">
-                                        <div className="widget">
-                                            <h4 className="widget-title">Customer Service</h4>
-                                            <ul className="widget-body">
-                                                <li>
-                                                    <a href="#" onClick={(e) => e.preventDefault()}>Payment Methods</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#" onClick={(e) => e.preventDefault()}>Money-back Guarantee!</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#" onClick={(e) => e.preventDefault()}>Returns</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#" onClick={(e) => e.preventDefault()}>Shipping</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#" onClick={(e) => e.preventDefault()}>Terms and Conditions</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-4 col-sm-12">
-                                        <div className="widget">
-                                            <h4 className="widget-title">My Account</h4>
-                                            <ul className="widget-body">
-                                                <li>
-                                                    <a href="#" onClick={(e) => e.preventDefault()}>Sign in</a>
-                                                </li>
-                                                <li>
-                                                    <ALink href="/pages/cart">View Cart</ALink>
-                                                </li>
-                                                <li>
-                                                    <ALink href="/pages/wishlist">My Wishlist</ALink>
-                                                </li>
-                                                <li>
-                                                    <a href="#" onClick={(e) => e.preventDefault()}>Track My Order</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#" onClick={(e) => e.preventDefault()}>Help</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
 
+                            </div>
+                            <div className="col-lg-2 col-md-6">
+                                <div className="widget">
+                                    <h4 className="widget-title">Mi cuenta</h4>
+                                    <ul className="widget-body">
+                                        <li>
+                                            <ALink href="/pages/about-us">Seguimiento de mi pedido</ALink>
+                                        </li>
+                                        <li>
+                                            <ALink href="/pages/cart">Ver carrito</ALink>
+                                        </li>
+                                        <li>
+                                            <ALink href="/pages/account">Iniciar sesión</ALink>
+                                        </li>
+                                        <li>
+                                            <ALink href="/pages/wishlist">Lista de deseos</ALink>
+                                        </li>
+                                        <li>
+                                            <ALink href="#">Política de privacidad</ALink>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div className="col-lg-2 col-md-6">
+                                <div className="widget">
+                                    <h4 className="widget-title">Nosotros</h4>
+                                    <ul className="widget-body">
+                                        <li>
+                                            <ALink href="/pages/about-us">Sobre nosotros</ALink>
+                                        </li>
+                                        <li>
+                                            <ALink href="#">Historial de pedidos</ALink>
+                                        </li>
+                                        <li>
+                                            <ALink href="#">Devoluciones</ALink>
+                                        </li>
+                                        <li>
+                                            <ALink href="#">Servicio personalizado</ALink>
+                                        </li>
+                                        <li>
+                                            <ALink href="#">Términos &amp; Condiciones</ALink>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div className="col-lg-2 col-md-6">
+                                <div className="widget">
+                                    <h4 className="widget-title">Customer Service</h4>
+                                    <ul className="widget-body">
+                                        <li>
+                                            <ALink href="#">Métodos de pago</ALink>
+                                        </li>
+                                        <li>
+                                            <ALink href="#">¡Garantía de devolución del dinero!</ALink>
+                                        </li>
+                                        <li>
+                                            <ALink href="#">Devoluciones de productos</ALink>
+                                        </li>
+                                        <li>
+                                            <ALink href="#">Centro de Apoyo</ALink>
+                                        </li>
+                                        <li>
+                                            <ALink href="#">Envío</ALink>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div className="col-lg-3 col-md-6">
+                                <div className="widget widget-instagram pl-lg-10 mb-0 mb-md-6">
+                                    <h4 className="widget-title">Redes Sociales</h4>
+                                    <figure className="widget-body row">
+                                        <div className="col-3">
+                                            <ALink href="https://es-la.facebook.com/hipertronics/">
+                                                <LazyLoadImage
+                                                    src="images/instagram/01.jpg"
+                                                    alt="instagram 1"
+                                                    width="64"
+                                                    height="64"
+                                                />
+                                            </ALink>
+                                        </div>
+                                        <div className="col-3">
+                                            <ALink href="https://www.tiktok.com/tag/hipertronics/">
+                                                <LazyLoadImage
+                                                    src="images/instagram/02.jpg"
+                                                    alt="instagram 2"
+                                                    width="64"
+                                                    height="64"
+                                                />
+                                            </ALink>
+                                        </div>
+                                        <div className="col-3">
+                                            <ALink href="https://www.instagram.com/hipertronics/?hl=es">
+                                                <LazyLoadImage
+                                                    src="images/instagram/03.jpg"
+                                                    alt="instagram 3"
+                                                    width="64"
+                                                    height="64"
+                                                />
+                                            </ALink>
+                                        </div>
+                                        <div className="col-3">
+                                            <ALink href="https://www.linkedin.com/company/hipertronics/?originalSubdomain=ec">
+                                                <LazyLoadImage
+                                                    src="images/instagram/04.jpg"
+                                                    alt="instagram 4"
+                                                    width="64"
+                                                    height="64"
+                                                />
+                                            </ALink>
+                                        </div>
+                                    </figure>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
 
@@ -105,13 +166,13 @@ export default function Footer() {
                             </figure>
                         </div>
                         <div className="footer-center">
-                            <p className="copyright">Riode eCommerce &copy; 2021. All Rights Reserved</p>
+                            <p className="copyright">Samsung eCommerce &copy; 2023. Built with love by LIDENAR S.A.</p>
                         </div>
                         <div className="footer-right">
                             <div className="social-links">
-                                <a href="#" className="social-link social-facebook fab fa-facebook-f" onClick={(e) => e.preventDefault()}></a>
-                                <a href="#" className="social-link social-twitter fab fa-twitter" onClick={(e) => e.preventDefault()}></a>
-                                <a href="#" className="social-link social-linkedin fab fa-linkedin-in" onClick={(e) => e.preventDefault()}></a>
+                                {/*<ALink target="_blank" href="https://www.facebook.com/hipertronics" className="social-link social-facebook fab fa-facebook-f"></ALink>*/}
+                                {/*<ALink href="#" className="social-link social-twitter fab fa-twitter"></ALink>*/}
+                                {/*<ALink href="#" className="social-link social-linkedin fab fa-linkedin-in"></ALink>*/}
                             </div>
                         </div>
                     </div>

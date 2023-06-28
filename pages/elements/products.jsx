@@ -27,10 +27,10 @@ function Products() {
     return (
         <main className="skeleton-body">
             <Helmet>
-                <title>Riode React eCommerce Template | Products</title>
+                <title>Samsung Ecuador | Products</title>
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Products</h1>
+            <h1 className="d-none">Samsung Ecuador - Products</h1>
 
             <Breadcrumb subTitle="Elements" title="Element Products" parentUrl="/elements" />
 

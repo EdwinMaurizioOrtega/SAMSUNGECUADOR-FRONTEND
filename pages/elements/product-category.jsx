@@ -14,10 +14,10 @@ function Cta() {
     return (
         <>
             <Helmet>
-                <title>Riode React eCommerce Template | Product Category</title>
+                <title>Samsung Ecuador | Product Category</title>
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Product Category</h1>
+            <h1 className="d-none">Samsung Ecuador - Product Category</h1>
 
             <Breadcrumb subTitle="Elements" title="Element Categories" parentUrl="/elements" />
 

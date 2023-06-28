@@ -25,20 +25,20 @@ function CartMenu( props ) {
 
     return (
         <div className="dropdown cart-dropdown type2 cart-offcanvas mr-0 mr-lg-2">
-            <a href="#" className="cart-toggle label-block link" onClick={ showCartMenu }>
-                <div className="cart-label d-lg-show">
-                    <span className="cart-name">Shopping Cart:</span>
-                    <span className="cart-price">${ toDecimal( getTotalPrice( cartList ) ) }</span>
-                </div>
-                <i className="d-icon-bag"><span className="cart-count">{ getCartCount( cartList ) }</span></i>
-            </a>
+            {/*<a href="#" className="cart-toggle label-block link" onClick={ showCartMenu }>*/}
+            {/*    <div className="cart-label d-lg-show">*/}
+            {/*        <span className="cart-name">Shopping Cart:</span>*/}
+            {/*        <span className="cart-price">${ toDecimal( getTotalPrice( cartList ) ) }</span>*/}
+            {/*    </div>*/}
+            {/*    <i className="d-icon-bag"><span className="cart-count">{ getCartCount( cartList ) }</span></i>*/}
+            {/*</a>*/}
             <div className="cart-overlay" onClick={ hideCartMenu }></div>
             <div className="dropdown-box">
-                <div className="cart-header">
-                    <h4 className="cart-title">Shopping Cart</h4>
-                    <ALink href="#" className="btn btn-dark btn-link btn-icon-right btn-close" onClick={ hideCartMenu }>close<i
-                        className="d-icon-arrow-right"></i><span className="sr-only">Cart</span></ALink>
-                </div>
+                {/*<div className="cart-header">*/}
+                {/*    <h4 className="cart-title">Shopping Cart</h4>*/}
+                {/*    <ALink href="#" className="btn btn-dark btn-link btn-icon-right btn-close" onClick={ hideCartMenu }>close<i*/}
+                {/*        className="d-icon-arrow-right"></i><span className="sr-only">Cart</span></ALink>*/}
+                {/*</div>*/}
                 {
                     cartList.length > 0 ?
                         <>

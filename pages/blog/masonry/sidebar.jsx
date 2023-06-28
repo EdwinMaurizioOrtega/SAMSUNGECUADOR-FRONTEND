@@ -66,10 +66,10 @@ function PostMasonrySidebar () {
     return (
         <main className="main skeleton-body">
             <Helmet>
-                <title>Riode React eCommerce Template | Blog Masonry With Sidebar</title>
+                <title>Samsung Ecuador | Blog Masonry With Sidebar</title>
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Blog Masonry With Sidebar</h1>
+            <h1 className="d-none">Samsung Ecuador - Blog Masonry With Sidebar</h1>
 
             <nav className="breadcrumb-nav">
                 <div className="container">

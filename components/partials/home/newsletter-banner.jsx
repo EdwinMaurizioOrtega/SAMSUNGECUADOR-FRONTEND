@@ -11,9 +11,8 @@ export default function NewsletterBanner() {
                         <div className="icon-box icon-box-side">
                             <Reveal keyframes={fadeInLeftShorter} delay={200} duration={1000} triggerOnce>
                                 <div className="icon-box-content">
-                                    <h4 className="icon-box-title font-weight-bold text-white">Subscribe to the
-                                            newsletter</h4>
-                                    <p className="text-white">Stay up to date regarding the newest product & offers</p>
+                                    <h4 className="icon-box-title font-weight-bold text-white">Obtenga ofertas especiales y ahorros</h4>
+                                    <p className="text-white">Obtenga toda la información más reciente sobre eventos, ventas y ofertas.</p>
                                 </div>
                             </Reveal>
                         </div>
@@ -22,8 +21,8 @@ export default function NewsletterBanner() {
                         <Reveal keyframes={fadeInRightShorter} delay={200} duration={1000} triggerOnce>
                             <form action="#" method="get" className="input-wrapper input-wrapper-inline ml-lg-auto">
                                 <input type="email" className="form-control font-primary font-italic form-solid"
-                                    placeholder="Enter Your E-mail Address..." required />
-                                <button className="btn btn-dark" type="submit">Subscribe<i
+                                    placeholder="Dirección de correo electrónico aquí..." required />
+                                <button className="btn btn-dark" type="submit">Suscribirme<i
                                     className="d-icon-arrow-right"></i></button>
                             </form>
                         </Reveal>

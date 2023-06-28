@@ -18,10 +18,10 @@ function ComingSoon () {
     return (
         <main className="main">
             <Helmet>
-                <title>Riode React eCommerce Template | Coming Soon</title>
+                <title>Samsung Ecuador | Coming Soon</title>
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Coming Soon</h1>
+            <h1 className="d-none">Samsung Ecuador - Coming Soon</h1>
 
             <div className="page-content">
                 <section className="coming-section container text-center text-grey font-primary">

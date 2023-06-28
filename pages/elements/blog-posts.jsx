@@ -29,10 +29,10 @@ function BlogPosts () {
     return (
         <main className="main skeleton-body">
             <Helmet>
-                <title>Riode React eCommerce Template | Blog</title>
+                <title>Samsung Ecuador | Blog</title>
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Blog</h1>
+            <h1 className="d-none">Samsung Ecuador - Blog</h1>
 
             <Breadcrumb subTitle="Elements" title="Element Blog" parentUrl="/elements" />
 

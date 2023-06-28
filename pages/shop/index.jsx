@@ -45,10 +45,10 @@ function ShopHorizontalFilter() {
     return (
         <main className="main shop">
             <Helmet>
-                <title>Riode React eCommerce Template - Shop</title>
+                <title>Samsung Ecuador - Shop</title>
             </Helmet>
 
-            <h1 className="d-none">Riode React eCommerce Template - Shop</h1>
+            <h1 className="d-none">Samsung Ecuador - Shop</h1>
 
             <div className="page-content pb-10 pt-4">
                 <div className="container">
