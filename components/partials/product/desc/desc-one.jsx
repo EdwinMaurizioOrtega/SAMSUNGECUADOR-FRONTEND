@@ -53,7 +53,7 @@ function DescOne( props ) {
                 {
                     product && product.brands.length > 0 || colors.length > 0 || sizes.length > 0 ?
                         <Tab className="nav-item">
-                            <span className="nav-link">Additional information</span>
+                            <span className="nav-link">Additional informationffff</span>
                         </Tab> : ''
                 }
                 {

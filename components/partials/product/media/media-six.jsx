@@ -1,40 +1,41 @@
-import { useState, useEffect } from 'react';
-import { Magnifier } from 'react-image-magnifiers';
+import {useState, useEffect} from 'react';
+import {Magnifier} from 'react-image-magnifiers';
 
 import MediaLightBox from '~/components/partials/product/light-box';
 
-export default function MediaSix( props ) {
-    const { product, adClass = '' } = props;
-    const [ index, setIndex ] = useState( 0 );
-    const [ isOpen, setOpenState ] = useState( false );
+export default function MediaSix(props) {
+    const {product, adClass = ''} = props;
+
+    const [index, setIndex] = useState(0);
+    const [isOpen, setOpenState] = useState(false);
 
     let lgImages = product.large_pictures ? product.large_pictures : product.pictures;
 
-    useEffect( () => {
-        setIndex( 0 );
-    }, [ window.location.pathname ] )
+    useEffect(() => {
+        setIndex(0);
+    }, [window.location.pathname])
 
     const changeOpenState = openState => {
-        setOpenState( openState );
+        setOpenState(openState);
     }
 
-    const openLightBox = ( e ) => {
+    const openLightBox = (e) => {
         e.preventDefault();
-        setIndex( parseInt( e.currentTarget.getAttribute( "index" ) ) );
-        setOpenState( true );
+        setIndex(parseInt(e.currentTarget.getAttribute("index")));
+        setOpenState(true);
     }
 
     return (
         <>
             <div className="product-gallery row mb-4">
                 {
-                    lgImages.slice( 0, 4 ).map( ( image, index ) =>
-                        <figure className={ `product-image mb-4 ${ adClass }` } key={ 'image' + index }>
+                    lgImages.slice(0, 4).map((image, index) =>
+                        <figure className={`product-image mb-4 ${adClass}`} key={'image' + index}>
                             <Magnifier
-                                imageSrc={ process.env.NEXT_PUBLIC_ASSET_URI + image.url }
+                                imageSrc={image.url}
                                 imageAlt="magnifier"
-                                largeImageSrc={ process.env.NEXT_PUBLIC_ASSET_URI + image.url }
-                                dragToMove={ false }
+                                largeImageSrc={image.url}
+                                dragToMove={false}
                                 mouseActivation="hover"
                                 cursorStyleActive="crosshair"
                                 className="product-image large-image"
@@ -67,12 +68,14 @@ export default function MediaSix( props ) {
                                     : ''
                             }
 
-                            <a href="#" className="product-image-full" onClick={ openLightBox } index={ index }><i className="d-icon-zoom"></i></a>
+                            <a href="#" className="product-image-full" onClick={openLightBox} index={index}><i
+                                className="d-icon-zoom"></i></a>
                         </figure>
-                    ) }
+                    )}
             </div>
 
-            <MediaLightBox images={ lgImages.slice( 0, 4 ) } isOpen={ isOpen } changeOpenState={ changeOpenState } index={ index } product={ product } />
+            <MediaLightBox images={lgImages.slice(0, 4)} isOpen={isOpen} changeOpenState={changeOpenState} index={index}
+                           product={product}/>
         </>
     )
 }

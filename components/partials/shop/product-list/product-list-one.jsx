@@ -25,7 +25,7 @@ function ProductListOne(props) {
         item.categories.some(category => category.slug === query.category)
     );
 
-    const celularesCollection = jsonData.latest.filter(item =>
+    const celularesCollection = jsonData.productCollection.filter(item =>
         item.categories.some(category => category.slug === query.category)
     );
 

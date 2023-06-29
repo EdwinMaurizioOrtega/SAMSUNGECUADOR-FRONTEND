@@ -4,8 +4,7 @@ import { useQuery } from '@apollo/react-hooks';
 import Helmet from 'react-helmet';
 import imagesLoaded from 'imagesloaded';
 
-import withApollo from '~/server/apollo';
-import { GET_PRODUCT } from '~/server/queries';
+
 
 import OwlCarousel from '~/components/features/owl-carousel';
 
@@ -15,15 +14,44 @@ import RelatedProducts from '~/components/partials/product/related-products';
 
 import { mainSlider17 } from '~/utils/data/carousel';
 
+import jsonData from "~/pages/api/productos.json";
+
+
 function ProductStickyInfo() {
-    const slug = useRouter().query.slug;
+    const router = useRouter();
+    const { slug } = router.query;
 
     if (!slug) return '';
 
-    const { data, loading, error } = useQuery(GET_PRODUCT, { variables: { slug } });
+    console.log("slug: "+ slug);
+
+    const foundInBestSelling = jsonData.bestSelling.find(item => item.slug === slug);
+    const foundInFeatured = jsonData.featured.find(item => item.slug === slug);
+    const foundInCollection = jsonData.productCollection.find(item => item.slug === slug);
+    const foundInLatest = jsonData.latest.find(item => item.slug === slug);
+
+    let product = null;
+
+    if (foundInFeatured) {
+        product = foundInFeatured;
+        console.log(product);
+    } else if (foundInBestSelling) {
+        product = foundInBestSelling;
+        console.log(product);
+    } else if (foundInLatest) {
+        product = foundInLatest;
+        console.log(product);
+    }else if (foundInCollection) {
+        product = foundInCollection;
+        console.log(product);
+    }
+
+
+    //const { data, loading, error } = useQuery(GET_PRODUCT, { variables: { slug } });
     const [loaded, setLoadingState] = useState(false);
-    const product = data && data.product.data;
-    const related = data && data.product.related;
+    const [loading, setLoading] = useState(false);
+    //const product = data && data.product.data;
+    //const related = data && data.product.related;
 
     useEffect(() => {
         if (!loading && product)
@@ -54,11 +82,11 @@ function ProductStickyInfo() {
                                 </div>
 
                                 <div className="col-md-6">
-                                    <DetailThree data={data} isDesc={true} isGuide={true} isSticky={true} />
+                                    <DetailThree data={product} isDesc={true} isGuide={true} isSticky={true} />
                                 </div>
                             </div>
 
-                            <RelatedProducts products={related} adClass="pt-3 mt-2" />
+                            {/*<RelatedProducts products={related} adClass="pt-3 mt-2" />*/}
                         </div>
                     </div> : ''
             }
@@ -95,4 +123,4 @@ function ProductStickyInfo() {
     )
 }
 
-export default withApollo({ ssr: typeof window === 'undefined' })(ProductStickyInfo);
+export default (ProductStickyInfo);

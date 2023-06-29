@@ -71,7 +71,7 @@ function FormWhatsAppModal ({product}) {
     const handleSubmitAux = (event) => {
         event.preventDefault(); // Evita el comportamiento de envío por defecto del formulario
 
-        const whatsappUrl = `https://web.whatsapp.com/send?phone=593939991111&text=Hola, estoy interesado/a en este producto: ${product.data.name}, Precio promocional: $${product.data.price[0]}, Precio PVP: $${product.data.price[1]}`;
+        const whatsappUrl = `https://web.whatsapp.com/send?phone=593939991111&text=Hola, estoy interesado/a en este producto: ${product.data.name}, Precio promocional: $${product.data.sale_price}, Precio PVP: $${product.data.price}`;
         window.open(whatsappUrl, '_blank');
 
     }

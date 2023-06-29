@@ -96,7 +96,7 @@ function ProductTwo( props ) {
                 </div>
 
                 <div className="product-action">
-                    <ALink href="#" className="btn-product btn-quickview" title="Quick View" onClick={ showQuickviewHandler }>Quick View</ALink>
+                    <ALink href="#" className="btn-product btn-quickview" title="Quick View" onClick={ showQuickviewHandler }>Vista rápida</ALink>
                 </div>
             </figure>
 

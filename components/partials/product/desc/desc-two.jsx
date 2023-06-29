@@ -71,7 +71,7 @@ export default function DescTwo( props ) {
                     </div>
                 </Card>
 
-                <Card title="Additional information" adClass="card-additional">
+                <Card title="Additional informationfff777" adClass="card-additional">
                     <ul>
                         {
                             product.categories.length > 0 ?
