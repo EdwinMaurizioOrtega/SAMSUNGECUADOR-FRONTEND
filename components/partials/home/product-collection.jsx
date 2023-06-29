@@ -48,7 +48,7 @@ export default function ProudctCollection(props) {
                 <div className="container pb-10 pt-3">
                     <div className="title-wrapper with-filters align-items-center justify-content-between">
                         <h2 className="title title-simple">
-                            Best Selling Products
+                            Productos más vendidos
                             </h2>
                         <ul className="nav-filters product-filters filter-underline">
                             <li><a href="#" className="nav-filter active" onClick={e => isoFilter(e, '')}>All</a></li>

@@ -16,7 +16,7 @@ export default function LatestCollection(props) {
             <section className="product-wrapper pt-10 pb-10 grey-section">
                 <div className="container pt-3 pb-4">
                     <h2 className="title title-simple with-link">
-                        Most Viewed
+                        Mas visto
                         <ALink href="/shop">View more<i className="d-icon-arrow-right"></i></ALink>
                     </h2>
                     {

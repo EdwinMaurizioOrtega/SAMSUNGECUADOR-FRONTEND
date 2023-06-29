@@ -9,7 +9,7 @@ function MainMenu() {
 
     return (
         <div className="row align-items-center gutter-no scrollable">
-            <ALink href={{ pathname: "/shop", query: { category: "mobile" } }} className={`${query.category === 'mobile' ? 'active' : ''} category category-icon-inline`} scroll={false}>
+            <ALink href={{ pathname: "/shop", query: { category: "celulares" } }} className={`${query.category === 'celulares' ? 'active' : ''} category category-icon-inline`} scroll={false}>
                 <div className="category-media" style={{ fontSize: '3.8rem' }}>
                     <i className="d-icon-mobile"></i>
                 </div>
@@ -17,7 +17,7 @@ function MainMenu() {
                     <h4 className="category-name">Celulares<br />&amp; Tablets</h4>
                 </div>
             </ALink>
-            <ALink href={{ pathname: "/shop", query: { category: "camera" } }} className={`${query.category === 'camera' ? 'active' : ''} category category-icon-inline`} scroll={false}>
+            <ALink href={{ pathname: "/shop", query: { category: "tv" } }} className={`${query.category === 'tv' ? 'active' : ''} category category-icon-inline`} scroll={false}>
                 <div className="category-media">
                     <i className="d-icon-table-tv"></i>
                 </div>
@@ -25,7 +25,7 @@ function MainMenu() {
                     <h4 className="category-name">Televisores</h4>
                 </div>
             </ALink>
-            <ALink href={{ pathname: "/shop", query: { category: "headphone" } }} className={`${query.category === 'headphone' ? 'active' : ''} category category-icon-inline`} scroll={false}>
+            <ALink href={{ pathname: "/shop", query: { category: "watchs" } }} className={`${query.category === 'watchs' ? 'active' : ''} category category-icon-inline`} scroll={false}>
                 <div className="category-media">
                     <i className="d-icon-watch"></i>
                 </div>
@@ -33,7 +33,7 @@ function MainMenu() {
                     <h4 className="category-name">Watch</h4>
                 </div>
             </ALink>
-            <ALink href={{ pathname: "/shop", query: { category: "headphone" } }} className={`${query.category === 'headphone' ? 'active' : ''} category category-icon-inline`} scroll={false}>
+            <ALink href={{ pathname: "/shop", query: { category: "buds" } }} className={`${query.category === 'buds' ? 'active' : ''} category category-icon-inline`} scroll={false}>
                 <div className="category-media">
                     <i className="d-icon-headphone"></i>
                 </div>
@@ -41,7 +41,7 @@ function MainMenu() {
                     <h4 className="category-name">Buds</h4>
                 </div>
             </ALink>
-            <ALink href={{ pathname: "/shop", query: { category: "computer" } }} className={`${query.category === 'computer' ? 'active' : ''} category category-icon-inline`} scroll={false}>
+            <ALink href={{ pathname: "/shop", query: { category: "accesorios" } }} className={`${query.category === 'accesorios' ? 'active' : ''} category category-icon-inline`} scroll={false}>
                 <div className="category-media">
                     <i className="d-icon-battery"></i>
                 </div>

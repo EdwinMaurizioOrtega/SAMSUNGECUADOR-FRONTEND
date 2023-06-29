@@ -23,7 +23,7 @@ function BestCollection(props) {
                             <ALink href="/shop" className="btn btn-link">View more<i className="d-icon-arrow-right"></i></ALink>
                         </div>
                         :
-                        <h2 className="title title-simple with-link">Our Featured<ALink href="/shop">View more<i className="d-icon-arrow-right"></i></ALink></h2>
+                        <h2 className="title title-simple with-link">Destacado<ALink href="/shop">View more<i className="d-icon-arrow-right"></i></ALink></h2>
                 }
                 {
                     loading ?

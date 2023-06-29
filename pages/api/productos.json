@@ -1,0 +1,5128 @@
+{
+  "bestSelling": [
+    {
+      "id": 1,
+      "name": "SAMSUNG A04 BLACK",
+      "slug": "samsung-a04-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.5″, 720 x 1600 pixels\nProcesador: Unisoc SC9863A 1.6GHz\nRAM: 4GB\nAlmacenamiento: 64GB\nExpansión: microSD\nCámara: Dual, 50MP+2MP\nCámara Frontal: 5MP\nBatería: 5000 mAh\nOS: Android 12\"",
+      "long_description": "\"Pantalla: 6.5″, 720 x 1600 pixels\nProcesador: Unisoc SC9863A 1.6GHz\nRAM: 4GB\nAlmacenamiento: 64GB\nExpansión: microSD\nCámara: Dual, 50MP+2MP\nCámara Frontal: 5MP\nBatería: 5000 mAh\nOS: Android 12\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.106",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.106-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.106.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "name": "SAMSUNG A14 BLACK",
+      "slug": "samsung-a14-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.6″, 1080 x 2408 pixels\nProcesador: Mediatek Dimensity 1080 2.6GHz\nRAM: 4GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 50MP+2MP+2MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.6″, 1080 x 2408 pixels\nProcesador: Mediatek Dimensity 1080 2.6GHz\nRAM: 4GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 50MP+2MP+2MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.115",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.115-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.115.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "SAMSUNG A24 SILVER",
+      "slug": "samsung-a24-silver",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.5″, 1080 x 2340 pixels\nProcesador: Mediatek Helio G99 2.2GHz\nRAM: 6/8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 50MP+5MP+2MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.5″, 1080 x 2340 pixels\nProcesador: Mediatek Helio G99 2.2GHz\nRAM: 6/8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 50MP+5MP+2MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.118",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.118-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.118.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "SAMSUNG A34 BLACK",
+      "slug": "samsung-a34-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.6″, 1080 x 2340 pixels\nProcesador: Mediatel Helio G80 2GHz\nRAM: 6GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 48MP+8MP+5MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.6″, 1080 x 2340 pixels\nProcesador: Mediatel Helio G80 2GHz\nRAM: 6GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 48MP+8MP+5MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.109",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.109-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.109.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Samsung A34 SILVER",
+      "slug": "samsung-a34-silver",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.6″, 1080 x 2340 pixels\nProcesador: Mediatel Helio G80 2GHz\nRAM: 6GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 48MP+8MP+5MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.6″, 1080 x 2340 pixels\nProcesador: Mediatel Helio G80 2GHz\nRAM: 6GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 48MP+8MP+5MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.110",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.110-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.110.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Samsung A54 BLACK",
+      "slug": "samsung-a54-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.5″, 1080 x 2340 pixels\nProcesador: Exynos 1380 2,4GHz\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: microSD\nCámara: Triple, 50MP+12MP+5MP\nCámara Frontal: 32MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.5″, 1080 x 2340 pixels\nProcesador: Exynos 1380 2,4GHz\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: microSD\nCámara: Triple, 50MP+12MP+5MP\nCámara Frontal: 32MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.112",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.112-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.112.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Samsung A54 LIGHT GREEN",
+      "slug": "samsung-a54-light-green",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.5″, 1080 x 2340 pixels\nProcesador: Exynos 1380 2,4GHz\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: microSD\nCámara: Triple, 50MP+12MP+5MP\nCámara Frontal: 32MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.5″, 1080 x 2340 pixels\nProcesador: Exynos 1380 2,4GHz\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: microSD\nCámara: Triple, 50MP+12MP+5MP\nCámara Frontal: 32MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.111",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.111-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.111.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Samsung S23 BLACK",
+      "slug": "samsung-s23-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Amoled 6.1″ Full HD+120Hz\nProcesador: Snapdragon 8 Gen 2\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: No\nCámara: Triple, 50MP+12MP+10MP\nCámara Frontal: 12MP\nBatería: 3900 mAh\nOS: Android 13\"",
+      "long_description": "\"Amoled 6.1″ Full HD+120Hz\nProcesador: Snapdragon 8 Gen 2\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: No\nCámara: Triple, 50MP+12MP+10MP\nCámara Frontal: 12MP\nBatería: 3900 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.105",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.105-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.105.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Samsung S23 PLUS BLACK",
+      "slug": "samsung-s23-plus-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.6″, 1080 x 2430 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 3\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: No\nCámara: Triple, 50MP+10MP+12MP\nCámara Frontal: 12MP\nBatería: 4700 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.6″, 1080 x 2430 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 3\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: No\nCámara: Triple, 50MP+10MP+12MP\nCámara Frontal: 12MP\nBatería: 4700 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.102",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.102-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.102.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Samsung S23 ULTRA BLACK",
+      "slug": "samsung-s23-ultra-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.98",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.98-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.98.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Samsung S23 ULTRA GREEN",
+      "slug": "samsung-s23-ultra-gree",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.97",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.97-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.97.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Samsung S23 ULTRA BEIGE",
+      "slug": "samsung-s23-ultra-beige",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.99",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.99-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.99.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Samsung S23 LIGHT PINK",
+      "slug": "samsung-s23-light-pink",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.101",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.101-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.101.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Samsung GALAXY TAB S8 5G",
+      "slug": "samsung-galaxy-tab-s8-5g",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 11″, 1600 x 2560 pixels\nProcesador: Snapdragon 8 Gen 1 3GHz\nRAM: 8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Dual, 13MP+6MP\nCámara Frontal: 12MP\nBatería: 8000 mAh\nOS: Android 12\"",
+      "long_description": "\"Pantalla: 11″, 1600 x 2560 pixels\nProcesador: Snapdragon 8 Gen 1 3GHz\nRAM: 8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Dual, 13MP+6MP\nCámara Frontal: 12MP\nBatería: 8000 mAh\nOS: Android 12\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "13.02.11",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/13.02.11-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/13.02.11.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Samsung GALAXY TAB S8 PLUS",
+      "slug": "samsung-galaxy-tab-s8-plus",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 12.4″, 1752 x 2800 pixels\nProcesador: Snapdragon 8 Gen 1 3GHz\nRAM: 8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Dual, 13MP+6MP\nCámara Frontal: 12MP\nBatería: 10090 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 12.4″, 1752 x 2800 pixels\nProcesador: Snapdragon 8 Gen 1 3GHz\nRAM: 8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Dual, 13MP+6MP\nCámara Frontal: 12MP\nBatería: 10090 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "13.02.07",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/13.02.07-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/13.02.07.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "WATCH 5 PRO BLACK",
+      "slug": "watch-5-pro-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 1.4″, 450 x 450 pixels\nProcesador: Exynos W920 Dual-Core\nRAM: 1.5GB\nAlmacenamiento: 16GB\nBatería: 5000 mAh\"",
+      "long_description": "\"Pantalla: 1.4″, 450 x 450 pixels\nProcesador: Exynos W920 Dual-Core\nRAM: 1.5GB\nAlmacenamiento: 16GB\nBatería: 5000 mAh\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.363",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.363-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.363.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Watchs",
+          "slug": "watchs"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Watchs Samsung",
+          "slug": "watchs-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "WATCH 5 GOLD",
+      "slug": "watch-5-gold",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 1.2″, 396 x 396 pixels\nProcesador: Exynos W920 Dual-Core\nRAM: 1.5GB\nAlmacenamiento: 16GB\nBatería: 284m Ah Carga Rapida 10W\"",
+      "long_description": "\"Pantalla: 1.2″, 396 x 396 pixels\nProcesador: Exynos W920 Dual-Core\nRAM: 1.5GB\nAlmacenamiento: 16GB\nBatería: 284m Ah Carga Rapida 10W\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.364",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.364-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.364.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Watchs",
+          "slug": "watchs"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Watchs Samsung",
+          "slug": "watchs-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "WATCH 5 SILVER",
+      "slug": "watch-5-silver",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 1.4″, 450 x 450 pixels\nProcesador: Exynos W920 Dual-Core\nRAM: 1.5GB\nAlmacenamiento: 16GB\nBatería: 410 mAh Carga Rapida\"",
+      "long_description": "\"Pantalla: 1.4″, 450 x 450 pixels\nProcesador: Exynos W920 Dual-Core\nRAM: 1.5GB\nAlmacenamiento: 16GB\nBatería: 410 mAh Carga Rapida\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.366",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.366-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.366.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Watchs",
+          "slug": "watchs"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Watchs Samsung",
+          "slug": "watchs-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "BUDS 2 BLACK",
+      "slug": "buds-2-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Auriculares 61 mAh\nEstuche: 472 mAh\ncompatibilidad: Android,iOS\"",
+      "long_description": "\"Auriculares 61 mAh\nEstuche: 472 mAh\ncompatibilidad: Android,iOS\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.14",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.14-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.14.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "BUDS",
+          "slug": "buds"
+        }
+      ],
+      "tags": [
+        {
+          "name": "BUDS Samsung",
+          "slug": "buds-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "BUDS 2 PRO GRAY",
+      "slug": "buds-2-pro-gray",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Auriculares 61 mAh\nEstuche: 515 mAh\ncompatibilidad: Android 8.0\"",
+      "long_description": "\"Auriculares 61 mAh\nEstuche: 515 mAh\ncompatibilidad: Android 8.0\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.378",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.378-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.378.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "BUDS",
+          "slug": "buds"
+        }
+      ],
+      "tags": [
+        {
+          "name": "BUDS Samsung",
+          "slug": "buds-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "TV 65 SAMSUNG QLED ",
+      "slug": "tv-65-samsung-qled",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 65″\nProcesador: Quantum 4K\"",
+      "long_description": "\"Pantalla: 65″\nProcesador: Quantum 4K\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "15.02.26",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.26-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.26.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "TV",
+          "slug": "tv"
+        }
+      ],
+      "tags": [
+        {
+          "name": "TV Samsung",
+          "slug": "tv-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+
+    {
+      "id": 22,
+      "name": "TV 65 SAMSUNG LED UHD",
+      "slug": "tv-65-samsung-led-uhd",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 65″\nProcesador: Crystal 4K\"",
+      "long_description": "\"Pantalla: 65″\nProcesador: Crystal 4K\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "15.02.50",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.50-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.50.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "TV",
+          "slug": "tv"
+        }
+      ],
+      "tags": [
+        {
+          "name": "TV Samsung",
+          "slug": "tv-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "TV 60 SAMSUNG LED UHD",
+      "slug": "tv-60-samsung-led-uhd",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 60″\nProcesador: Crystal 4K\"",
+      "long_description": "\"Pantalla: 60″\nProcesador: Crystal 4K\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "15.02.49",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.49-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.49.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "TV",
+          "slug": "tv"
+        }
+      ],
+      "tags": [
+        {
+          "name": "TV Samsung",
+          "slug": "tv-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "CARGADOR DE PARED",
+      "slug": "cargador-de-pared",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Capacidad: 25W\nSin cable\"",
+      "long_description": "\"Capacidad: 25W\nSin cable\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.04",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.04-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.04.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Cargadores",
+          "slug": "cargadores"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Cargadores Samsung",
+          "slug": "cargadores-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "CARGADOR POWER ADAPTER",
+      "slug": "cargador-power-adapter",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Capacidad: 45W\"",
+      "long_description": "\"Capacidad: 45W\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.382",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.382-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.382.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Cargadores",
+          "slug": "cargadores"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Cargadores Samsung",
+          "slug": "cargadores-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    }
+
+
+  ],
+  "featured": [
+    {
+      "id": 1,
+      "name": "SAMSUNG A04 BLACK",
+      "slug": "samsung-a04-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.5″, 720 x 1600 pixels\nProcesador: Unisoc SC9863A 1.6GHz\nRAM: 4GB\nAlmacenamiento: 64GB\nExpansión: microSD\nCámara: Dual, 50MP+2MP\nCámara Frontal: 5MP\nBatería: 5000 mAh\nOS: Android 12\"",
+      "long_description": "\"Pantalla: 6.5″, 720 x 1600 pixels\nProcesador: Unisoc SC9863A 1.6GHz\nRAM: 4GB\nAlmacenamiento: 64GB\nExpansión: microSD\nCámara: Dual, 50MP+2MP\nCámara Frontal: 5MP\nBatería: 5000 mAh\nOS: Android 12\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.106",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.106-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.106.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "name": "SAMSUNG A14 BLACK",
+      "slug": "samsung-a14-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.6″, 1080 x 2408 pixels\nProcesador: Mediatek Dimensity 1080 2.6GHz\nRAM: 4GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 50MP+2MP+2MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.6″, 1080 x 2408 pixels\nProcesador: Mediatek Dimensity 1080 2.6GHz\nRAM: 4GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 50MP+2MP+2MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.115",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.115-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.115.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "SAMSUNG A24 SILVER",
+      "slug": "samsung-a24-silver",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.5″, 1080 x 2340 pixels\nProcesador: Mediatek Helio G99 2.2GHz\nRAM: 6/8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 50MP+5MP+2MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.5″, 1080 x 2340 pixels\nProcesador: Mediatek Helio G99 2.2GHz\nRAM: 6/8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 50MP+5MP+2MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.118",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.118-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.118.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "SAMSUNG A34 BLACK",
+      "slug": "samsung-a34-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.6″, 1080 x 2340 pixels\nProcesador: Mediatel Helio G80 2GHz\nRAM: 6GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 48MP+8MP+5MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.6″, 1080 x 2340 pixels\nProcesador: Mediatel Helio G80 2GHz\nRAM: 6GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 48MP+8MP+5MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.109",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.109-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.109.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Samsung A34 SILVER",
+      "slug": "samsung-a34-silver",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.6″, 1080 x 2340 pixels\nProcesador: Mediatel Helio G80 2GHz\nRAM: 6GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 48MP+8MP+5MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.6″, 1080 x 2340 pixels\nProcesador: Mediatel Helio G80 2GHz\nRAM: 6GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 48MP+8MP+5MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.110",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.110-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.110.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Samsung A54 BLACK",
+      "slug": "samsung-a54-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.5″, 1080 x 2340 pixels\nProcesador: Exynos 1380 2,4GHz\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: microSD\nCámara: Triple, 50MP+12MP+5MP\nCámara Frontal: 32MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.5″, 1080 x 2340 pixels\nProcesador: Exynos 1380 2,4GHz\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: microSD\nCámara: Triple, 50MP+12MP+5MP\nCámara Frontal: 32MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.112",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.112-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.112.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Samsung A54 LIGHT GREEN",
+      "slug": "samsung-a54-light-green",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.5″, 1080 x 2340 pixels\nProcesador: Exynos 1380 2,4GHz\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: microSD\nCámara: Triple, 50MP+12MP+5MP\nCámara Frontal: 32MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.5″, 1080 x 2340 pixels\nProcesador: Exynos 1380 2,4GHz\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: microSD\nCámara: Triple, 50MP+12MP+5MP\nCámara Frontal: 32MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.111",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.111-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.111.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Samsung S23 BLACK",
+      "slug": "samsung-s23-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Amoled 6.1″ Full HD+120Hz\nProcesador: Snapdragon 8 Gen 2\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: No\nCámara: Triple, 50MP+12MP+10MP\nCámara Frontal: 12MP\nBatería: 3900 mAh\nOS: Android 13\"",
+      "long_description": "\"Amoled 6.1″ Full HD+120Hz\nProcesador: Snapdragon 8 Gen 2\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: No\nCámara: Triple, 50MP+12MP+10MP\nCámara Frontal: 12MP\nBatería: 3900 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.105",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.105-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.105.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Samsung S23 PLUS BLACK",
+      "slug": "samsung-s23-plus-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.6″, 1080 x 2430 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 3\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: No\nCámara: Triple, 50MP+10MP+12MP\nCámara Frontal: 12MP\nBatería: 4700 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.6″, 1080 x 2430 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 3\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: No\nCámara: Triple, 50MP+10MP+12MP\nCámara Frontal: 12MP\nBatería: 4700 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.102",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.102-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.102.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Samsung S23 ULTRA BLACK",
+      "slug": "samsung-s23-ultra-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.98",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.98-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.98.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Samsung S23 ULTRA GREEN",
+      "slug": "samsung-s23-ultra-gree",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.97",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.97-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.97.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Samsung S23 ULTRA BEIGE",
+      "slug": "samsung-s23-ultra-beige",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.99",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.99-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.99.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Samsung S23 LIGHT PINK",
+      "slug": "samsung-s23-light-pink",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.101",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.101-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.101.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Samsung GALAXY TAB S8 5G",
+      "slug": "samsung-galaxy-tab-s8-5g",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 11″, 1600 x 2560 pixels\nProcesador: Snapdragon 8 Gen 1 3GHz\nRAM: 8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Dual, 13MP+6MP\nCámara Frontal: 12MP\nBatería: 8000 mAh\nOS: Android 12\"",
+      "long_description": "\"Pantalla: 11″, 1600 x 2560 pixels\nProcesador: Snapdragon 8 Gen 1 3GHz\nRAM: 8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Dual, 13MP+6MP\nCámara Frontal: 12MP\nBatería: 8000 mAh\nOS: Android 12\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "13.02.11",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/13.02.11-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/13.02.11.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Samsung GALAXY TAB S8 PLUS",
+      "slug": "samsung-galaxy-tab-s8-plus",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 12.4″, 1752 x 2800 pixels\nProcesador: Snapdragon 8 Gen 1 3GHz\nRAM: 8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Dual, 13MP+6MP\nCámara Frontal: 12MP\nBatería: 10090 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 12.4″, 1752 x 2800 pixels\nProcesador: Snapdragon 8 Gen 1 3GHz\nRAM: 8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Dual, 13MP+6MP\nCámara Frontal: 12MP\nBatería: 10090 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "13.02.07",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/13.02.07-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/13.02.07.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "WATCH 5 PRO BLACK",
+      "slug": "watch-5-pro-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 1.4″, 450 x 450 pixels\nProcesador: Exynos W920 Dual-Core\nRAM: 1.5GB\nAlmacenamiento: 16GB\nBatería: 5000 mAh\"",
+      "long_description": "\"Pantalla: 1.4″, 450 x 450 pixels\nProcesador: Exynos W920 Dual-Core\nRAM: 1.5GB\nAlmacenamiento: 16GB\nBatería: 5000 mAh\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.363",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.363-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.363.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Watchs",
+          "slug": "watchs"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Watchs Samsung",
+          "slug": "watchs-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "WATCH 5 GOLD",
+      "slug": "watch-5-gold",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 1.2″, 396 x 396 pixels\nProcesador: Exynos W920 Dual-Core\nRAM: 1.5GB\nAlmacenamiento: 16GB\nBatería: 284m Ah Carga Rapida 10W\"",
+      "long_description": "\"Pantalla: 1.2″, 396 x 396 pixels\nProcesador: Exynos W920 Dual-Core\nRAM: 1.5GB\nAlmacenamiento: 16GB\nBatería: 284m Ah Carga Rapida 10W\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.364",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.364-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.364.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Watchs",
+          "slug": "watchs"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Watchs Samsung",
+          "slug": "watchs-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "WATCH 5 SILVER",
+      "slug": "watch-5-silver",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 1.4″, 450 x 450 pixels\nProcesador: Exynos W920 Dual-Core\nRAM: 1.5GB\nAlmacenamiento: 16GB\nBatería: 410 mAh Carga Rapida\"",
+      "long_description": "\"Pantalla: 1.4″, 450 x 450 pixels\nProcesador: Exynos W920 Dual-Core\nRAM: 1.5GB\nAlmacenamiento: 16GB\nBatería: 410 mAh Carga Rapida\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.366",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.366-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.366.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Watchs",
+          "slug": "watchs"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Watchs Samsung",
+          "slug": "watchs-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "BUDS 2 BLACK",
+      "slug": "buds-2-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Auriculares 61 mAh\nEstuche: 472 mAh\ncompatibilidad: Android,iOS\"",
+      "long_description": "\"Auriculares 61 mAh\nEstuche: 472 mAh\ncompatibilidad: Android,iOS\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.14",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.14-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.14.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "BUDS",
+          "slug": "buds"
+        }
+      ],
+      "tags": [
+        {
+          "name": "BUDS Samsung",
+          "slug": "buds-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "BUDS 2 PRO GRAY",
+      "slug": "buds-2-pro-gray",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Auriculares 61 mAh\nEstuche: 515 mAh\ncompatibilidad: Android 8.0\"",
+      "long_description": "\"Auriculares 61 mAh\nEstuche: 515 mAh\ncompatibilidad: Android 8.0\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.378",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.378-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.378.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "BUDS",
+          "slug": "buds"
+        }
+      ],
+      "tags": [
+        {
+          "name": "BUDS Samsung",
+          "slug": "buds-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "TV 65 SAMSUNG QLED ",
+      "slug": "tv-65-samsung-qled",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 65″\nProcesador: Quantum 4K\"",
+      "long_description": "\"Pantalla: 65″\nProcesador: Quantum 4K\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "15.02.26",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.26-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.26.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "TV",
+          "slug": "tv"
+        }
+      ],
+      "tags": [
+        {
+          "name": "TV Samsung",
+          "slug": "tv-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+
+    {
+      "id": 22,
+      "name": "TV 65 SAMSUNG LED UHD",
+      "slug": "tv-65-samsung-led-uhd",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 65″\nProcesador: Crystal 4K\"",
+      "long_description": "\"Pantalla: 65″\nProcesador: Crystal 4K\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "15.02.50",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.50-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.50.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "TV",
+          "slug": "tv"
+        }
+      ],
+      "tags": [
+        {
+          "name": "TV Samsung",
+          "slug": "tv-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "TV 60 SAMSUNG LED UHD",
+      "slug": "tv-60-samsung-led-uhd",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 60″\nProcesador: Crystal 4K\"",
+      "long_description": "\"Pantalla: 60″\nProcesador: Crystal 4K\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "15.02.49",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.49-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.49.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "TV",
+          "slug": "tv"
+        }
+      ],
+      "tags": [
+        {
+          "name": "TV Samsung",
+          "slug": "tv-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "CARGADOR DE PARED",
+      "slug": "cargador-de-pared",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Capacidad: 25W\nSin cable\"",
+      "long_description": "\"Capacidad: 25W\nSin cable\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.04",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.04-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.04.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Cargadores",
+          "slug": "cargadores"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Cargadores Samsung",
+          "slug": "cargadores-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "CARGADOR POWER ADAPTER",
+      "slug": "cargador-power-adapter",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Capacidad: 45W\"",
+      "long_description": "\"Capacidad: 45W\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.382",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.382-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.382.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Cargadores",
+          "slug": "cargadores"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Cargadores Samsung",
+          "slug": "cargadores-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    }
+
+
+  ],
+  "latest": [
+
+    {
+      "id": 1,
+      "name": "SAMSUNG A04 BLACK",
+      "slug": "samsung-a04-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.5″, 720 x 1600 pixels\nProcesador: Unisoc SC9863A 1.6GHz\nRAM: 4GB\nAlmacenamiento: 64GB\nExpansión: microSD\nCámara: Dual, 50MP+2MP\nCámara Frontal: 5MP\nBatería: 5000 mAh\nOS: Android 12\"",
+      "long_description": "\"Pantalla: 6.5″, 720 x 1600 pixels\nProcesador: Unisoc SC9863A 1.6GHz\nRAM: 4GB\nAlmacenamiento: 64GB\nExpansión: microSD\nCámara: Dual, 50MP+2MP\nCámara Frontal: 5MP\nBatería: 5000 mAh\nOS: Android 12\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.106",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.106-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.106.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "name": "SAMSUNG A14 BLACK",
+      "slug": "samsung-a14-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.6″, 1080 x 2408 pixels\nProcesador: Mediatek Dimensity 1080 2.6GHz\nRAM: 4GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 50MP+2MP+2MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.6″, 1080 x 2408 pixels\nProcesador: Mediatek Dimensity 1080 2.6GHz\nRAM: 4GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 50MP+2MP+2MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.115",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.115-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.115.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "SAMSUNG A24 SILVER",
+      "slug": "samsung-a24-silver",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.5″, 1080 x 2340 pixels\nProcesador: Mediatek Helio G99 2.2GHz\nRAM: 6/8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 50MP+5MP+2MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.5″, 1080 x 2340 pixels\nProcesador: Mediatek Helio G99 2.2GHz\nRAM: 6/8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 50MP+5MP+2MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.118",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.118-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.118.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "SAMSUNG A34 BLACK",
+      "slug": "samsung-a34-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.6″, 1080 x 2340 pixels\nProcesador: Mediatel Helio G80 2GHz\nRAM: 6GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 48MP+8MP+5MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.6″, 1080 x 2340 pixels\nProcesador: Mediatel Helio G80 2GHz\nRAM: 6GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 48MP+8MP+5MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.109",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.109-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.109.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Samsung A34 SILVER",
+      "slug": "samsung-a34-silver",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.6″, 1080 x 2340 pixels\nProcesador: Mediatel Helio G80 2GHz\nRAM: 6GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 48MP+8MP+5MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.6″, 1080 x 2340 pixels\nProcesador: Mediatel Helio G80 2GHz\nRAM: 6GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 48MP+8MP+5MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.110",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.110-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.110.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Samsung A54 BLACK",
+      "slug": "samsung-a54-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.5″, 1080 x 2340 pixels\nProcesador: Exynos 1380 2,4GHz\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: microSD\nCámara: Triple, 50MP+12MP+5MP\nCámara Frontal: 32MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.5″, 1080 x 2340 pixels\nProcesador: Exynos 1380 2,4GHz\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: microSD\nCámara: Triple, 50MP+12MP+5MP\nCámara Frontal: 32MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.112",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.112-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.112.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Samsung A54 LIGHT GREEN",
+      "slug": "samsung-a54-light-green",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.5″, 1080 x 2340 pixels\nProcesador: Exynos 1380 2,4GHz\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: microSD\nCámara: Triple, 50MP+12MP+5MP\nCámara Frontal: 32MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.5″, 1080 x 2340 pixels\nProcesador: Exynos 1380 2,4GHz\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: microSD\nCámara: Triple, 50MP+12MP+5MP\nCámara Frontal: 32MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.111",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.111-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.111.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Samsung S23 BLACK",
+      "slug": "samsung-s23-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Amoled 6.1″ Full HD+120Hz\nProcesador: Snapdragon 8 Gen 2\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: No\nCámara: Triple, 50MP+12MP+10MP\nCámara Frontal: 12MP\nBatería: 3900 mAh\nOS: Android 13\"",
+      "long_description": "\"Amoled 6.1″ Full HD+120Hz\nProcesador: Snapdragon 8 Gen 2\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: No\nCámara: Triple, 50MP+12MP+10MP\nCámara Frontal: 12MP\nBatería: 3900 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.105",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.105-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.105.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Samsung S23 PLUS BLACK",
+      "slug": "samsung-s23-plus-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.6″, 1080 x 2430 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 3\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: No\nCámara: Triple, 50MP+10MP+12MP\nCámara Frontal: 12MP\nBatería: 4700 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.6″, 1080 x 2430 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 3\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: No\nCámara: Triple, 50MP+10MP+12MP\nCámara Frontal: 12MP\nBatería: 4700 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.102",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.102-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.102.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Samsung S23 ULTRA BLACK",
+      "slug": "samsung-s23-ultra-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.98",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.98-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.98.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Samsung S23 ULTRA GREEN",
+      "slug": "samsung-s23-ultra-gree",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.97",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.97-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.97.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Samsung S23 ULTRA BEIGE",
+      "slug": "samsung-s23-ultra-beige",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.99",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.99-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.99.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Samsung S23 LIGHT PINK",
+      "slug": "samsung-s23-light-pink",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.101",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.101-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.101.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Samsung GALAXY TAB S8 5G",
+      "slug": "samsung-galaxy-tab-s8-5g",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 11″, 1600 x 2560 pixels\nProcesador: Snapdragon 8 Gen 1 3GHz\nRAM: 8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Dual, 13MP+6MP\nCámara Frontal: 12MP\nBatería: 8000 mAh\nOS: Android 12\"",
+      "long_description": "\"Pantalla: 11″, 1600 x 2560 pixels\nProcesador: Snapdragon 8 Gen 1 3GHz\nRAM: 8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Dual, 13MP+6MP\nCámara Frontal: 12MP\nBatería: 8000 mAh\nOS: Android 12\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "13.02.11",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/13.02.11-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/13.02.11.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Samsung GALAXY TAB S8 PLUS",
+      "slug": "samsung-galaxy-tab-s8-plus",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 12.4″, 1752 x 2800 pixels\nProcesador: Snapdragon 8 Gen 1 3GHz\nRAM: 8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Dual, 13MP+6MP\nCámara Frontal: 12MP\nBatería: 10090 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 12.4″, 1752 x 2800 pixels\nProcesador: Snapdragon 8 Gen 1 3GHz\nRAM: 8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Dual, 13MP+6MP\nCámara Frontal: 12MP\nBatería: 10090 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "13.02.07",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/13.02.07-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/13.02.07.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "WATCH 5 PRO BLACK",
+      "slug": "watch-5-pro-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 1.4″, 450 x 450 pixels\nProcesador: Exynos W920 Dual-Core\nRAM: 1.5GB\nAlmacenamiento: 16GB\nBatería: 5000 mAh\"",
+      "long_description": "\"Pantalla: 1.4″, 450 x 450 pixels\nProcesador: Exynos W920 Dual-Core\nRAM: 1.5GB\nAlmacenamiento: 16GB\nBatería: 5000 mAh\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.363",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.363-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.363.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Watchs",
+          "slug": "watchs"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Watchs Samsung",
+          "slug": "watchs-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "WATCH 5 GOLD",
+      "slug": "watch-5-gold",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 1.2″, 396 x 396 pixels\nProcesador: Exynos W920 Dual-Core\nRAM: 1.5GB\nAlmacenamiento: 16GB\nBatería: 284m Ah Carga Rapida 10W\"",
+      "long_description": "\"Pantalla: 1.2″, 396 x 396 pixels\nProcesador: Exynos W920 Dual-Core\nRAM: 1.5GB\nAlmacenamiento: 16GB\nBatería: 284m Ah Carga Rapida 10W\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.364",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.364-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.364.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Watchs",
+          "slug": "watchs"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Watchs Samsung",
+          "slug": "watchs-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "WATCH 5 SILVER",
+      "slug": "watch-5-silver",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 1.4″, 450 x 450 pixels\nProcesador: Exynos W920 Dual-Core\nRAM: 1.5GB\nAlmacenamiento: 16GB\nBatería: 410 mAh Carga Rapida\"",
+      "long_description": "\"Pantalla: 1.4″, 450 x 450 pixels\nProcesador: Exynos W920 Dual-Core\nRAM: 1.5GB\nAlmacenamiento: 16GB\nBatería: 410 mAh Carga Rapida\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.366",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.366-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.366.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Watchs",
+          "slug": "watchs"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Watchs Samsung",
+          "slug": "watchs-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "BUDS 2 BLACK",
+      "slug": "buds-2-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Auriculares 61 mAh\nEstuche: 472 mAh\ncompatibilidad: Android,iOS\"",
+      "long_description": "\"Auriculares 61 mAh\nEstuche: 472 mAh\ncompatibilidad: Android,iOS\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.14",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.14-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.14.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "BUDS",
+          "slug": "buds"
+        }
+      ],
+      "tags": [
+        {
+          "name": "BUDS Samsung",
+          "slug": "buds-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "BUDS 2 PRO GRAY",
+      "slug": "buds-2-pro-gray",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Auriculares 61 mAh\nEstuche: 515 mAh\ncompatibilidad: Android 8.0\"",
+      "long_description": "\"Auriculares 61 mAh\nEstuche: 515 mAh\ncompatibilidad: Android 8.0\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.378",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.378-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.378.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "BUDS",
+          "slug": "buds"
+        }
+      ],
+      "tags": [
+        {
+          "name": "BUDS Samsung",
+          "slug": "buds-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "TV 65 SAMSUNG QLED ",
+      "slug": "tv-65-samsung-qled",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 65″\nProcesador: Quantum 4K\"",
+      "long_description": "\"Pantalla: 65″\nProcesador: Quantum 4K\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "15.02.26",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.26-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.26.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "TV",
+          "slug": "tv"
+        }
+      ],
+      "tags": [
+        {
+          "name": "TV Samsung",
+          "slug": "tv-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+
+    {
+      "id": 22,
+      "name": "TV 65 SAMSUNG LED UHD",
+      "slug": "tv-65-samsung-led-uhd",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 65″\nProcesador: Crystal 4K\"",
+      "long_description": "\"Pantalla: 65″\nProcesador: Crystal 4K\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "15.02.50",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.50-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.50.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "TV",
+          "slug": "tv"
+        }
+      ],
+      "tags": [
+        {
+          "name": "TV Samsung",
+          "slug": "tv-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "TV 60 SAMSUNG LED UHD",
+      "slug": "tv-60-samsung-led-uhd",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 60″\nProcesador: Crystal 4K\"",
+      "long_description": "\"Pantalla: 60″\nProcesador: Crystal 4K\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "15.02.49",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.49-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.49.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "TV",
+          "slug": "tv"
+        }
+      ],
+      "tags": [
+        {
+          "name": "TV Samsung",
+          "slug": "tv-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "CARGADOR DE PARED",
+      "slug": "cargador-de-pared",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Capacidad: 25W\nSin cable\"",
+      "long_description": "\"Capacidad: 25W\nSin cable\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.04",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.04-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.04.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Cargadores",
+          "slug": "cargadores"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Cargadores Samsung",
+          "slug": "cargadores-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "CARGADOR POWER ADAPTER",
+      "slug": "cargador-power-adapter",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Capacidad: 45W\"",
+      "long_description": "\"Capacidad: 45W\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.382",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.382-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.382.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Cargadores",
+          "slug": "cargadores"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Cargadores Samsung",
+          "slug": "cargadores-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    }
+
+
+  ],
+  "productCollection": [
+
+    {
+      "id": 1,
+      "name": "SAMSUNG A04 BLACK",
+      "slug": "samsung-a04-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.5″, 720 x 1600 pixels\nProcesador: Unisoc SC9863A 1.6GHz\nRAM: 4GB\nAlmacenamiento: 64GB\nExpansión: microSD\nCámara: Dual, 50MP+2MP\nCámara Frontal: 5MP\nBatería: 5000 mAh\nOS: Android 12\"",
+      "long_description": "\"Pantalla: 6.5″, 720 x 1600 pixels\nProcesador: Unisoc SC9863A 1.6GHz\nRAM: 4GB\nAlmacenamiento: 64GB\nExpansión: microSD\nCámara: Dual, 50MP+2MP\nCámara Frontal: 5MP\nBatería: 5000 mAh\nOS: Android 12\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.106",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.106-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.106.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "name": "SAMSUNG A14 BLACK",
+      "slug": "samsung-a14-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.6″, 1080 x 2408 pixels\nProcesador: Mediatek Dimensity 1080 2.6GHz\nRAM: 4GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 50MP+2MP+2MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.6″, 1080 x 2408 pixels\nProcesador: Mediatek Dimensity 1080 2.6GHz\nRAM: 4GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 50MP+2MP+2MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.115",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.115-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.115.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "SAMSUNG A24 SILVER",
+      "slug": "samsung-a24-silver",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.5″, 1080 x 2340 pixels\nProcesador: Mediatek Helio G99 2.2GHz\nRAM: 6/8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 50MP+5MP+2MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.5″, 1080 x 2340 pixels\nProcesador: Mediatek Helio G99 2.2GHz\nRAM: 6/8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 50MP+5MP+2MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.118",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.118-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.118.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "SAMSUNG A34 BLACK",
+      "slug": "samsung-a34-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.6″, 1080 x 2340 pixels\nProcesador: Mediatel Helio G80 2GHz\nRAM: 6GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 48MP+8MP+5MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.6″, 1080 x 2340 pixels\nProcesador: Mediatel Helio G80 2GHz\nRAM: 6GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 48MP+8MP+5MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.109",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.109-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.109.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Samsung A34 SILVER",
+      "slug": "samsung-a34-silver",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.6″, 1080 x 2340 pixels\nProcesador: Mediatel Helio G80 2GHz\nRAM: 6GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 48MP+8MP+5MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.6″, 1080 x 2340 pixels\nProcesador: Mediatel Helio G80 2GHz\nRAM: 6GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 48MP+8MP+5MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.110",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.110-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.110.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Samsung A54 BLACK",
+      "slug": "samsung-a54-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.5″, 1080 x 2340 pixels\nProcesador: Exynos 1380 2,4GHz\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: microSD\nCámara: Triple, 50MP+12MP+5MP\nCámara Frontal: 32MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.5″, 1080 x 2340 pixels\nProcesador: Exynos 1380 2,4GHz\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: microSD\nCámara: Triple, 50MP+12MP+5MP\nCámara Frontal: 32MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.112",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.112-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.112.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Samsung A54 LIGHT GREEN",
+      "slug": "samsung-a54-light-green",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.5″, 1080 x 2340 pixels\nProcesador: Exynos 1380 2,4GHz\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: microSD\nCámara: Triple, 50MP+12MP+5MP\nCámara Frontal: 32MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.5″, 1080 x 2340 pixels\nProcesador: Exynos 1380 2,4GHz\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: microSD\nCámara: Triple, 50MP+12MP+5MP\nCámara Frontal: 32MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.111",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.111-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.111.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Samsung S23 BLACK",
+      "slug": "samsung-s23-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Amoled 6.1″ Full HD+120Hz\nProcesador: Snapdragon 8 Gen 2\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: No\nCámara: Triple, 50MP+12MP+10MP\nCámara Frontal: 12MP\nBatería: 3900 mAh\nOS: Android 13\"",
+      "long_description": "\"Amoled 6.1″ Full HD+120Hz\nProcesador: Snapdragon 8 Gen 2\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: No\nCámara: Triple, 50MP+12MP+10MP\nCámara Frontal: 12MP\nBatería: 3900 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.105",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.105-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.105.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Samsung S23 PLUS BLACK",
+      "slug": "samsung-s23-plus-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.6″, 1080 x 2430 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 3\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: No\nCámara: Triple, 50MP+10MP+12MP\nCámara Frontal: 12MP\nBatería: 4700 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.6″, 1080 x 2430 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 3\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: No\nCámara: Triple, 50MP+10MP+12MP\nCámara Frontal: 12MP\nBatería: 4700 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.102",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.102-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.102.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Samsung S23 ULTRA BLACK",
+      "slug": "samsung-s23-ultra-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.98",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.98-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.98.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Samsung S23 ULTRA GREEN",
+      "slug": "samsung-s23-ultra-gree",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.97",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.97-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.97.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Samsung S23 ULTRA BEIGE",
+      "slug": "samsung-s23-ultra-beige",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.99",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.99-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.99.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Samsung S23 LIGHT PINK",
+      "slug": "samsung-s23-light-pink",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.1″, 1440 x 3080 pixels\nProcesador: Qualcomm Sanpdragon 8 Gen 2 Adreno 740\nRAM: 12GB\nAlmacenamiento: 512GB\nExpansión: No\nCámara: Cuadruple, 200MP+12MP+10MP+10MP\nCámara Frontal: 12MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.101",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.101-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.101.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Samsung GALAXY TAB S8 5G",
+      "slug": "samsung-galaxy-tab-s8-5g",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 11″, 1600 x 2560 pixels\nProcesador: Snapdragon 8 Gen 1 3GHz\nRAM: 8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Dual, 13MP+6MP\nCámara Frontal: 12MP\nBatería: 8000 mAh\nOS: Android 12\"",
+      "long_description": "\"Pantalla: 11″, 1600 x 2560 pixels\nProcesador: Snapdragon 8 Gen 1 3GHz\nRAM: 8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Dual, 13MP+6MP\nCámara Frontal: 12MP\nBatería: 8000 mAh\nOS: Android 12\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "13.02.11",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/13.02.11-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/13.02.11.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Samsung GALAXY TAB S8 PLUS",
+      "slug": "samsung-galaxy-tab-s8-plus",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 12.4″, 1752 x 2800 pixels\nProcesador: Snapdragon 8 Gen 1 3GHz\nRAM: 8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Dual, 13MP+6MP\nCámara Frontal: 12MP\nBatería: 10090 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 12.4″, 1752 x 2800 pixels\nProcesador: Snapdragon 8 Gen 1 3GHz\nRAM: 8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Dual, 13MP+6MP\nCámara Frontal: 12MP\nBatería: 10090 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "13.02.07",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/13.02.07-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/13.02.07.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "WATCH 5 PRO BLACK",
+      "slug": "watch-5-pro-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 1.4″, 450 x 450 pixels\nProcesador: Exynos W920 Dual-Core\nRAM: 1.5GB\nAlmacenamiento: 16GB\nBatería: 5000 mAh\"",
+      "long_description": "\"Pantalla: 1.4″, 450 x 450 pixels\nProcesador: Exynos W920 Dual-Core\nRAM: 1.5GB\nAlmacenamiento: 16GB\nBatería: 5000 mAh\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.363",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.363-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.363.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Watchs",
+          "slug": "watchs"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Watchs Samsung",
+          "slug": "watchs-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "WATCH 5 GOLD",
+      "slug": "watch-5-gold",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 1.2″, 396 x 396 pixels\nProcesador: Exynos W920 Dual-Core\nRAM: 1.5GB\nAlmacenamiento: 16GB\nBatería: 284m Ah Carga Rapida 10W\"",
+      "long_description": "\"Pantalla: 1.2″, 396 x 396 pixels\nProcesador: Exynos W920 Dual-Core\nRAM: 1.5GB\nAlmacenamiento: 16GB\nBatería: 284m Ah Carga Rapida 10W\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.364",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.364-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.364.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Watchs",
+          "slug": "watchs"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Watchs Samsung",
+          "slug": "watchs-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "WATCH 5 SILVER",
+      "slug": "watch-5-silver",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 1.4″, 450 x 450 pixels\nProcesador: Exynos W920 Dual-Core\nRAM: 1.5GB\nAlmacenamiento: 16GB\nBatería: 410 mAh Carga Rapida\"",
+      "long_description": "\"Pantalla: 1.4″, 450 x 450 pixels\nProcesador: Exynos W920 Dual-Core\nRAM: 1.5GB\nAlmacenamiento: 16GB\nBatería: 410 mAh Carga Rapida\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.366",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.366-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.366.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Watchs",
+          "slug": "watchs"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Watchs Samsung",
+          "slug": "watchs-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "BUDS 2 BLACK",
+      "slug": "buds-2-black",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Auriculares 61 mAh\nEstuche: 472 mAh\ncompatibilidad: Android,iOS\"",
+      "long_description": "\"Auriculares 61 mAh\nEstuche: 472 mAh\ncompatibilidad: Android,iOS\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.14",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.14-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.14.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "BUDS",
+          "slug": "buds"
+        }
+      ],
+      "tags": [
+        {
+          "name": "BUDS Samsung",
+          "slug": "buds-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "BUDS 2 PRO GRAY",
+      "slug": "buds-2-pro-gray",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Auriculares 61 mAh\nEstuche: 515 mAh\ncompatibilidad: Android 8.0\"",
+      "long_description": "\"Auriculares 61 mAh\nEstuche: 515 mAh\ncompatibilidad: Android 8.0\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.378",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.378-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.378.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "BUDS",
+          "slug": "buds"
+        }
+      ],
+      "tags": [
+        {
+          "name": "BUDS Samsung",
+          "slug": "buds-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "TV 65 SAMSUNG QLED ",
+      "slug": "tv-65-samsung-qled",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 65″\nProcesador: Quantum 4K\"",
+      "long_description": "\"Pantalla: 65″\nProcesador: Quantum 4K\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "15.02.26",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.26-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.26.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "TV",
+          "slug": "tv"
+        }
+      ],
+      "tags": [
+        {
+          "name": "TV Samsung",
+          "slug": "tv-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+
+    {
+      "id": 22,
+      "name": "TV 65 SAMSUNG LED UHD",
+      "slug": "tv-65-samsung-led-uhd",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 65″\nProcesador: Crystal 4K\"",
+      "long_description": "\"Pantalla: 65″\nProcesador: Crystal 4K\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "15.02.50",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.50-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.50.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "TV",
+          "slug": "tv"
+        }
+      ],
+      "tags": [
+        {
+          "name": "TV Samsung",
+          "slug": "tv-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "TV 60 SAMSUNG LED UHD",
+      "slug": "tv-60-samsung-led-uhd",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Pantalla: 60″\nProcesador: Crystal 4K\"",
+      "long_description": "\"Pantalla: 60″\nProcesador: Crystal 4K\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "15.02.49",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.49-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.49.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "TV",
+          "slug": "tv"
+        }
+      ],
+      "tags": [
+        {
+          "name": "TV Samsung",
+          "slug": "tv-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "CARGADOR DE PARED",
+      "slug": "cargador-de-pared",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Capacidad: 25W\nSin cable\"",
+      "long_description": "\"Capacidad: 25W\nSin cable\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.04",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.04-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.04.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Cargadores",
+          "slug": "cargadores"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Cargadores Samsung",
+          "slug": "cargadores-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "CARGADOR POWER ADAPTER",
+      "slug": "cargador-power-adapter",
+      "price": 2,
+      "sale_price": 1,
+      "short_description": "\"Capacidad: 45W\"",
+      "long_description": "\"Capacidad: 45W\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.382",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.382-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.382.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Cargadores",
+          "slug": "cargadores"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Cargadores Samsung",
+          "slug": "cargadores-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    }
+
+
+  ]
+}
