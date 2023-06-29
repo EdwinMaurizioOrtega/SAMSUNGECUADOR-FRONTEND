@@ -57,9 +57,9 @@ export default function NewsletterModal() {
         >
             <div className="newsletter-popup" id="newsletter-popup" style={ { backgroundImage: "url(images/newsletter-popup.jpg)" } }>
                 <div className="newsletter-content">
-                    <h4 className="text-uppercase text-dark">Aprovecha <span className="text-primary">ncreíble promo </span></h4>
+                    <h4 className="text-uppercase text-dark">Aprovecha <span className="text-primary">increíble promo </span></h4>
                     <h2 className="font-weight-semi-bold">Galaxy <span>Z Flip4</span></h2>
-                    <p className="text-grey">Captura la vida con una perspectiva nueva</p>
+                    <p className="text-grey">Captura la vida con una perspectiva nueva.</p>
 
                         {/*<input type="email" className="form-control email" name="email" id="email2" placeholder="Email address here..." required />*/}
                         <button className="btn btn-dark" type="submit">COMPRAR</button>
