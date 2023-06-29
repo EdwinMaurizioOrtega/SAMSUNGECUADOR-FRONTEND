@@ -184,8 +184,13 @@ function DetailOne( props ) {
                     product.data.price[ 0 ] !== product.data.price[ 1 ] ?
                         product.data.variants.length === 0 || ( product.data.variants.length > 0 && !product.data.variants[ 0 ].price ) ?
                             <>
-                                <ins className="new-price">${ toDecimal( product.data.price[ 0 ] ) }</ins>
-                                <del className="old-price">${ toDecimal( product.data.price[ 1 ] ) }</del>
+                                <ins className="new-price" style={{color: "#aaa"}}>Precio PVP: </ins>
+                                <ins className="old-price">${ toDecimal( product.data.price[ 1 ] ) }</ins>
+                                <br></br>
+                                <br></br>
+                                <ins className="new-price">Precio Promocional: </ins>
+                                <ins className="old-price">${ toDecimal( product.data.price[ 0 ] ) }</ins>
+
                             </>
                             :
                             < del className="new-price">${ toDecimal( product.data.price[ 0 ] ) } – ${ toDecimal( product.data.price[ 1 ] ) }</del>
@@ -194,7 +199,7 @@ function DetailOne( props ) {
             </div>
 
             {
-                product.data.price[ 0 ] !== product.data.price[ 1 ] && product.data.variants.length === 0 ?
+              product.data.price[ 0 ] !== product.data.price[ 1 ] && product.data.variants.length === 0 ?
                     <Countdown type={ 2 } /> : ''
             }
 
@@ -315,3 +320,7 @@ function mapStateToProps( state ) {
 }
 
 export default connect( mapStateToProps, { toggleWishlist: wishlistActions.toggleWishlist, addToCart: cartActions.addToCart } )( DetailOne );
+
+
+
+// Nota: reactivar el 32 0000

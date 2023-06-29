@@ -49,7 +49,7 @@ export default function Header(props) {
                     ''
             }
 
-            <div className="header-top">
+            <div className="header-top" style={{backgroundColor: 'black'}}>
                 <div className="container">
                     <div className="header-left">
                         <p className="welcome-msg">¡Bienvenido a Samsung Store Ecuador!</p>
@@ -75,13 +75,13 @@ export default function Header(props) {
                         <span className="divider"></span>
 
                         <ALink href="/pages/contact-us" className="contact d-lg-show"><i className="d-icon-money"></i>Formas de pago</ALink>
-                        <ALink href="#" className="help d-lg-show"><i className="d-icon-info"></i> Estado pedido</ALink>
+                        {/*<ALink href="#" className="help d-lg-show"><i className="d-icon-info"></i> Estado pedido</ALink>*/}
                         {/*<LoginModal />*/}
                     </div>
                 </div>
             </div>
 
-            <div className="header-middle">
+            <div className="header-middle" style={{backgroundColor: 'black'}}>
                 <div className="container">
                     <div className="header-left">
                         <ALink href="#" className="mobile-menu-toggle text-white" onClick={showMobileMenu}>
@@ -93,7 +93,7 @@ export default function Header(props) {
                         </ALink>
                     </div>
 
-                    <div className="header-center">
+                    <div className="header-center" style={{backgroundColor: 'black'}}>
                         <SearchBox />
                     </div>
 
@@ -104,14 +104,14 @@ export default function Header(props) {
                             </div>
                             <div className="icon-box-content d-lg-show">
                                 <h4 className="icon-box-title text-white">Contáctanos:</h4>
-                                <p className="text-white">098 335 0131</p>
+                                <p className="text-white">099 117 1111</p>
                             </div>
                         </ALink>
-                        <span className="divider"></span>
+                        {/*<span className="divider"></span>*/}
                         {/*<ALink href="/pages/wishlist" className="wishlist">*/}
                         {/*    <i className="d-icon-heart"></i>*/}
                         {/*</ALink>*/}
-                        <span className="divider"></span>
+                        {/*<span className="divider"></span>*/}
 
                         {/*<CartMenu />*/}
                     </div>

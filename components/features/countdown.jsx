@@ -5,7 +5,7 @@ export default function ProductCountDown(props) {
 
     const renderer = ({ days, hours, minutes, seconds, completed }) => {
         if (completed) {
-            return <span>Product Selling Finished!</span>
+            return <span>NOTA: Precio promocional aplica en efectivo o transferencia bancaria.</span>
         } else {
             return (
                 type === 1 ?

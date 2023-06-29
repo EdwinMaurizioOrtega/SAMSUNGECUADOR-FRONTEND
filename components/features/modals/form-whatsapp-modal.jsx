@@ -64,10 +64,24 @@ function FormWhatsAppModal ({product}) {
         window.open(whatsappUrl, '_blank');
     };
 
+
+
+
+
+    const handleSubmitAux = (event) => {
+        event.preventDefault(); // Evita el comportamiento de envío por defecto del formulario
+
+        const whatsappUrl = `https://web.whatsapp.com/send?phone=593939991111&text=Hola, estoy interesado/a en este producto: ${product.data.name}, Precio promocional: $${product.data.price[0]}, Precio PVP: $${product.data.price[1]}`;
+        window.open(whatsappUrl, '_blank');
+
+    }
+
+
+
     return (
         <>
-            <button onClick={openModal} className={`btn-product btn-cart text-normal ls-normal font-weight-semi-bold `}><i
-                className='fab fa-whatsapp'></i>Consultar Disponibilidad
+            <button onClick={handleSubmitAux} className={`btn-product btn-cart text-normal ls-normal font-weight-semi-bold `}><i
+                className='fab fa-whatsapp'></i>Comprar
             </button>
 
             {
@@ -107,15 +121,15 @@ function FormWhatsAppModal ({product}) {
                                                 <div className="form-group mb-3">
                                                     <input type="text" className="form-control" id="email" name="singin-email" placeholder="Email" required />
                                                 </div>
-                                                <div className="form-group mb-3">
-                                                    <input type="text" className="form-control" id="telefono" name="singin-email" placeholder="Teléfono" required />
-                                                </div>
-                                                <div className="form-group mb-3">
-                                                    <input type="text" className="form-control" id="direccion" name="singin-email" placeholder="Dirección" required />
-                                                </div>
-                                                <div className="form-group mb-3">
-                                                    <input type="text" className="form-control" id="ciudad" name="singin-email" placeholder="Ciudad" required />
-                                                </div>
+                                                {/*<div className="form-group mb-3">*/}
+                                                {/*    <input type="text" className="form-control" id="telefono" name="singin-email" placeholder="Teléfono" required />*/}
+                                                {/*</div>*/}
+                                                {/*<div className="form-group mb-3">*/}
+                                                {/*    <input type="text" className="form-control" id="direccion" name="singin-email" placeholder="Dirección" required />*/}
+                                                {/*</div>*/}
+                                                {/*<div className="form-group mb-3">*/}
+                                                {/*    <input type="text" className="form-control" id="ciudad" name="singin-email" placeholder="Ciudad" required />*/}
+                                                {/*</div>*/}
 
                                                 <button className="btn btn-dark btn-block btn-rounded" type="submit">Enviar</button>
                                             </form>
