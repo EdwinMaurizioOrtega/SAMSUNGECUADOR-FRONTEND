@@ -27,7 +27,7 @@ export default function BannerGroup() {
                             <p>Libertad inalambrica y calidad de sonido excepcional</p>
                         </Reveal>
                         <Reveal keyframes={fadeInUpShorter} delay={500} duration={1200} triggerOnce>
-                            <ALink href="/shop" className="btn btn-outline btn-white font-weight-bold">Comprar</ALink>
+                            <ALink href="/product/default/buds-2-black" className="btn btn-outline btn-white font-weight-bold">Comprar</ALink>
                         </Reveal>
                     </div>
                 </div>
@@ -39,8 +39,8 @@ export default function BannerGroup() {
                             src="./images/home/banner/6.jpg"
                             alt="banner"
                             effect="opacity"
-                            width="100%"   //951
-                            height="auto"   //353
+                            width="100%"
+                            height="auto"
                         />
                     </figure>
                     <div className="banner-content y-50">
@@ -52,7 +52,7 @@ export default function BannerGroup() {
                             <p>Tu compañero inteligente para un estilo de vida activo.</p>
                         </Reveal>
                         <Reveal keyframes={fadeInUpShorter} delay={500} duration={1200} triggerOnce>
-                            <ALink href="/shop" className="btn btn-primary font-weight-bold">Comprar</ALink>
+                            <ALink href="/product/default/watch-5-pro-black" className="btn btn-primary font-weight-bold">Comprar</ALink>
                         </Reveal>
                     </div>
                 </div>

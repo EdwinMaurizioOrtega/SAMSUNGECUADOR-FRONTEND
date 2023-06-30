@@ -30,9 +30,9 @@ function IntroSection() {
                                     <h4 className="banner-subtitle mb-0">Promoción por tiempo limitado.</h4>
                                     <h3 className="banner-title text-uppercase">Z Flip 4 + Buds 2
                                         </h3>
-                                    <p className="banner-price text-uppercase mb-5">
-                                            <span><sup>$</sup>939.<sup>00</sup></span> inc. IVA&nbsp;</p>
-                                    <ALink href="/shop" className="btn btn-outline btn-white btn-md mb-2 btn-rounded">Comprar</ALink>
+                                    {/*<p className="banner-price text-uppercase mb-5">*/}
+                                    {/*        <span><sup>$</sup>939.<sup>00</sup></span> inc. IVA&nbsp;</p>*/}
+                                    <ALink href="/product/default/samsung-galaxy-z-flip-4" className="btn btn-outline btn-white btn-md mb-2 btn-rounded">Comprar</ALink>
                                 </div>
                             </div>
                             {/*<div className="intro-slide2 banner banner-fixed" style={{ backgroundColor: '#f5f6f8' }}>*/}
@@ -91,8 +91,11 @@ function IntroSection() {
                                 <h3 className="banner-title mb-2 ls-m text-uppercase">Samsung TV<span
                                     className="d-block text-normal">65" LED UHD</span></h3>
                                 <h4 className="banner-subtitle font-secondary">Smart TV</h4>
-                                <div className="banner-price-info ls-m font-weight-semi-bold text-dark"><ins
-                                    className="mr-2">$1888.99</ins><del>$2000.60</del></div>
+                                {/*<div className="banner-price-info ls-m font-weight-semi-bold text-dark"><ins*/}
+                                {/*    className="mr-2">$1888.99</ins><del>$2000.60</del></div>*/}
+                                <Reveal keyframes={fadeInUpShorter} delay={500} duration={1200} triggerOnce>
+                                    <ALink href="/product/default/tv-65-samsung-led-uhd" className="btn btn-outline btn-white font-weight-bold">Comprar</ALink>
+                                </Reveal>
                             </div>
                         </div>
                     </Reveal>
@@ -113,7 +116,10 @@ function IntroSection() {
                                 <h4 className="banner-subtitle mb-1 text-white">Galaxy</h4>
                                 <h3 className="banner-title ls-m text-white">TAB S8 Ultra</h3>
                                 <p className="font-weight-semi-bold text-white ls-m">Nueva generación tecnológica</p>
-                                <h4 className="banner-desc text-white mb-0"><span className="text-secondary">$1239.00</span></h4>
+                                {/*<h4 className="banner-desc text-white mb-0"><span className="text-secondary">$1239.00</span></h4>*/}
+                                <Reveal keyframes={fadeInUpShorter} delay={500} duration={1200} triggerOnce>
+                                    <ALink href="/product/default/samsung-galaxy-tab-s8-plus" className="btn btn-outline btn-white font-weight-bold">Comprar</ALink>
+                                </Reveal>
                             </div>
                         </div>
                     </Reveal>
