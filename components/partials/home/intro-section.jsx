@@ -57,7 +57,7 @@ function IntroSection() {
                 <div className="grid-item col-lg-4 col-sm-6 height-x2">
                     <Reveal keyframes={fadeInDownShorter} delay={400} duration={1000} className="h-100">
                         <div className="intro-banner1 banner banner-fixed" style={{ backgroundColor: '#f1f1f1' }}>
-                            <ALink href="/shop">
+                            <ALink href="https://api.whatsapp.com/send?phone=593991171111&text=Hola.">
                                 <figure>
                                     <LazyLoadImage
                                         src="./images/home/banner/2.jpg"
