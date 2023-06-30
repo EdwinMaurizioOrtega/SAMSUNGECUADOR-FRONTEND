@@ -51,12 +51,12 @@ export default function ProudctCollection(props) {
                             Productos más vendidos
                             </h2>
                         <ul className="nav-filters product-filters filter-underline">
-                            <li><a href="#" className="nav-filter active" onClick={e => isoFilter(e, '')}>All</a></li>
-                            <li><a href="#" className="nav-filter" onClick={e => isoFilter(e, 'mobile')}>Mobile</a></li>
-                            <li><a href="#" className="nav-filter" onClick={e => isoFilter(e, 'headphone')}>Headphone</a></li>
-                            <li><a href="#" className="nav-filter" onClick={e => isoFilter(e, 'camera')}>Camera</a></li>
-                            <li><a href="#" className="nav-filter" onClick={e => isoFilter(e, 'drone')}>Drone</a></li>
-                            <li><a href="#" className="nav-filter" onClick={e => isoFilter(e, 'speaker')}>Speaker</a></li>
+                            <li><a href="#" className="nav-filter active" onClick={e => isoFilter(e, '')}>Todo</a></li>
+                            {/*<li><a href="#" className="nav-filter" onClick={e => isoFilter(e, 'mobile')}>Mobile</a></li>*/}
+                            {/*<li><a href="#" className="nav-filter" onClick={e => isoFilter(e, 'headphone')}>Headphone</a></li>*/}
+                            {/*<li><a href="#" className="nav-filter" onClick={e => isoFilter(e, 'camera')}>Camera</a></li>*/}
+                            {/*<li><a href="#" className="nav-filter" onClick={e => isoFilter(e, 'drone')}>Drone</a></li>*/}
+                            {/*<li><a href="#" className="nav-filter" onClick={e => isoFilter(e, 'speaker')}>Speaker</a></li>*/}
                         </ul>
                     </div>
                     <div className="grid-border">

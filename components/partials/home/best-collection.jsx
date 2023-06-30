@@ -20,10 +20,10 @@ function BestCollection(props) {
                         <div className="title-wrapper">
                             <h2 className="title mr-md-4 mt-1 mb-1">Ofertas</h2>
                             {/*<Countdown type={3} />*/}
-                            <ALink href="/shop" className="btn btn-link">View more<i className="d-icon-arrow-right"></i></ALink>
+                            <ALink href="/shop" className="btn btn-link">VER MÁS<i className="d-icon-arrow-right"></i></ALink>
                         </div>
                         :
-                        <h2 className="title title-simple with-link">Destacado<ALink href="/shop">View more<i className="d-icon-arrow-right"></i></ALink></h2>
+                        <h2 className="title title-simple with-link">Destacado<ALink href="/shop">VER MÁS<i className="d-icon-arrow-right"></i></ALink></h2>
                 }
                 {
                     loading ?

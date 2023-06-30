@@ -17,7 +17,7 @@ export default function LatestCollection(props) {
                 <div className="container pt-3 pb-4">
                     <h2 className="title title-simple with-link">
                         Mas visto
-                        <ALink href="/shop">View more<i className="d-icon-arrow-right"></i></ALink>
+                        <ALink href="/shop">VER MÁS<i className="d-icon-arrow-right"></i></ALink>
                     </h2>
                     {
                         loading ?
