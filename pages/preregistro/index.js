@@ -61,8 +61,8 @@ function PreRegistro() {
             redirect: 'follow'
         };
 
-        //fetch("http://localhost:8080/preregistro", requestOptions)
-        fetch("https://samsungecuador.com/preregistro", requestOptions)
+        //fetch("http://localhost/preregistro", requestOptions)
+        fetch("https://api.samsungecuador.com/preregistro", requestOptions)
             .then(response => response.text())
             .then(result => console.log(result))
             .catch(error => console.log('error', error));
