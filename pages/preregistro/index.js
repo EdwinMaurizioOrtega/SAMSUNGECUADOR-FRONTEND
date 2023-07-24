@@ -12,15 +12,68 @@ function PreRegistro() {
         }
     );
 
-    // Use `useFieldArray` to handle the checkbox options.
-    const {fields, append, remove} = useFieldArray({
-        control,
-        name: 'checkboxOptionsAll',
-    });
-
     const onSubmit = (data) => {
-        console.log('Form data:', data);
-        alert('Form submitted successfully!');
+        console.log('Form data V1:', data);
+
+        data.checkboxOptions.forEach((option, index) => {
+            data[`option${index}`] = option.selected;
+        });
+
+        delete data.checkboxOptions;
+
+        console.log(JSON.stringify(data, null, 2));
+
+
+
+        var myHeaders = new Headers();
+        myHeaders.append("Content-Type", "application/json");
+
+        var raw = JSON.stringify({
+            "firstname": data["first-name"],
+            "lastname": data["last-name"],
+            "birthdate":  data["fecha-nacimiento"],
+            "email": data["email-a"],
+            "confirmemail": data["email-b"],
+            "phone": data["tlf"],
+
+            "currentdevice": data["actual_dispositivo"],
+            "checkboxOptions0": data.option0,
+            "checkboxOptions1": data.option1,
+            "checkboxOptions2": data.option2,
+            "checkboxOptions3": data.option3,
+            "checkboxOptions4": data.option4,
+            "checkboxOptions5": data.option5,
+            "checkboxOptions6": data.option6,
+            "enjoydevice": data["disfrutas_dispositivo"],
+            "checkboxOptions7": data.option7,
+            "checkboxOptions8": data.option8,
+            "checkboxOptions9": data.option9,
+            "checkboxOptions10": data.option10,
+            "checkboxOptions11": data.option11,
+            "checkboxOptions12": true,
+            "checkboxOptions13": true,
+        });
+
+        var requestOptions = {
+            method: 'POST',
+            headers: myHeaders,
+            body: raw,
+            redirect: 'follow'
+        };
+
+        //fetch("http://localhost:8080/preregistro", requestOptions)
+        fetch("https://samsungecuador.com/preregistro", requestOptions)
+            .then(response => response.text())
+            .then(result => console.log(result))
+            .catch(error => console.log('error', error));
+
+        alert('¡Formulario enviado con éxito!');
+
+        // Reload the page after 2 seconds
+        setTimeout(() => {
+            window.location.reload();
+        }, 2000);
+
     };
 
     return (
@@ -261,7 +314,7 @@ function PreRegistro() {
 
                                 <tr className="sumnary-shipping shipping-row-last">
                                     <td colSpan="2">
-                                        <h4 className="summary-subtitle">¿Cuál es su dispositivo actual?</h4>
+                                        <h4 className="summary-subtitle">¿Qué tipo de producto te interesa?</h4>
 
                                     </td>
                                 </tr>
