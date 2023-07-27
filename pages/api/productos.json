@@ -1739,6 +1739,57 @@
           "slug": "samsung"
         }
       ]
+    },
+    {
+      "id": 23,
+      "name": "Samsung GALAXY TAB S8 5G",
+      "slug": "samsung-galaxy-tab-s8-5g",
+      "price": 899.00,
+      "sale_price": 859.00,
+      "short_description": "\"Pantalla: 11″, 1600 x 2560 pixels\nProcesador: Snapdragon 8 Gen 1 3GHz\nRAM: 8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Dual, 13MP+6MP\nCámara Frontal: 12MP\nBatería: 8000 mAh\nOS: Android 12\"",
+      "long_description": "\"Pantalla: 11″, 1600 x 2560 pixels\nProcesador: Snapdragon 8 Gen 1 3GHz\nRAM: 8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Dual, 13MP+6MP\nCámara Frontal: 12MP\nBatería: 8000 mAh\nOS: Android 12\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "13.02.11",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/13.02.11-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/13.02.11.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
     }
   ]
 }
