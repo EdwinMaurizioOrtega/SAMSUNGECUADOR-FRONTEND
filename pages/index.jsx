@@ -16,6 +16,8 @@ function HomePage() {
     const featured = productos.featured;
     const latest = productos.latest;
 
+    console.log("Edwin Ortega");
+
     return (
         <div className="main home mt-lg-0 mt-4">
             <Helmet>

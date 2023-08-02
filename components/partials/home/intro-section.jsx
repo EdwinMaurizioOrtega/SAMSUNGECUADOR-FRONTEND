@@ -19,7 +19,7 @@ function IntroSection() {
                             <div className="intro-slide1 banner banner-fixed" style={{ backgroundColor: '#1f1f1f' }}>
                                 <figure>
                                     <LazyLoadImage
-                                        src="./images/home/slides/1.jpg"
+                                        src="./images/home/slides/pag-web-samsung-ec.jpg"
                                         alt="Intro Slider"
                                         effect="opacity"
                                         width="100%"   //785
@@ -27,12 +27,13 @@ function IntroSection() {
                                     />
                                 </figure>
                                 <div className="banner-content y-50">
-                                    <h4 className="banner-subtitle mb-0">Promoción por tiempo limitado.</h4>
-                                    <h3 className="banner-title text-uppercase">Z Flip 4 + Buds 2
+                                    <h4 className="banner-subtitle mb-0">Pre-compra ahora</h4>
+                                    <h3 className="banner-title text-uppercase">Z FLIP 5 | Z FOLD 5
                                         </h3>
                                     {/*<p className="banner-price text-uppercase mb-5">*/}
                                     {/*        <span><sup>$</sup>939.<sup>00</sup></span> inc. IVA&nbsp;</p>*/}
-                                    <ALink href="/product/default/samsung-galaxy-z-flip-4" className="btn btn-outline btn-white btn-md mb-2 btn-rounded">Comprar</ALink>
+
+                                    <ALink href={`https://api.whatsapp.com/send?phone=593991171111&text=Pre-compra: Z FLIP 5 | Z FOLD 5`} className="btn btn-outline btn-white btn-md mb-2 btn-rounded">PRE-COMPRA</ALink>
                                 </div>
                             </div>
                             {/*<div className="intro-slide2 banner banner-fixed" style={{ backgroundColor: '#f5f6f8' }}>*/}
