@@ -44,7 +44,7 @@ function BestCollection(props) {
                             <div className="grid grid-float row gutter-no">
                                 <div className="grid-item col-lg-3 col-sm-6 height-x3">
                                     {
-                                        products && products.slice(1, 2).map((item, index) =>
+                                        products && products.slice(0, 1).map((item, index) =>
                                             <ProductTwo
                                                 adClass="text-center"
                                                 product={item}
