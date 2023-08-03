@@ -19,7 +19,7 @@ function IntroSection() {
                             <div className="intro-slide1 banner banner-fixed" style={{ backgroundColor: '#1f1f1f' }}>
                                 <figure>
                                     <LazyLoadImage
-                                        src="./images/home/slides/pag-web-samsung-ec.jpg"
+                                        src="./images/home/slides/pag-web-samsung-ec (2).jpg"
                                         alt="Intro Slider"
                                         effect="opacity"
                                         width="100%"   //785

@@ -971,6 +971,108 @@
           "slug": "samsung"
         }
       ]
+    },
+    {
+      "id": 208,
+      "name": "SAMSUNG A04E BLACK",
+      "slug": "samsung-a04e-black",
+      "price": 112.00,
+      "sale_price": 109.00,
+      "short_description": "\"Pantalla: 6.5″, 720 x 1600 pixels\nProcesador: Unisoc SC9863A 1.6GHz\nRAM: 4GB\nAlmacenamiento: 64GB\nExpansión: microSD\nCámara: Dual, 50MP+2MP\nCámara Frontal: 5MP\nBatería: 5000 mAh\nOS: Android 12\"",
+      "long_description": "\"Pantalla: 6.5″, 720 x 1600 pixels\nProcesador: Unisoc SC9863A 1.6GHz\nRAM: 4GB\nAlmacenamiento: 64GB\nExpansión: microSD\nCámara: Dual, 50MP+2MP\nCámara Frontal: 5MP\nBatería: 5000 mAh\nOS: Android 12\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.95",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.106-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.106.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 208,
+      "name": "SAMSUNG A04E LIGHT BLUE",
+      "slug": "samsung-a04e-light-blue",
+      "price": 112.00,
+      "sale_price": 109.00,
+      "short_description": "\"Pantalla: 6.5″, 720 x 1600 pixels\nProcesador: Unisoc SC9863A 1.6GHz\nRAM: 4GB\nAlmacenamiento: 64GB\nExpansión: microSD\nCámara: Dual, 50MP+2MP\nCámara Frontal: 5MP\nBatería: 5000 mAh\nOS: Android 12\"",
+      "long_description": "\"Pantalla: 6.5″, 720 x 1600 pixels\nProcesador: Unisoc SC9863A 1.6GHz\nRAM: 4GB\nAlmacenamiento: 64GB\nExpansión: microSD\nCámara: Dual, 50MP+2MP\nCámara Frontal: 5MP\nBatería: 5000 mAh\nOS: Android 12\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.96",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.106-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.106.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
     }
   ],
   "latest": [
