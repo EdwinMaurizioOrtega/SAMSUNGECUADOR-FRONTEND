@@ -1724,6 +1724,108 @@
           "slug": "samsung"
         }
       ]
+    },
+    {
+      "id": 314,
+      "name": "CARGADOR DE PARED",
+      "slug": "cargador-de-pared",
+      "price": 18.00,
+      "sale_price": 17.00,
+      "short_description": "\"Capacidad: 25W\nSin cable\"",
+      "long_description": "\"Capacidad: 25W\nSin cable\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.04",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.04-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.04.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Accesorios",
+          "slug": "accesorios"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Cargadores Samsung",
+          "slug": "cargadores-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 315,
+      "name": "CARGADOR POWER ADAPTER",
+      "slug": "cargador-power-adapter",
+      "price": 40.00,
+      "sale_price": 35.00,
+      "short_description": "\"Capacidad: 45W\"",
+      "long_description": "\"Capacidad: 45W\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.382",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.382-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.382.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Accesorios",
+          "slug": "accesorios"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Cargadores Samsung",
+          "slug": "cargadores-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
     }
   ],
   "productCollection": [

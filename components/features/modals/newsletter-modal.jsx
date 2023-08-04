@@ -56,18 +56,18 @@ export default function NewsletterModal() {
             overlayClassName="newsletter-modal-overlay"
             className="newsletter-popup bg-img"
         >
-            <div className="newsletter-popup" id="newsletter-popup"
-                 style={{backgroundImage: "url(images/newsletter-popup.jpg)"}}>
+            <div className="newsletter-popup" id="newletter-popup-preventa"
+                 style={{backgroundImage: "url(images/newletter-popup-preventa.jpg)"}}>
                 <div className="newsletter-content">
-                    <h4 className="text-uppercase text-dark">Aprovecha esta <br/><span className="text-primary">increíble promo </span>
+                    <h4 className="text-uppercase text-dark">Únete al <br/><span className="text-primary"> nuevo lado Flip </span>
                     </h4>
-                    <h2 className="font-weight-semi-bold"><span>Z Flip4</span> + Buds 2</h2>
-                    <p className="text-grey">Captura la vida con una perspectiva nueva.</p>
+                    <h2 className="font-weight-semi-bold"><span>  </span> ZFLIP5 | ZFOLD5 </h2>
+                    <p className="text-grey">Un mundo flexible en tu bolsillo</p>
 
                     {/*<input type="email" className="form-control email" name="email" id="email2" placeholder="Email address here..." required />*/}
                     <ALink href="/product/default/samsung-galaxy-z-flip-4">
                         <button className="btn btn-dark">
-                            COMPRAR
+                            PRE-COMPRAR
                         </button>
 
                     </ALink>
