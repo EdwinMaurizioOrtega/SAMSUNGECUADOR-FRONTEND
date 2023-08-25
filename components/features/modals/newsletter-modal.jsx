@@ -67,7 +67,7 @@ export default function NewsletterModal() {
                     {/*<input type="email" className="form-control email" name="email" id="email2" placeholder="Email address here..." required />*/}
                     <ALink href="/product/default/samsung-galaxy-z-flip-4">
                         <button className="btn btn-dark">
-                            PRE-COMPRAR
+                            COMPRAR
                         </button>
 
                     </ALink>
