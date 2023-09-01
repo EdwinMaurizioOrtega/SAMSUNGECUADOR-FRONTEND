@@ -2,10 +2,10 @@
   "bestSelling": [
     {
       "id": 1,
-      "name": "TV 65 SAMSUNG QLED ",
-      "slug": "tv-65-samsung-qled",
-      "price": 1049.00,
-      "sale_price": 990.00,
+      "name": "TV 65 SAMSUNG QLED (QN65Q65BAPXPA) + BUDS 2",
+      "slug": "tv-65-samsung-qled-(QN65Q65BAPXPA)-+-buds-2",
+      "price": 1139.00,
+      "sale_price": 1049.00,
       "short_description": "\"Pantalla: 65″\nProcesador: Quantum 4K\"",
       "long_description": "\"Pantalla: 65″\nProcesador: Quantum 4K\"",
       "stock": 50,
@@ -1832,6 +1832,975 @@
         {
           "name": "Cargadores Samsung",
           "slug": "cargadores-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 316,
+      "name": "SAMSUNG A14 SILVER",
+      "slug": "samsung-a14-silver",
+      "price": 163.00,
+      "sale_price": 155.00,
+      "short_description": "\"Pantalla: 6.6″, 1080 x 2408 pixels\nProcesador: Mediatek Dimensity 1080 2.6GHz\nRAM: 4GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 50MP+2MP+2MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.6″, 1080 x 2408 pixels\nProcesador: Mediatek Dimensity 1080 2.6GHz\nRAM: 4GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 50MP+2MP+2MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.114",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.114-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.114.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 317,
+      "name": "SAMSUNG A24 BLACK",
+      "slug": "samsung-a24-black",
+      "price": 234.00,
+      "sale_price": 219.00,
+      "short_description": "\"Pantalla: 6.5″, 1080 x 2340 pixels\nProcesador: Mediatek Helio G99 2.2GHz\nRAM: 6/8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 50MP+5MP+2MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 6.5″, 1080 x 2340 pixels\nProcesador: Mediatek Helio G99 2.2GHz\nRAM: 6/8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Triple, 50MP+5MP+2MP\nCámara Frontal: 13MP\nBatería: 5000 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.117",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.117-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.117.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 318,
+      "name": "Samsung GALAXY TAB S9 PLUS",
+      "slug": "samsung-galaxy-tab-s8-plus",
+      "price": 1129.00,
+      "sale_price": 1079.00,
+      "short_description": "\"Pantalla: 12,4 pulgadas, 1752 x 2800 pixels\nProcesador: Snapdragon 8 Gen 2 for Galaxy\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: microSD\nCámara: Dual, 13MP+8MP\nCámara Frontal: 12MP\nBatería: 10090 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 12,4 pulgadas, 1752 x 2800 pixels\nProcesador: Snapdragon 8 Gen 2 for Galaxy\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: microSD\nCámara: Dual, 13MP+8MP\nCámara Frontal: 12MP\nBatería: 10090 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "13.02.13",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/13.02.13-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/13.02.13.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 319,
+      "name": "Samsung GALAXY TAB S9 ULTRA",
+      "slug": "samsung-galaxy-tab-s8-ultra",
+      "price": 1369.00,
+      "sale_price": 1289.00,
+      "short_description": "\"Pantalla: 14,6 pulgadas\nProcesador: Snapdragon 8 Gen 2 for Galaxy\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: microSD\nCámara: Dual, 13MP+8MP\nCámara Frontal: 12MP\nBatería: 11.200 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 14,6 pulgadas\nProcesador: Snapdragon 8 Gen 2 for Galaxy\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: microSD\nCámara: Dual, 13MP+8MP\nCámara Frontal: 12MP\nBatería: 11.200 mAh\nOS: Android 13\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "13.02.14",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/13.02.14-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/13.02.14.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 320,
+      "name": "WATCH 6 CLASSIC BLUETOOTH (47mm)BLACK",
+      "slug": "watch-6-classic-bluetooth-(47mm)black",
+      "price": 539.00,
+      "sale_price": 499.00,
+      "short_description": "\"Pantalla 1.5 pulgadas, 480 x 480 pixeles\nProcesador: Exynos W930\nRAM: 2GB\nAlmacenamiento: 16GB\nBatería:Carga rápida inalámbrica\"",
+      "long_description": "\"Pantalla: 1.5 pulgadas, 480 x 480 pixeles\nProcesador: Exynos W930\nRAM: 2GB\nAlmacenamiento: 16GB\nBatería: Carga rápida inalámbrica\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.419",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.419-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.419.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Watchs",
+          "slug": "watchs"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Watchs Samsung",
+          "slug": "watchs-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 321,
+      "name": "WATCH 6 CLASSIC BLUETOOTH (43mm) SILVER",
+      "slug": "watch-6-classic-bluetooth-(43mm)-silver",
+      "price": 499.00,
+      "sale_price": 469.00,
+      "short_description": "\"Pantalla 1.3 pulgadas, 432 x 432 pixeles\nProcesador: Exynos W930\nRAM: 2GB\nAlmacenamiento: 16GB\nBatería:Carga rápida inalámbrica\"",
+      "long_description": "\"Pantalla: 1.3 pulgadas, 432 x 432 pixeles\nProcesador: Exynos W930\nRAM: 2GB\nAlmacenamiento: 16GB\nBatería: Carga rápida inalámbrica\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.416",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.416-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.416.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Watchs",
+          "slug": "watchs"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Watchs Samsung",
+          "slug": "watchs-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 322,
+      "name": "WATCH 6 BLUETOOTH (44mm) SILVER ",
+      "slug": "watch-6-bluetooth-(44mm)-silver",
+      "price": 419.00,
+      "sale_price": 389.00,
+      "short_description": "\"Pantalla 1.5 pulgadas, 480 x 480 pixeles\nProcesador: Exynos W930\nRAM: 2GB\nAlmacenamiento: 16GB\nBatería:Carga rápida inalámbrica\"",
+      "long_description": "\"Pantalla: 1.5 pulgadas, 480 x 480 pixeles\nProcesador: Exynos W930\nRAM: 2GB\nAlmacenamiento: 16GB\nBatería: Carga rápida inalámbrica\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.415",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.415-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.415.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Watchs",
+          "slug": "watchs"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Watchs Samsung",
+          "slug": "watchs-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 323,
+      "name": "WATCH 6 BLUETOOTH (40mm) BLACK",
+      "slug": "watch-6-bluetooth-(40mm)-black",
+      "price": 379.00,
+      "sale_price": 349.00,
+      "short_description": "\"Pantalla: 1.3 pulgadas, 432 x 432 pixeles\nProcesador: Exynos W930\nRAM: 2GB\nAlmacenamiento: 16GB\nBatería:Carga rápida inalámbrica\"",
+      "long_description": "\"Pantalla: 1.3 pulgadas, 432 x 432 pixeles\nProcesador: Exynos W930\nRAM: 2GB\nAlmacenamiento: 16GB\nBatería: Carga rápida inalámbrica\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.417",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.417-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.417.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Watchs",
+          "slug": "watchs"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Watchs Samsung",
+          "slug": "watchs-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 324,
+      "name": "WATCH 6 BLUETOOTH (44mm) BLACK",
+      "slug": "watch-6-bluetooth-(44mm)-black",
+      "price": 419.00,
+      "sale_price": 389.00,
+      "short_description": "\"Pantalla: 1.5 pulgadas, 480 x 480 pixeles\nProcesador: Exynos W930\nRAM: 2GB\nAlmacenamiento: 16GB\nBatería:Carga rápida inalámbrica\"",
+      "long_description": "\"Pantalla: 1.5 pulgadas, 480 x 480 pixeles\nProcesador: Exynos W930\nRAM: 2GB\nAlmacenamiento: 16GB\nBatería: Carga rápida inalámbrica\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.418",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.418-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.418.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Watchs",
+          "slug": "watchs"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Watchs Samsung",
+          "slug": "watchs-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 325,
+      "name": "TV 75 SAMSUNG LED (UN75BU8000PXPA) + BUDS 2",
+      "slug": "tv-75-samsung-led-(UN75BU8000PXPA)-+-buds-2",
+      "price": 1559.00,
+      "sale_price":1429.00,
+      "short_description": "\"Pantalla: 75″\nProcesador: Crystal 4K\"",
+      "long_description": "\"Pantalla: 75″\nProcesador: Crystal 4K\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "15.02.30",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.30-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.30.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "TV",
+          "slug": "tv"
+        }
+      ],
+      "tags": [
+        {
+          "name": "TV Samsung",
+          "slug": "tv-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 326,
+      "name": "TV 85 SAMSUNG UHD CRYSTAL 4K (UN85CU8000PXPA)",
+      "slug": "tv-85-samsung-uhd- crystal-4k-(UN85CU8000PXPA)",
+      "price": 1899.00,
+      "sale_price":1719.00,
+      "short_description": "\"Pantalla: 85″\nProcesador: Crystal 4K\"",
+      "long_description": "\"Pantalla: 85″\nProcesador: Crystal 4K\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "15.02.56",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.56-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.56.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "TV",
+          "slug": "tv"
+        }
+      ],
+      "tags": [
+        {
+          "name": "TV Samsung",
+          "slug": "tv-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 327,
+      "name": "TV 75 SAMSUNG NEO QLED 4K (QN75QN85CAPXPA)",
+      "slug": "tv-75-samsung-neo-qled-4k- (QN75QN85CAPXPA)",
+      "price": 2179.00,
+      "sale_price":2119.00,
+      "short_description": "\"Pantalla: 75″\nProcesador: Neo Qled 4K\"",
+      "long_description": "\"Pantalla: 75″\nProcesador: Neo Qled 4K\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "15.02.55",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.55-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.55.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "TV",
+          "slug": "tv"
+        }
+      ],
+      "tags": [
+        {
+          "name": "TV Samsung",
+          "slug": "tv-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 328,
+      "name": "TV 75 SAMSUNG QLED 4K (QN75Q60CAPXPA)",
+      "slug": "tv-75-samsung-qled-4k-(QN75Q60CAPXPA)",
+      "price": 1559.00,
+      "sale_price":1429.00,
+      "short_description": "\"Pantalla: 75″\nProcesador: Qled 4K\"",
+      "long_description": "\"Pantalla: 75″\nProcesador: Qled 4K\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "15.02.57",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.57-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.57.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "TV",
+          "slug": "tv"
+        }
+      ],
+      "tags": [
+        {
+          "name": "TV Samsung",
+          "slug": "tv-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 329,
+      "name": "TV 65 SAMSUNG NEO QLED 4K (QN65QN90CAPXPA)",
+      "slug": "tv-65-samsung-neo-qled-4k-(QN65QN90CAPXPA)",
+      "price": 1829.00,
+      "sale_price":1739.00,
+      "short_description": "\"Pantalla: 65″\nProcesador: Neo Qled 4K\"",
+      "long_description": "\"Pantalla: 65″\nProcesador: Neo Qled 4K\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "15.02.58",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.58-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.58.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "TV",
+          "slug": "tv"
+        }
+      ],
+      "tags": [
+        {
+          "name": "TV Samsung",
+          "slug": "tv-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 330,
+      "name": "TV 65 SAMSUNG QLED 4K (QN65Q65CAPXPA)",
+      "slug": "tv-65-samsung-qled-4k-(QN65Q65CAPXPA)",
+      "price": 1179.00,
+      "sale_price":1129.00,
+      "short_description": "\"Pantalla: 65″\nProcesador: Qled 4K\"",
+      "long_description": "\"Pantalla: 65″\nProcesador: Qled 4K\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "15.02.54",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.54-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.54.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "TV",
+          "slug": "tv"
+        }
+      ],
+      "tags": [
+        {
+          "name": "TV Samsung",
+          "slug": "tv-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 331,
+      "name": "TV 70 SAMSUNG LED 4K (UN70BU8000PXPA)",
+      "slug": "tv-70-samsung-led-4k-(UN70BU8000PXPA)",
+      "price": 1159.00,
+      "sale_price":1059.00,
+      "short_description": "\"Pantalla: 70″\nProcesador: Crystal 4K\"",
+      "long_description": "\"Pantalla: 70″\nProcesador: Crystal 4K\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "15.02.31",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.31-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.31.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "TV",
+          "slug": "tv"
+        }
+      ],
+      "tags": [
+        {
+          "name": "TV Samsung",
+          "slug": "tv-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 332,
+      "name": "TV 65 SAMSUNG LED UHD (UN65BU8000PXPA)",
+      "slug": "tv-65-samsung-led-uhd-(UN65BU8000PXPA)",
+      "price": 909.00,
+      "sale_price": 829.00,
+      "short_description": "\"Pantalla: 65″\nProcesador: Crystal UHD\"",
+      "long_description": "\"Pantalla: 65″\nProcesador: Crystal UHD\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "15.02.50",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.50-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.50.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "TV",
+          "slug": "tv"
+        }
+      ],
+      "tags": [
+        {
+          "name": "TV Samsung",
+          "slug": "tv-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 333,
+      "name": "SAMSUNG SOUNDBAR COLOR: BLACK (HW-C450/ZP)",
+      "slug": "samsung-soundbar-color-black-(HW-C450/ZP)",
+      "price": 209.00,
+      "sale_price": 200.01,
+      "short_description": "\"Medidas: 955 X 92 X 45 milímetros\nAltavoces: 175 X 35 X 295 milímetros\nPotencia: 280W\"",
+      "long_description": "\"Medidas: 955 X 92 X 45 milímetros\nAltavoces: 175 X 35 X 295 milímetros\nPotencia: 280W\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "15.02.59",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.59-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.59.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "TV",
+          "slug": "tv"
+        }
+      ],
+      "tags": [
+        {
+          "name": "TV Samsung",
+          "slug": "tv-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
+      "id": 334,
+      "name": "SAMSUNG SOUND TOWER 1500W",
+      "slug": "samsung-sound-tower-1500W",
+      "price": 409.00,
+      "sale_price": 399.00,
+      "short_description": "\"Potencia: 1500W\nTweeter Driver Size: 1.0' / 12 ohm\nMid-Woofer Driver Size: 5.25'/6 ohm\"",
+      "long_description": "\"Potencia: 1500W\nTweeter Driver Size: 1.0' / 12 ohm\nMid-Woofer Driver Size: 5.25'/6 ohm\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "15.02.37",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.37-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/15.02.37.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "TV",
+          "slug": "tv"
+        }
+      ],
+      "tags": [
+        {
+          "name": "TV Samsung",
+          "slug": "tv-samsung"
         }
       ],
       "brands": [

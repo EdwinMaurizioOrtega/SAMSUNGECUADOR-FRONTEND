@@ -89,9 +89,9 @@ function IntroSection() {
                                 />
                             </figure>
                             <div className="banner-content w-100 y-50">
-                                <h3 className="banner-title mb-2 ls-m text-uppercase">Samsung TV<span
-                                    className="d-block text-normal">65" LED UHD</span></h3>
-                                <h4 className="banner-subtitle font-secondary">Smart TV</h4>
+                                <h3 className="banner-title mb-2 ls-m text-uppercase text-white">Samsung<span
+                                    className="d-block text-normal">SMART TV'S</span></h3>
+                                <h4 className="banner-subtitle font-secondary text-white" ></h4>
                                 {/*<div className="banner-price-info ls-m font-weight-semi-bold text-dark"><ins*/}
                                 {/*    className="mr-2">$1888.99</ins><del>$2000.60</del></div>*/}
                                 <Reveal keyframes={fadeInUpShorter} delay={500} duration={1200} triggerOnce>
@@ -115,7 +115,7 @@ function IntroSection() {
                             </figure>
                             <div className="banner-content w-100 y-50">
                                 <h4 className="banner-subtitle mb-1 text-white">Galaxy</h4>
-                                <h3 className="banner-title ls-m text-white">TAB S8 Ultra</h3>
+                                <h3 className="banner-title ls-m text-white">TAB S9 Ultra</h3>
                                 <p className="font-weight-semi-bold text-white ls-m">Nueva generación tecnológica</p>
                                 {/*<h4 className="banner-desc text-white mb-0"><span className="text-secondary">$1239.00</span></h4>*/}
                                 <Reveal keyframes={fadeInUpShorter} delay={500} duration={1200} triggerOnce>
