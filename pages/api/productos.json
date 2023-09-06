@@ -2,6 +2,58 @@
   "bestSelling": [
     {
       "id": 1,
+      "name": "GALAXY ZFLIP 4 + BUDS2",
+      "slug": "GALAXY Z FLIP 4 + BUDS2",
+      "price": 999.00,
+      "sale_price": 939.00,
+      "short_description": "\"Pantalla: 6.7″, 1080 x 2640 pixels\nProcesador: Snapdragon 8 + Gen 1 3.2 GHz\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: sin microSD\nCámara: Dual, 12MP+12MP\nCámara Frontal: 10MP\nBatería: 3700 mAh\nOS: Android 12\"",
+      "long_description": "\"Pantalla: 6.7″, 1080 x 2640 pixels\nProcesador: Snapdragon 8 + Gen 1 3.2 GHz \nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: sin microSD\nCámara: Dual, 12MP+12MP\nCámara Frontal: 10MP\nBatería: 3700 mAh\nOS: Android 12\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "10.02.83",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.83-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/10.02.83.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Celulares",
+          "slug": "celulares"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+
+    },  
+    {
+      "id": 2,
       "name": "TV 65 SAMSUNG QLED (QN65Q65BAPXPA) + BUDS 2",
       "slug": "tv-65-samsung-qled-(QN65Q65BAPXPA)-+-buds-2",
       "price": 1139.00,
@@ -52,70 +104,18 @@
       ]
     },
     {
-      "id": 2,
-      "name": "GALAXY ZFLIP 4 + BUDS2",
-      "slug": "GALAXY Z FLIP 4 + BUDS2",
-      "price": 999.00,
-      "sale_price": 939.00,
-      "short_description": "\"Pantalla: 6.7″, 1080 x 2640 pixels\nProcesador: Snapdragon 8 + Gen 1 3.2 GHz\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: sin microSD\nCámara: Dual, 12MP+12MP\nCámara Frontal: 10MP\nBatería: 3700 mAh\nOS: Android 12\"",
-      "long_description": "\"Pantalla: 6.7″, 1080 x 2640 pixels\nProcesador: Snapdragon 8 + Gen 1 3.2 GHz \nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: sin microSD\nCámara: Dual, 12MP+12MP\nCámara Frontal: 10MP\nBatería: 3700 mAh\nOS: Android 12\"",
-      "stock": 50,
-      "ratings": 4,
-      "reviews": 1,
-      "sale_count": 98,
-      "sku": "10.02.83",
-      "is_new": null,
-      "is_featured": null,
-      "is_top": null,
-      "until": null,
-      "variants": [],
-      "large_pictures": [
-        {
-          "url": "/uploads/images/samsungecuador/products/10.02.83-1.jpg",
-          "width": 800,
-          "height": 900
-        }
-      ],
-      "pictures": [
-        {
-          "url": "/uploads/images/samsungecuador/products/10.02.83.jpg",
-          "width": 300,
-          "height": 338
-        }
-      ],
-      "categories": [
-        {
-          "name": "Celulares",
-          "slug": "celulares"
-        }
-      ],
-      "tags": [
-        {
-          "name": "Celulares Samsung",
-          "slug": "celulares-samsung"
-        }
-      ],
-      "brands": [
-        {
-          "name": "Samsung",
-          "slug": "samsung"
-        }
-      ]
-      
-    },
-    {
       "id": 3,
-      "name": "TV 65 SAMSUNG LED UHD",
-      "slug": "tv-65-samsung-led-uhd",
-      "price": 829.00,
-      "sale_price": 782.88,
-      "short_description": "\"Pantalla: 65″\nProcesador: Crystal 4K\"",
-      "long_description": "\"Pantalla: 65″\nProcesador: Crystal 4K\"",
+      "name": "TV 75 SAMSUNG NEO QLED 4K (QN75QN85CAPXPA)",
+      "slug": "tv-75-samsung-neo-qled-4k- (QN75QN85CAPXPA)",
+      "price": 2179.00,
+      "sale_price":2119.00,
+      "short_description": "\"Pantalla: 75″\nProcesador: Neo Qled 4K\"",
+      "long_description": "\"Pantalla: 75″\nProcesador: Neo Qled 4K\"",
       "stock": 50,
       "ratings": 4,
       "reviews": 1,
       "sale_count": 98,
-      "sku": "15.02.50",
+      "sku": "15.02.55",
       "is_new": null,
       "is_featured": null,
       "is_top": null,
@@ -123,14 +123,14 @@
       "variants": [],
       "large_pictures": [
         {
-          "url": "/uploads/images/samsungecuador/products/15.02.50-1.jpg",
+          "url": "/uploads/images/samsungecuador/products/15.02.55-1.jpg",
           "width": 800,
           "height": 900
         }
       ],
       "pictures": [
         {
-          "url": "/uploads/images/samsungecuador/products/15.02.50.jpg",
+          "url": "/uploads/images/samsungecuador/products/15.02.55.jpg",
           "width": 300,
           "height": 338
         }
@@ -156,17 +156,17 @@
     },
     {
       "id": 4,
-      "name": "TV 60 SAMSUNG LED UHD",
-      "slug": "tv-60-samsung-led-uhd",
-      "price": 749.00,
-      "sale_price": 737.88,
-      "short_description": "\"Pantalla: 60″\nProcesador: Crystal 4K\"",
-      "long_description": "\"Pantalla: 60″\nProcesador: Crystal 4K\"",
+      "name": "TV 75 SAMSUNG QLED 4K (QN75Q60CAPXPA)",
+      "slug": "tv-75-samsung-qled-4k-(QN75Q60CAPXPA)",
+      "price": 1559.00,
+      "sale_price":1429.00,
+      "short_description": "\"Pantalla: 75″\nProcesador: Qled 4K\"",
+      "long_description": "\"Pantalla: 75″\nProcesador: Qled 4K\"",
       "stock": 50,
       "ratings": 4,
       "reviews": 1,
       "sale_count": 98,
-      "sku": "15.02.49",
+      "sku": "15.02.57",
       "is_new": null,
       "is_featured": null,
       "is_top": null,
@@ -174,14 +174,14 @@
       "variants": [],
       "large_pictures": [
         {
-          "url": "/uploads/images/samsungecuador/products/15.02.49-1.jpg",
+          "url": "/uploads/images/samsungecuador/products/15.02.57-1.jpg",
           "width": 800,
           "height": 900
         }
       ],
       "pictures": [
         {
-          "url": "/uploads/images/samsungecuador/products/15.02.49.jpg",
+          "url": "/uploads/images/samsungecuador/products/15.02.57.jpg",
           "width": 300,
           "height": 338
         }
@@ -411,17 +411,17 @@
     },
     {
       "id": 9,
-      "name": "WATCH 5 PRO BLACK",
-      "slug": "watch-5-pro-black",
-      "price": 529.00,
-      "sale_price": 499.00,
-      "short_description": "\"Pantalla: 1.4″, 450 x 450 pixels\nProcesador: Exynos W920 Dual-Core\nRAM: 1.5GB\nAlmacenamiento: 16GB\nBatería: 5000 mAh\"",
-      "long_description": "\"Pantalla: 1.4″, 450 x 450 pixels\nProcesador: Exynos W920 Dual-Core\nRAM: 1.5GB\nAlmacenamiento: 16GB\nBatería: 5000 mAh\"",
+      "name": "WATCH 6 BLUETOOTH (44mm) BLACK",
+      "slug": "watch-6-bluetooth-(44mm)-black",
+      "price": 419.00,
+      "sale_price": 389.00,
+      "short_description": "\"Pantalla: 1.5 pulgadas, 480 x 480 pixeles\nProcesador: Exynos W930\nRAM: 2GB\nAlmacenamiento: 16GB\nBatería:Carga rápida inalámbrica\"",
+      "long_description": "\"Pantalla: 1.5 pulgadas, 480 x 480 pixeles\nProcesador: Exynos W930\nRAM: 2GB\nAlmacenamiento: 16GB\nBatería: Carga rápida inalámbrica\"",
       "stock": 50,
       "ratings": 4,
       "reviews": 1,
       "sale_count": 98,
-      "sku": "12.02.363",
+      "sku": "12.02.418",
       "is_new": null,
       "is_featured": null,
       "is_top": null,
@@ -429,14 +429,14 @@
       "variants": [],
       "large_pictures": [
         {
-          "url": "/uploads/images/samsungecuador/products/12.02.363-1.jpg",
+          "url": "/uploads/images/samsungecuador/products/12.02.418-1.jpg",
           "width": 800,
           "height": 900
         }
       ],
       "pictures": [
         {
-          "url": "/uploads/images/samsungecuador/products/12.02.363.jpg",
+          "url": "/uploads/images/samsungecuador/products/12.02.418.jpg",
           "width": 300,
           "height": 338
         }
@@ -462,17 +462,17 @@
     },
     {
       "id": 10,
-      "name": "Samsung GALAXY TAB S8 5G",
-      "slug": "samsung-galaxy-tab-s8-5g",
-      "price": 899.00,
-      "sale_price": 859.00,
-      "short_description": "\"Pantalla: 11″, 1600 x 2560 pixels\nProcesador: Snapdragon 8 Gen 1 3GHz\nRAM: 8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Dual, 13MP+6MP\nCámara Frontal: 12MP\nBatería: 8000 mAh\nOS: Android 12\"",
-      "long_description": "\"Pantalla: 11″, 1600 x 2560 pixels\nProcesador: Snapdragon 8 Gen 1 3GHz\nRAM: 8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Dual, 13MP+6MP\nCámara Frontal: 12MP\nBatería: 8000 mAh\nOS: Android 12\"",
+      "name": "Samsung GALAXY TAB S9 ULTRA",
+      "slug": "samsung-galaxy-tab-s9-ultra",
+      "price": 1369.00,
+      "sale_price": 1289.00,
+      "short_description": "\"Pantalla: 14,6 pulgadas\nProcesador: Snapdragon 8 Gen 2 for Galaxy\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: microSD\nCámara: Dual, 13MP+8MP\nCámara Frontal: 12MP\nBatería: 11.200 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla: 14,6 pulgadas\nProcesador: Snapdragon 8 Gen 2 for Galaxy\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: microSD\nCámara: Dual, 13MP+8MP\nCámara Frontal: 12MP\nBatería: 11.200 mAh\nOS: Android 13\"",
       "stock": 50,
       "ratings": 4,
       "reviews": 1,
       "sale_count": 98,
-      "sku": "13.02.11",
+      "sku": "13.02.14",
       "is_new": null,
       "is_featured": null,
       "is_top": null,
@@ -480,28 +480,28 @@
       "variants": [],
       "large_pictures": [
         {
-          "url": "/uploads/images/samsungecuador/products/13.02.11-1.jpg",
+          "url": "/uploads/images/samsungecuador/products/13.02.14-1.jpg",
           "width": 800,
           "height": 900
         }
       ],
       "pictures": [
         {
-          "url": "/uploads/images/samsungecuador/products/13.02.11.jpg",
+          "url": "/uploads/images/samsungecuador/products/13.02.14.jpg",
           "width": 300,
           "height": 338
         }
       ],
       "categories": [
         {
-          "name": "TABLET",
-          "slug": "tablet"
+          "name": "Celulares",
+          "slug": "celulares"
         }
       ],
       "tags": [
         {
-          "name": "Tablet Samsung",
-          "slug": "tablet-samsung"
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
         }
       ],
       "brands": [
@@ -1434,57 +1434,6 @@
       ]
     },
     {
-      "id": 308,
-      "name": "Samsung ZFLIP5 LIGHT GREEN",
-      "slug": "samsung-zflip5-light-green",
-      "price": 1.00,
-      "sale_price": 2.00,
-      "short_description": "\"Pantalla externa: Panel Super AMOLED 3.4″, 748 x 720 pixels\nPantalla interna: Panel Dynamic AMOLED 6.7″,  2640 x 1080 pixels\nProcesador: Sanpdragon 8 Gen 2 for Galaxy\nRAM: 8GB\nAlmacenamiento: 256GB\nCámara Principal: 12MPX+Gran angular 12MPX\nCámara Frontal: 10MPX\nBatería: 3700 mAh\nOS: Android 13\"",
-      "long_description": "\"Pantalla externa: Panel Super AMOLED 3.4″, 748 x 720 pixels\nPantalla interna: Panel Dynamic AMOLED 6.7″,  2640 x 1080 pixels\nProcesador: Sanpdragon 8 Gen 2 for Galaxy\nRAM: 8GB\nAlmacenamiento: 256GB\nCámara Principal: 12MPX+Gran angular 12MPX\nCámara Frontal: 10MPX\nBatería: 3700 mAh\nOS: Android 13\"",
-      "stock": 50,
-      "ratings": 4,
-      "reviews": 1,
-      "sale_count": 98,
-      "sku": "10.02.120",
-      "is_new": null,
-      "is_featured": null,
-      "is_top": null,
-      "until": null,
-      "variants": [],
-      "large_pictures": [
-        {
-          "url": "/uploads/images/samsungecuador/products/10.02.120-1.jpg",
-          "width": 800,
-          "height": 900
-        }
-      ],
-      "pictures": [
-        {
-          "url": "/uploads/images/samsungecuador/products/10.02.120.jpg",
-          "width": 300,
-          "height": 338
-        }
-      ],
-      "categories": [
-        {
-          "name": "Celulares",
-          "slug": "celulares"
-        }
-      ],
-      "tags": [
-        {
-          "name": "Celulares Samsung",
-          "slug": "celulares-samsung"
-        }
-      ],
-      "brands": [
-        {
-          "name": "Samsung",
-          "slug": "samsung"
-        }
-      ]
-    },
-    {
       "id": 309,
       "name": "Samsung ZFLIP5 GRAY ARCOTEL",
       "slug": "samsung-zflip5-gray-arcotel",
@@ -2097,6 +2046,57 @@
       ]
     },
     {
+      "id": 320,
+      "name": "WATCH 5 PRO BLACK",
+      "slug": "watch-5-pro-black",
+      "price": 529.00,
+      "sale_price": 499.00,
+      "short_description": "\"Pantalla: 1.4″, 450 x 450 pixels\nProcesador: Exynos W920 Dual-Core\nRAM: 1.5GB\nAlmacenamiento: 16GB\nBatería: 5000 mAh\"",
+      "long_description": "\"Pantalla: 1.4″, 450 x 450 pixels\nProcesador: Exynos W920 Dual-Core\nRAM: 1.5GB\nAlmacenamiento: 16GB\nBatería: 5000 mAh\"",
+      "stock": 50,
+      "ratings": 4,
+      "reviews": 1,
+      "sale_count": 98,
+      "sku": "12.02.363",
+      "is_new": null,
+      "is_featured": null,
+      "is_top": null,
+      "until": null,
+      "variants": [],
+      "large_pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.363-1.jpg",
+          "width": 800,
+          "height": 900
+        }
+      ],
+      "pictures": [
+        {
+          "url": "/uploads/images/samsungecuador/products/12.02.363.jpg",
+          "width": 300,
+          "height": 338
+        }
+      ],
+      "categories": [
+        {
+          "name": "Watchs",
+          "slug": "watchs"
+        }
+      ],
+      "tags": [
+        {
+          "name": "Watchs Samsung",
+          "slug": "watchs-samsung"
+        }
+      ],
+      "brands": [
+        {
+          "name": "Samsung",
+          "slug": "samsung"
+        }
+      ]
+    },
+    {
       "id": 321,
       "name": "WATCH 6 CLASSIC BLUETOOTH (43mm) SILVER",
       "slug": "watch-6-classic-bluetooth-(43mm)-silver",
@@ -2404,17 +2404,17 @@
     },
     {
       "id": 327,
-      "name": "TV 75 SAMSUNG NEO QLED 4K (QN75QN85CAPXPA)",
-      "slug": "tv-75-samsung-neo-qled-4k- (QN75QN85CAPXPA)",
-      "price": 2179.00,
-      "sale_price":2119.00,
-      "short_description": "\"Pantalla: 75″\nProcesador: Neo Qled 4K\"",
-      "long_description": "\"Pantalla: 75″\nProcesador: Neo Qled 4K\"",
+      "name": "TV 65 SAMSUNG LED UHD",
+      "slug": "tv-65-samsung-led-uhd",
+      "price": 829.00,
+      "sale_price": 782.88,
+      "short_description": "\"Pantalla: 65″\nProcesador: Crystal 4K\"",
+      "long_description": "\"Pantalla: 65″\nProcesador: Crystal 4K\"",
       "stock": 50,
       "ratings": 4,
       "reviews": 1,
       "sale_count": 98,
-      "sku": "15.02.55",
+      "sku": "15.02.50",
       "is_new": null,
       "is_featured": null,
       "is_top": null,
@@ -2422,14 +2422,14 @@
       "variants": [],
       "large_pictures": [
         {
-          "url": "/uploads/images/samsungecuador/products/15.02.55-1.jpg",
+          "url": "/uploads/images/samsungecuador/products/15.02.50-1.jpg",
           "width": 800,
           "height": 900
         }
       ],
       "pictures": [
         {
-          "url": "/uploads/images/samsungecuador/products/15.02.55.jpg",
+          "url": "/uploads/images/samsungecuador/products/15.02.50.jpg",
           "width": 300,
           "height": 338
         }
@@ -2455,17 +2455,17 @@
     },
     {
       "id": 328,
-      "name": "TV 75 SAMSUNG QLED 4K (QN75Q60CAPXPA)",
-      "slug": "tv-75-samsung-qled-4k-(QN75Q60CAPXPA)",
-      "price": 1559.00,
-      "sale_price":1429.00,
-      "short_description": "\"Pantalla: 75″\nProcesador: Qled 4K\"",
-      "long_description": "\"Pantalla: 75″\nProcesador: Qled 4K\"",
+      "name": "TV 60 SAMSUNG LED UHD",
+      "slug": "tv-60-samsung-led-uhd",
+      "price": 749.00,
+      "sale_price": 737.88,
+      "short_description": "\"Pantalla: 60″\nProcesador: Crystal 4K\"",
+      "long_description": "\"Pantalla: 60″\nProcesador: Crystal 4K\"",
       "stock": 50,
       "ratings": 4,
       "reviews": 1,
       "sale_count": 98,
-      "sku": "15.02.57",
+      "sku": "15.02.49",
       "is_new": null,
       "is_featured": null,
       "is_top": null,
@@ -2473,14 +2473,14 @@
       "variants": [],
       "large_pictures": [
         {
-          "url": "/uploads/images/samsungecuador/products/15.02.57-1.jpg",
+          "url": "/uploads/images/samsungecuador/products/15.02.49-1.jpg",
           "width": 800,
           "height": 900
         }
       ],
       "pictures": [
         {
-          "url": "/uploads/images/samsungecuador/products/15.02.57.jpg",
+          "url": "/uploads/images/samsungecuador/products/15.02.49.jpg",
           "width": 300,
           "height": 338
         }
@@ -2709,18 +2709,18 @@
       ]
     },
     {
-      "id": 333,
-      "name": "SAMSUNG SOUNDBAR COLOR: BLACK (HW-C450/ZP)",
-      "slug": "samsung-soundbar-color-black-(HW-C450/ZP)",
-      "price": 209.00,
-      "sale_price": 200.01,
-      "short_description": "\"Medidas: 955 X 92 X 45 milímetros\nAltavoces: 175 X 35 X 295 milímetros\nPotencia: 280W\"",
-      "long_description": "\"Medidas: 955 X 92 X 45 milímetros\nAltavoces: 175 X 35 X 295 milímetros\nPotencia: 280W\"",
+      "id": 109,
+      "name": "SAMSUNG GALAXY Z FLIP 4",
+      "slug": "samsung-galaxy-z-flip-4",
+      "price": 999.00,
+      "sale_price": 939.00,
+      "short_description": "\"6.7″, 1080 x 2640 pixels\nProcesador: Snapdragon 8 + Gen 1 3.2 GHz\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: sin microSD\nCámara: Dual, 12MP+12MP\nCámara Frontal: 10MP\nBatería: 3700 mAh\nOS: Android 12\"",
+      "long_description": "\"6.7″, 1080 x 2640 pixels\nProcesador: Snapdragon 8 + Gen 1 3.2 GHz\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: sin microSD\nCámara: Dual, 12MP+12MP\nCámara Frontal: 10MP\nBatería: 3700 mAh\nOS: Android 12\"",
       "stock": 50,
       "ratings": 4,
       "reviews": 1,
       "sale_count": 98,
-      "sku": "15.02.59",
+      "sku": "10.02.82",
       "is_new": null,
       "is_featured": null,
       "is_top": null,
@@ -2728,79 +2728,28 @@
       "variants": [],
       "large_pictures": [
         {
-          "url": "/uploads/images/samsungecuador/products/15.02.59-1.jpg",
+          "url": "/uploads/images/samsungecuador/products/10.02.82-1.jpg",
           "width": 800,
           "height": 900
         }
       ],
       "pictures": [
         {
-          "url": "/uploads/images/samsungecuador/products/15.02.59.jpg",
+          "url": "/uploads/images/samsungecuador/products/10.02.82.jpg",
           "width": 300,
           "height": 338
         }
       ],
       "categories": [
         {
-          "name": "TV",
-          "slug": "tv"
+          "name": "Celulares",
+          "slug": "celulares"
         }
       ],
       "tags": [
         {
-          "name": "TV Samsung",
-          "slug": "tv-samsung"
-        }
-      ],
-      "brands": [
-        {
-          "name": "Samsung",
-          "slug": "samsung"
-        }
-      ]
-    },
-    {
-      "id": 334,
-      "name": "SAMSUNG SOUND TOWER 1500W",
-      "slug": "samsung-sound-tower-1500W",
-      "price": 409.00,
-      "sale_price": 399.00,
-      "short_description": "\"Potencia: 1500W\nTweeter Driver Size: 1.0' / 12 ohm\nMid-Woofer Driver Size: 5.25'/6 ohm\"",
-      "long_description": "\"Potencia: 1500W\nTweeter Driver Size: 1.0' / 12 ohm\nMid-Woofer Driver Size: 5.25'/6 ohm\"",
-      "stock": 50,
-      "ratings": 4,
-      "reviews": 1,
-      "sale_count": 98,
-      "sku": "15.02.37",
-      "is_new": null,
-      "is_featured": null,
-      "is_top": null,
-      "until": null,
-      "variants": [],
-      "large_pictures": [
-        {
-          "url": "/uploads/images/samsungecuador/products/15.02.37-1.jpg",
-          "width": 800,
-          "height": 900
-        }
-      ],
-      "pictures": [
-        {
-          "url": "/uploads/images/samsungecuador/products/15.02.37.jpg",
-          "width": 300,
-          "height": 338
-        }
-      ],
-      "categories": [
-        {
-          "name": "TV",
-          "slug": "tv"
-        }
-      ],
-      "tags": [
-        {
-          "name": "TV Samsung",
-          "slug": "tv-samsung"
+          "name": "Celulares Samsung",
+          "slug": "celulares-samsung"
         }
       ],
       "brands": [
@@ -2865,17 +2814,17 @@
     },
     {
       "id": 102,
-      "name": "Samsung GALAXY TAB S8 5G",
-      "slug": "samsung-galaxy-tab-s8-5g",
-      "price": 899.00,
-      "sale_price": 859.00,
-      "short_description": "\"Pantalla: 11″, 1600 x 2560 pixels\nProcesador: Snapdragon 8 Gen 1 3GHz\nRAM: 8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Dual, 13MP+6MP\nCámara Frontal: 12MP\nBatería: 8000 mAh\nOS: Android 12\"",
-      "long_description": "\"Pantalla: 11″, 1600 x 2560 pixels\nProcesador: Snapdragon 8 Gen 1 3GHz\nRAM: 8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Dual, 13MP+6MP\nCámara Frontal: 12MP\nBatería: 8000 mAh\nOS: Android 12\"",
+      "name": "SAMSUNG SOUNDBAR COLOR: BLACK (HW-C450/ZP)",
+      "slug": "samsung-soundbar-color-black-(HW-C450/ZP)",
+      "price": 209.00,
+      "sale_price": 200.01,
+      "short_description": "\"Medidas: 955 X 92 X 45 milímetros\nAltavoces: 175 X 35 X 295 milímetros\nPotencia: 280W\"",
+      "long_description": "\"Medidas: 955 X 92 X 45 milímetros\nAltavoces: 175 X 35 X 295 milímetros\nPotencia: 280W\"",
       "stock": 50,
       "ratings": 4,
       "reviews": 1,
       "sale_count": 98,
-      "sku": "13.02.11",
+      "sku": "15.02.59",
       "is_new": null,
       "is_featured": null,
       "is_top": null,
@@ -2883,28 +2832,28 @@
       "variants": [],
       "large_pictures": [
         {
-          "url": "/uploads/images/samsungecuador/products/13.02.11-1.jpg",
+          "url": "/uploads/images/samsungecuador/products/15.02.59-1.jpg",
           "width": 800,
           "height": 900
         }
       ],
       "pictures": [
         {
-          "url": "/uploads/images/samsungecuador/products/13.02.11.jpg",
+          "url": "/uploads/images/samsungecuador/products/15.02.59.jpg",
           "width": 300,
           "height": 338
         }
       ],
       "categories": [
         {
-          "name": "Celulares",
-          "slug": "celulares"
+          "name": "TV",
+          "slug": "tv"
         }
       ],
       "tags": [
         {
-          "name": "Celulares Samsung",
-          "slug": "celulares-samsung"
+          "name": "TV Samsung",
+          "slug": "tv-samsung"
         }
       ],
       "brands": [
@@ -2916,17 +2865,17 @@
     },
     {
       "id": 103,
-      "name": "Samsung GALAXY TAB S8 PLUS",
-      "slug": "samsung-galaxy-tab-s8-plus",
-      "price": 1099.00,
-      "sale_price": 1049.00,
-      "short_description": "\"Pantalla: 12.4″, 1752 x 2800 pixels\nProcesador: Snapdragon 8 Gen 1 3GHz\nRAM: 8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Dual, 13MP+6MP\nCámara Frontal: 12MP\nBatería: 10090 mAh\nOS: Android 13\"",
-      "long_description": "\"Pantalla: 12.4″, 1752 x 2800 pixels\nProcesador: Snapdragon 8 Gen 1 3GHz\nRAM: 8GB\nAlmacenamiento: 128GB\nExpansión: microSD\nCámara: Dual, 13MP+6MP\nCámara Frontal: 12MP\nBatería: 10090 mAh\nOS: Android 13\"",
+      "name": "SAMSUNG SOUND TOWER 1500W",
+      "slug": "samsung-sound-tower-1500W",
+      "price": 409.00,
+      "sale_price": 399.00,
+      "short_description": "\"Potencia: 1500W\nTweeter Driver Size: 1.0' / 12 ohm\nMid-Woofer Driver Size: 5.25'/6 ohm\"",
+      "long_description": "\"Potencia: 1500W\nTweeter Driver Size: 1.0' / 12 ohm\nMid-Woofer Driver Size: 5.25'/6 ohm\"",
       "stock": 50,
       "ratings": 4,
       "reviews": 1,
       "sale_count": 98,
-      "sku": "13.02.07",
+      "sku": "15.02.37",
       "is_new": null,
       "is_featured": null,
       "is_top": null,
@@ -2934,28 +2883,28 @@
       "variants": [],
       "large_pictures": [
         {
-          "url": "/uploads/images/samsungecuador/products/13.02.07-1.jpg",
+          "url": "/uploads/images/samsungecuador/products/15.02.37-1.jpg",
           "width": 800,
           "height": 900
         }
       ],
       "pictures": [
         {
-          "url": "/uploads/images/samsungecuador/products/13.02.07.jpg",
+          "url": "/uploads/images/samsungecuador/products/15.02.37.jpg",
           "width": 300,
           "height": 338
         }
       ],
       "categories": [
         {
-          "name": "Celulares",
-          "slug": "celulares"
+          "name": "TV",
+          "slug": "tv"
         }
       ],
       "tags": [
         {
-          "name": "Celulares Samsung",
-          "slug": "celulares-samsung"
+          "name": "TV Samsung",
+          "slug": "tv-samsung"
         }
       ],
       "brands": [
@@ -3222,17 +3171,17 @@
     },
     {
       "id": 109,
-      "name": "SAMSUNG GALAXY Z FLIP 4",
-      "slug": "samsung-galaxy-z-flip-4",
-      "price": 999.00,
-      "sale_price": 939.00,
-      "short_description": "\"6.7″, 1080 x 2640 pixels\nProcesador: Snapdragon 8 + Gen 1 3.2 GHz\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: sin microSD\nCámara: Dual, 12MP+12MP\nCámara Frontal: 10MP\nBatería: 3700 mAh\nOS: Android 12\"",
-      "long_description": "\"6.7″, 1080 x 2640 pixels\nProcesador: Snapdragon 8 + Gen 1 3.2 GHz\nRAM: 8GB\nAlmacenamiento: 256GB\nExpansión: sin microSD\nCámara: Dual, 12MP+12MP\nCámara Frontal: 10MP\nBatería: 3700 mAh\nOS: Android 12\"",
+      "name": "Samsung ZFLIP5 LIGHT GREEN",
+      "slug": "samsung-zflip5-light-green",
+      "price": 1.00,
+      "sale_price": 2.00,
+      "short_description": "\"Pantalla externa: Panel Super AMOLED 3.4″, 748 x 720 pixels\nPantalla interna: Panel Dynamic AMOLED 6.7″,  2640 x 1080 pixels\nProcesador: Sanpdragon 8 Gen 2 for Galaxy\nRAM: 8GB\nAlmacenamiento: 256GB\nCámara Principal: 12MPX+Gran angular 12MPX\nCámara Frontal: 10MPX\nBatería: 3700 mAh\nOS: Android 13\"",
+      "long_description": "\"Pantalla externa: Panel Super AMOLED 3.4″, 748 x 720 pixels\nPantalla interna: Panel Dynamic AMOLED 6.7″,  2640 x 1080 pixels\nProcesador: Sanpdragon 8 Gen 2 for Galaxy\nRAM: 8GB\nAlmacenamiento: 256GB\nCámara Principal: 12MPX+Gran angular 12MPX\nCámara Frontal: 10MPX\nBatería: 3700 mAh\nOS: Android 13\"",
       "stock": 50,
       "ratings": 4,
       "reviews": 1,
       "sale_count": 98,
-      "sku": "10.02.82",
+      "sku": "10.02.120",
       "is_new": null,
       "is_featured": null,
       "is_top": null,
@@ -3240,14 +3189,14 @@
       "variants": [],
       "large_pictures": [
         {
-          "url": "/uploads/images/samsungecuador/products/10.02.82-1.jpg",
+          "url": "/uploads/images/samsungecuador/products/10.02.120-1.jpg",
           "width": 800,
           "height": 900
         }
       ],
       "pictures": [
         {
-          "url": "/uploads/images/samsungecuador/products/10.02.82.jpg",
+          "url": "/uploads/images/samsungecuador/products/10.02.120.jpg",
           "width": 300,
           "height": 338
         }
