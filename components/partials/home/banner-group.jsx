@@ -45,8 +45,8 @@ export default function BannerGroup() {
                     </figure>
                     <div className="banner-content y-50">
                         <Reveal keyframes={blurIn} delay={200} duration={1200} triggerOnce>
-                            <h3 className="banner-title text-white ls-m">Watch 5 <span
-                                className="text-uppercase text-primary">PRO</span><br/>Conectividad LTE.</h3>
+                            <h3 className="banner-title text-white ls-m">Watch 6 <span
+                                className="text-uppercase text-primary">Classic</span><br/>Watch 6</h3>
                         </Reveal>
                         <Reveal keyframes={fadeInUpShorter} delay={300} duration={1200} triggerOnce>
                             <p>Tu compañero inteligente para un estilo de vida activo.</p>
