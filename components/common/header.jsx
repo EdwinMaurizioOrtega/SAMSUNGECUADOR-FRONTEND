@@ -98,13 +98,13 @@ export default function Header(props) {
                     </div>
 
                     <div className="header-right">
-                        <ALink href="https://api.whatsapp.com/send?phone=593991171111&text=Hola." className="icon-box icon-box-side">
+                        <ALink href="https://api.whatsapp.com/send?phone=593939992225&text=Hola." className="icon-box icon-box-side">
                             <div className="icon-box-icon mr-0 mr-lg-2 text-white">
                                 <i className="d-icon-phone"></i>
                             </div>
                             <div className="icon-box-content d-lg-show">
                                 <h4 className="icon-box-title text-white">Contáctanos:</h4>
-                                <p className="text-white">099 117 1111</p>
+                                <p className="text-white">093 999 2225</p>
                             </div>
                         </ALink>
                         {/*<span className="divider"></span>*/}

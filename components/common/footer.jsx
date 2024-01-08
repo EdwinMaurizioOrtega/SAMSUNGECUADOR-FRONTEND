@@ -19,7 +19,7 @@ export default function Footer() {
                                     <ul className="widget-body">
                                         <li>
                                             <label>Teléfono: </label>
-                                            <ALink href="tel:099 117 1111">093 999 1111</ALink>
+                                            <ALink href="tel:093 999 2225">093 999 2225</ALink>
                                         </li>
                                         <li>
                                             <label>Correo: </label>
