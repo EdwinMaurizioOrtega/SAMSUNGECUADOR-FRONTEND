@@ -55,7 +55,7 @@ function FormWhatsAppModal ({product}) {
 
 
         // Construye la URL de WhatsApp con los valores del formulario
-        const whatsappUrl = `https://api.whatsapp.com/send?phone=593991171111&text=Producto: *${product.data.name}*%0ANombre: ${nombre}%0ACédula: ${cedula}%0AEmail: ${email}%0ATeléfono: ${telefono}%0ADirección: ${direccion}%0ACiudad: ${ciudad}`;
+        const whatsappUrl = `https://api.whatsapp.com/send?phone=593939992225&text=Producto: *${product.data.name}*%0ANombre: ${nombre}%0ACédula: ${cedula}%0AEmail: ${email}%0ATeléfono: ${telefono}%0ADirección: ${direccion}%0ACiudad: ${ciudad}`;
 
         // Redirecciona a la URL de WhatsApp
         //window.location.href = whatsappUrl;
@@ -71,7 +71,7 @@ function FormWhatsAppModal ({product}) {
     const handleSubmitAux = (event) => {
         event.preventDefault(); // Evita el comportamiento de envío por defecto del formulario
 
-        const whatsappUrl = `https://api.whatsapp.com/send?phone=593991171111&text=Hola, estoy interesado/a en este producto: ${product.data.name}, Precio promocional: $${product.data.sale_price}, Precio PVP: $${product.data.price}`;
+        const whatsappUrl = `https://api.whatsapp.com/send?phone=593939992225&text=Hola, estoy interesado/a en este producto: ${product.data.name}, Precio promocional: $${product.data.sale_price}, Precio PVP: $${product.data.price}`;
         window.open(whatsappUrl, '_blank');
 
     }

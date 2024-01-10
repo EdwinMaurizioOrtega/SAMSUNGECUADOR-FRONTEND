@@ -33,7 +33,7 @@ function IntroSection() {
                                     {/*<p className="banner-price text-uppercase mb-5">*/}
                                     {/*        <span><sup>$</sup>939.<sup>00</sup></span> inc. IVA&nbsp;</p>*/}
 
-                                    <ALink href={`https://api.whatsapp.com/send?phone=593991171111&text=Pre-compra: Z FLIP 5 | Z FOLD 5`} className="btn btn-outline btn-white btn-md mb-2 btn-rounded">COMPRAR</ALink>
+                                    <ALink href={`https://api.whatsapp.com/send?phone=593939992225&text=Pre-compra: Z FLIP 5 | Z FOLD 5`} className="btn btn-outline btn-white btn-md mb-2 btn-rounded">COMPRAR</ALink>
                                 </div>
                             </div>
                             {/*<div className="intro-slide2 banner banner-fixed" style={{ backgroundColor: '#f5f6f8' }}>*/}
@@ -58,7 +58,7 @@ function IntroSection() {
                 <div className="grid-item col-lg-4 col-sm-6 height-x2">
                     <Reveal keyframes={fadeInDownShorter} delay={400} duration={1000} className="h-100">
                         <div className="intro-banner1 banner banner-fixed" style={{ backgroundColor: '#f1f1f1' }}>
-                            <ALink href="https://api.whatsapp.com/send?phone=593991171111&text=Hola.">
+                            <ALink href="https://api.whatsapp.com/send?phone=593939992225&text=Hola.">
                                 <figure>
                                     <LazyLoadImage
                                         src="./images/home/banner/2.jpg"
